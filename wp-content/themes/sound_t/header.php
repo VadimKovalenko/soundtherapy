@@ -9,6 +9,9 @@
  * @package sound_t
  */
 
+//Options from UNYSON settings
+$settings_options = fw()->theme->get_settings_options();
+
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 <head>
@@ -47,3 +50,5 @@
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
+
+	<strong><?php echo fw_get_db_settings_option('header_text'); ?></strong>
