@@ -4,8 +4,8 @@
 
 $cfg = array(
     'page_builder' => array(
-        'title'         => __('My Component', '{domain}'),
-        'description'   => __('Demo shortcode description', '{domain}'),
+        'title'         => __('Sound theropy', '{domain}'),
+        'description'   => __('Adding music as admin', '{domain}'),
         'tab'           => __('My Custom', '{domain}'),
         'popup_size'    => 'small',
     )
