@@ -15,6 +15,18 @@ if ( ! function_exists( 'sound_t_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
+function my_scripts_method() {
+// register your script location, dependencies and version
+   wp_register_script('custom_script',
+   get_template_directory_uri() . '/js/custom_js/custom.js',
+   array('jquery'),
+   '1.0' );
+ // enqueue the script
+  wp_enqueue_script('custom_script');
+  }
+add_action('wp_enqueue_scripts', 'my_scripts_method');
+
+
 function sound_t_setup() {
 	/*
 	 * Make theme available for translation.
