@@ -133,6 +133,19 @@ function sound_t_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'sound_t_scripts' );
 
+
+/*AJAX request to the DB*/
+global $wpdb;
+function dwwp_save_stat() {
+	//wp_send_json_error('FAILURE');
+	global $wpdb;
+	echo $_POST[event_id];
+	$wpdb->show_errors();
+	$wpdb->insert('user_stat', array(/*'id' => intval($_POST[event_id]), */"username" => strval($_POST[username]), "status" => $_POST[status]/*, "date" => $_POST[date]*/), array('%d', '%s', '%d'/*, '%s'*/));
+}
+
+add_action('wp_ajax_save_stat', 'dwwp_save_stat');
+
 /**
  * Implement the Custom Header feature.
  */

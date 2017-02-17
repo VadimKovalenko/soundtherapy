@@ -2,6 +2,8 @@
 	die('Forbidden');
 };
 
+//global $wpdb;
+//$wpdb->insert('user_stat', array("id" => 1, "username" => "ADMIN", "status" => 0), array('%d', '%s', '%d'));
 
 if ( is_user_logged_in() ) {
 	if (current_user_can('editor') || current_user_can('administrator')) {
@@ -20,6 +22,7 @@ if ( is_user_logged_in() ) {
 				echo "<div class='mediaplayer'>";
 					echo "<audio type='audio/mpeg' preload='none' controls='controls'><source src = './wp-content/uploads/2017/02/Dark.mp3'></audio>";
 					echo do_shortcode($atts['option_my']);
+					add_action('wp_ajax_save_stat', 'dwwp_save_stat');
 				echo "</div>";
 			echo "</div>";	
 		echo "</div>";
@@ -28,6 +31,18 @@ if ( is_user_logged_in() ) {
 } else {
     echo '<b>пройдите регистрацию, чтобы получить доступ к нашим аудиозаписям!<b>';
 }
+
+
+/*function wpc_hello_world() {
+	echo "Hello, my custom hook";
+};
+
+add_action("wpc_my_hook", "wpc_hello_world");
+
+do_action("wpc_my_hook");*/
+
+
+
 ?>
 
 <?php if (function_exists('get_most_users_online')): ?>

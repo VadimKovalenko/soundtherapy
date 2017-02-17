@@ -1,12 +1,5 @@
 ﻿jQuery(document).ready(function(){
 
-       console.log("Foo"); 
-
-       jQuery('#foobtn').click(function() {
-            alert("Button");
-       });
-
-
     if (window.webshim) {
         (function () {
             
@@ -47,8 +40,8 @@ jQuery(function (jQuery) {
         .bind('play pause', function () {
             jQuery('span.paused-state').text(jQuery.prop(this, 'paused'));
             console.log(jQuery.prop(this, 'paused'));
-
             console.log('clicked song ' + jQuery(this).text());
+            addStat();
         })
     });
 
@@ -83,6 +76,30 @@ function createGetSetHandler(get, set) {
         }
     };
 };
+
+
+function addStat() {
+    //console.log("Query to DB");
+    var userN = 'VADIM AJAX';
+    jQuery.ajax({
+        url: ajaxurl,
+        type: 'POST',
+        dataType: 'json',
+        data: {
+            event_id: Date.now(),
+            action: 'save_stat',
+            status: 1,
+            username: userN.toString(),
+            //date: Date()
+        },
+        success: function (response) {
+            console.log("success");
+        },
+        error: function(error) {
+            console.log("error");
+        }
+    })
+}
 
 });
 
