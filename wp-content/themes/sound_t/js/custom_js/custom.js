@@ -17,7 +17,6 @@
 jQuery(function (jQuery) {
     jQuery('div.player').each(function () {
         var player = this;
-
         var getSetCurrentTime = createGetSetHandler(
 
         function () {
@@ -36,12 +35,32 @@ jQuery(function (jQuery) {
         .bind('timeupdate', function () {
             jQuery('span.current-time').text(jQuery.prop(this, 'currentTime'));
             //console.log(jQuery.prop(this, 'currentTime'));
+            var duration = jQuery.prop(this, 'duration');
+            var urlsong = jQuery(this).text();
+            var song = urlsong.substring(urlsong.lastIndexOf('/') + 1);
+            //console.log(song);
+            if(jQuery.prop(this, 'currentTime') >= 1 && jQuery.prop(this, 'currentTime') <= 1.2) {
+                var status = 'started';
+                addStat(status, song);
+            }
+            if(jQuery.prop(this, 'currentTime') >= (duration - 0.2) && jQuery.prop(this, 'currentTime') <= duration) {
+                var status = 'finished';
+                addStat(status, song);
+            }
         })
         .bind('play pause', function () {
             jQuery('span.paused-state').text(jQuery.prop(this, 'paused'));
             console.log(jQuery.prop(this, 'paused'));
-            console.log('clicked song ' + jQuery(this).text());
-            addStat();
+            //console.log('clicked song ' + jQuery(this).text());
+
+            /*var urlsong = jQuery(this).text();
+            var song = urlsong.substring(urlsong.lastIndexOf('/') + 1);
+            console.log(song);*/
+
+            //Check if user start/finishe listening current composition
+            //console.log(jQuery.prop(this, 'currentTime'));
+            //console.log(jQuery(this).text());
+
         })
     });
 
@@ -78,7 +97,7 @@ function createGetSetHandler(get, set) {
 };
 
 
-function addStat() {
+function addStat(status, song) {
     //console.log("Query to DB");
     var userN = 'VADIM AJAX';
     jQuery.ajax({
@@ -86,11 +105,13 @@ function addStat() {
         type: 'POST',
         dataType: 'json',
         data: {
-            event_id: Date.now(),
+            //event_id: Date.now(),
             action: 'save_stat',
-            status: 1,
-            username: userN.toString(),
+            status: status,
+            song: song,
+            //username: 'VADIM AJAX'
             //date: Date()
+
         },
         success: function (response) {
             console.log("success");

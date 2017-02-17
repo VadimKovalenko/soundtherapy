@@ -135,15 +135,15 @@ add_action( 'wp_enqueue_scripts', 'sound_t_scripts' );
 
 
 /*AJAX request to the DB*/
-global $wpdb;
 function dwwp_save_stat() {
 	//wp_send_json_error('FAILURE');
 	global $wpdb;
-	echo $_POST[event_id];
+	//echo $_POST[event_id];
+	//echo $_POST[get_users_browsing_site()];
+	$current_user = wp_get_current_user();
 	$wpdb->show_errors();
-	$wpdb->insert('user_stat', array(/*'id' => intval($_POST[event_id]), */"username" => strval($_POST[username]), "status" => $_POST[status]/*, "date" => $_POST[date]*/), array('%d', '%s', '%d'/*, '%s'*/));
+	$wpdb->insert('user_stat', array(/*'id' => intval($_POST[event_id]), */"username" => strval($current_user->user_login), "trek" => $_POST[song], "status" => $_POST[status], date => current_time('mysql')), array('%s', '%s', '%s'/*, '%s'*/));
 }
-
 add_action('wp_ajax_save_stat', 'dwwp_save_stat');
 
 /**

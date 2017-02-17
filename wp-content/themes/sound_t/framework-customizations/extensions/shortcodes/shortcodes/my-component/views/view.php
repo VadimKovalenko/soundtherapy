@@ -16,6 +16,12 @@ if ( is_user_logged_in() ) {
 	}
     echo 'Welcome, registered user!';
 
+
+    $current_user = wp_get_current_user();
+    echo 'Username: ' . $current_user->user_login . '<br />';
+
+
+
 	if ( ! empty( $atts['option_my'] ) ) {
 		echo "<div class = 'audio-wrapper'>";
 			echo "<div class='player'>";
@@ -31,17 +37,6 @@ if ( is_user_logged_in() ) {
 } else {
     echo '<b>пройдите регистрацию, чтобы получить доступ к нашим аудиозаписям!<b>';
 }
-
-
-/*function wpc_hello_world() {
-	echo "Hello, my custom hook";
-};
-
-add_action("wpc_my_hook", "wpc_hello_world");
-
-do_action("wpc_my_hook");*/
-
-
 
 ?>
 
