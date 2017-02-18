@@ -6,9 +6,6 @@
             webshim.setOptions('mediaelement', {
                 replaceUI: 'auto'
             });
-            //webshim.setOptions({types: 'range'});
-            //webshim.setOptions('extendNative', true);
-            //webshim.polyfill('mediaelement forms forms-ext');
         })();
     }
 
@@ -43,7 +40,7 @@ jQuery(function (jQuery) {
                 var status = 'started';
                 addStat(status, song);
             }
-            if(jQuery.prop(this, 'currentTime') >= (duration - 0.2) && jQuery.prop(this, 'currentTime') <= duration) {
+            if(jQuery.prop(this, 'currentTime') >= (duration - 0.05) && jQuery.prop(this, 'currentTime') <= duration) {
                 var status = 'finished';
                 addStat(status, song);
             }
@@ -52,10 +49,6 @@ jQuery(function (jQuery) {
             jQuery('span.paused-state').text(jQuery.prop(this, 'paused'));
             console.log(jQuery.prop(this, 'paused'));
             //console.log('clicked song ' + jQuery(this).text());
-
-            /*var urlsong = jQuery(this).text();
-            var song = urlsong.substring(urlsong.lastIndexOf('/') + 1);
-            console.log(song);*/
 
             //Check if user start/finishe listening current composition
             //console.log(jQuery.prop(this, 'currentTime'));
@@ -105,13 +98,9 @@ function addStat(status, song) {
         type: 'POST',
         dataType: 'json',
         data: {
-            //event_id: Date.now(),
             action: 'save_stat',
             status: status,
             song: song,
-            //username: 'VADIM AJAX'
-            //date: Date()
-
         },
         success: function (response) {
             console.log("success");
