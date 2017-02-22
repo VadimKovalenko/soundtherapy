@@ -136,16 +136,52 @@ add_action( 'wp_enqueue_scripts', 'sound_t_scripts' );
 
 /*AJAX request to the DB*/
 function dwwp_save_stat() {
-	//wp_send_json_error('FAILURE');
 	global $wpdb;
+	//wp_send_json_error('FAILURE');
 	//echo $_POST[event_id];
 	//echo $_POST[get_users_browsing_site()];
 	$current_user = wp_get_current_user();
 	$wpdb->show_errors();
 	$wpdb->insert('user_stat', array(/*'id' => intval($_POST[event_id]), */"username" => strval($current_user->user_login), "trek" => $_POST[song], "status" => $_POST[status], date => current_time('mysql')), array('%s', '%s', '%s'/*, '%s'*/));
+	exit;
 }
 add_action('wp_ajax_save_stat', 'dwwp_save_stat');
 
+
+add_action('wp_ajax_nopriv_soundtrerapy_ajax_search','soundtrerapy_ajax_search');
+add_action('wp_ajax_soundtrerapy_ajax_search','soundtrerapy_ajax_search');
+
+function soundtrerapy_ajax_search($input_username){
+	global $wpdb;
+	// creating a search query
+	$input_username = $_POST['term']; 	 	 
+	// display results
+	$wpdb->show_errors();	 
+	//$result = $wpdb->get_results( "SELECT * FROM user_stat WHERE username = '$input'");
+	if ($input_username == "") {
+		$result = $wpdb->get_results( "SELECT * FROM user_stat");
+	} else {
+		$result = $wpdb->get_results( "SELECT * FROM user_stat WHERE username = '$input_username'");	
+	}?>
+	<table border = "1">
+		<tr>
+			<th>Username</th>
+			<th>trek</th>
+			<th>status</th>
+			<th>date</th>
+		</tr>
+	<?php foreach ( $result as $print )   {?>
+		<tr>
+			<td><?php echo $print->username;?></td>
+			<td><?php echo $print->trek;?></td>
+			<td><?php echo $print->status;?></td>
+			<td><?php echo $print->date;?></td>
+		</tr>	
+	<?php }?>
+	</table>
+	<?php
+	exit;
+};
 /**
  * Implement the Custom Header feature.
  */

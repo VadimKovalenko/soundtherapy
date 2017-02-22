@@ -9,3 +9,25 @@ audio::-webkit-media-controls-enclosure {
 audio::-webkit-media-controls-panel {
     width: calc(100% + 30px); /* Adjust as needed */
 }
+
+/*
+AJAX SEARCH CSS
+ */
+ 
+/*.soundtherapy-ajax-search{ 
+    position: absolute;
+    background: rgb(247, 245, 231);
+    width:500px;
+    z-index: 999;
+    right:0;
+    top:29px;
+    border:1px solid #D8D5BF;
+    border-top:none;
+    padding: 0;
+    display: none;
+}   
+ 
+.soundtherapy-ajax-search li{
+    border-bottom: 1px solid #D8D5BF;
+    padding: 5px 10px;
+}*/

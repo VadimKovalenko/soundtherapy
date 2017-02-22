@@ -8,6 +8,7 @@
 if ( is_user_logged_in() ) {
 	if (current_user_can('editor') || current_user_can('administrator')) {
 		echo 'Welcome, Admin! ';
+		echo "<a href = '/user-stat-page'>Statistic -></a>";
 		if (function_exists('get_users_browsing_site')): ?>
 			<div class="user-online-wrapper">
 				<div id="useronline-browsing-site"><?php echo get_users_browsing_site(); ?></div>
@@ -44,7 +45,7 @@ if ( is_user_logged_in() ) {
    <p>Most Users Ever Online Is <?php echo get_most_users_online(); ?> On <?php echo get_most_users_online_date(); ?></p>
 <?php endif; ?>
 
-<script src = "wp-content/themes/sound_t/js/js-webshim/minified/polyfiller.js"></script>
+<script src = "/wp-content/themes/sound_t/js/js-webshim/minified/polyfiller.js"></script>
 
 <table>
     <tbody>

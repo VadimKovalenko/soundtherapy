@@ -32,7 +32,8 @@ jQuery(function (jQuery) {
         .bind('timeupdate', function () {
             jQuery('span.current-time').text(jQuery.prop(this, 'currentTime'));
             //console.log(jQuery.prop(this, 'currentTime'));
-            var duration = jQuery.prop(this, 'duration');
+            var duration = Math.round(Number(jQuery.prop(this, 'duration'), -2));
+            //var duration = Number(jQuery.prop(this, 'duration'), -2);
             var urlsong = jQuery(this).text();
             var song = urlsong.substring(urlsong.lastIndexOf('/') + 1);
             //console.log(song);
@@ -40,16 +41,20 @@ jQuery(function (jQuery) {
                 var status = 'started';
                 addStat(status, song);
             }
-            if(jQuery.prop(this, 'currentTime') >= (duration - 0.05) && jQuery.prop(this, 'currentTime') <= duration) {
+            else if(jQuery.prop(this, 'currentTime') <= (duration-2) && jQuery.prop(this, 'currentTime') >= (duration-2.3)) {
+            //else if(jQuery.prop(this, 'currentTime') == duration) { 
+                //var duration = Math.round(Number(jQuery.prop(this, 'duration'), -2));
                 var status = 'finished';
                 addStat(status, song);
+                console.log("It should executed once!");
+                //console.log(jQuery.prop(this, 'currentTime'));
+                //console.log(duration - 1);
             }
         })
         .bind('play pause', function () {
             jQuery('span.paused-state').text(jQuery.prop(this, 'paused'));
             console.log(jQuery.prop(this, 'paused'));
             //console.log('clicked song ' + jQuery(this).text());
-
             //Check if user start/finishe listening current composition
             //console.log(jQuery.prop(this, 'currentTime'));
             //console.log(jQuery(this).text());
@@ -91,8 +96,6 @@ function createGetSetHandler(get, set) {
 
 
 function addStat(status, song) {
-    //console.log("Query to DB");
-    var userN = 'VADIM AJAX';
     jQuery.ajax({
         url: ajaxurl,
         type: 'POST',
@@ -111,6 +114,40 @@ function addStat(status, song) {
     })
 }
 
+//AJAX search field in /user-stat-page
+jQuery.ajax({
+    url : '/wp-admin/admin-ajax.php',
+    type: "POST",    
+    data: {
+        'action':'soundtrerapy_ajax_search',
+        'term' : ''
+    },
+    success:function(result){ 
+        jQuery('.soundtherapy-ajax-search').fadeIn().html(result);
+    }    
+});
+
+jQuery('#cur_usr').keyup(function(event) {
+    // prevent browser autocomplete
+    jQuery(this).attr('autocomplete','off');     
+    // get search term
+    var searchTerm = jQuery(this).val();
+    // send request when the lenght is gt 2 letters
+    //if(searchTerm.length > 2){
+        jQuery.ajax({
+        url : '/wp-admin/admin-ajax.php',
+        type: "POST",
+        data:{
+            'action':'soundtrerapy_ajax_search',
+            'term' :searchTerm
+        },
+    
+    success:function(result){     
+                jQuery('.soundtherapy-ajax-search').fadeIn().html(result);
+            }
+        });
+    //}
+    });
 });
 
 
