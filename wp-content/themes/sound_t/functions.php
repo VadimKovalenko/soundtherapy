@@ -156,12 +156,17 @@ function soundtrerapy_ajax_search($input_username){
 	// creating a search query
 	$input_username = $_POST['term']; 	 	 
 	// display results
-	$wpdb->show_errors();	 
-	//$result = $wpdb->get_results( "SELECT * FROM user_stat WHERE username = '$input'");
+	$wpdb->show_errors();
 	if ($input_username == "") {
 		$result = $wpdb->get_results( "SELECT * FROM user_stat");
 	} else {
-		$result = $wpdb->get_results( "SELECT * FROM user_stat WHERE username = '$input_username'");	
+		$result = $wpdb->get_results( "SELECT * FROM user_stat WHERE username = '$input_username'");
+		$start_count = $wpdb->get_results( "SELECT COUNT(status) as total FROM user_stat WHERE status = 'started' AND username = '$input_username'");
+		$finished_count = $wpdb->get_results( "SELECT COUNT(status) as total FROM user_stat WHERE status = 'finished' AND username = '$input_username'");
+		echo "Statistic for user with nickname <b>" . $input_username . "</b>";
+		echo "<br>";	
+		echo "Started listening: <b>" . ($start_count[0]->total) . "</b> times, ";
+		echo "Finished listening: <b>" . ($finished_count[0]->total) . "</b> times";
 	}?>
 	<table border = "1">
 		<tr>

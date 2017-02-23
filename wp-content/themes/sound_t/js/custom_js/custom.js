@@ -115,11 +115,14 @@ function addStat(status, song) {
 }
 
 //AJAX search field in /user-stat-page
+var ajax_url = '/wp-admin/admin-ajax.php',
+user_stat_action = 'soundtrerapy_ajax_search';
+
 jQuery.ajax({
-    url : '/wp-admin/admin-ajax.php',
+    url : ajax_url,
     type: "POST",    
     data: {
-        'action':'soundtrerapy_ajax_search',
+        'action': user_stat_action,
         'term' : ''
     },
     success:function(result){ 
@@ -135,10 +138,10 @@ jQuery('#cur_usr').keyup(function(event) {
     // send request when the lenght is gt 2 letters
     //if(searchTerm.length > 2){
         jQuery.ajax({
-        url : '/wp-admin/admin-ajax.php',
+        url : ajax_url,
         type: "POST",
         data:{
-            'action':'soundtrerapy_ajax_search',
+            'action':user_stat_action,
             'term' :searchTerm
         },
     
