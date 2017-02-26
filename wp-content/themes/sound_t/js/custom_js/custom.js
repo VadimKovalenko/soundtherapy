@@ -151,6 +151,30 @@ jQuery('#cur_usr').keyup(function(event) {
         });
     //}
     });
+
+//Test
+jQuery('#cur_usr_2').keyup(function(event) {
+    // prevent browser autocomplete
+    jQuery(this).attr('autocomplete','off');     
+    // get search term
+    var searchTerm = jQuery(this).val();
+    // send request when the lenght is gt 2 letters
+    if(searchTerm.length > 2){
+        jQuery.ajax({
+        url : ajax_url,
+        type: "POST",
+        data:{
+            'action': 'soundtrerapy_ajax_search_TEST',
+            'term' :searchTerm
+        },
+    
+    success:function(result){     
+                //jQuery('.soundtherapy-ajax-search').fadeIn().html(result);
+                console.log("Test result from server: " + result);
+            }
+        });
+    }
+    });
 });
 
 
