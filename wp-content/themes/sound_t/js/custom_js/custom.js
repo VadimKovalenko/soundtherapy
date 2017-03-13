@@ -168,8 +168,15 @@ jQuery('#cur_usr_2').keyup(function(event) {
             'term' :searchTerm
         },
     
-    success:function(result){     
+    success:function(result){    
                 //jQuery('.soundtherapy-ajax-search').fadeIn().html(result);
+                if(result) {
+                    jQuery("#soundtherapy-ajax-search").empty();
+                    jQuery("#soundtherapy-ajax-search").show().append(result);
+                };
+                if (result == false) {
+                    jQuery("#soundtherapy-ajax-search").hide();
+                };
                 console.log("Test result from server: " + result);
             }
         });

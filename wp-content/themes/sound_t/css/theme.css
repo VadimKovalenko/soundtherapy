@@ -14,8 +14,8 @@ audio::-webkit-media-controls-panel {
 AJAX SEARCH CSS
  */
  
-/*.soundtherapy-ajax-search{ 
-    position: absolute;
+#soundtherapy-ajax-search{ 
+    *position: absolute;
     background: rgb(247, 245, 231);
     width:500px;
     z-index: 999;
@@ -24,10 +24,12 @@ AJAX SEARCH CSS
     border:1px solid #D8D5BF;
     border-top:none;
     padding: 0;
+    color: red;
     display: none;
+    margin: 15px;
 }   
  
-.soundtherapy-ajax-search li{
+/*.soundtherapy-ajax-search li{
     border-bottom: 1px solid #D8D5BF;
     padding: 5px 10px;
 }*/

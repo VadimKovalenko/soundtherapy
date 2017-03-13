@@ -24,7 +24,11 @@ get_header(); ?>
 				<h3>List of stats</h3>;
 
 				<b> Get current user: <input type="text" id="cur_usr" placeholder = "Search..."></b>
-				<b> Test current user: <input type="text" id="cur_usr_2" placeholder = "Search..."></b>
+				<div class = "livesearch-wrapper">
+					<b> Test current user: <input type="text" id="cur_usr_2" placeholder = "Search..."></b>
+					<div id="soundtherapy-ajax-search">
+					</div>
+				</div>	
 				<hr>
 					<div class="soundtherapy-ajax-search">	
 					</div>

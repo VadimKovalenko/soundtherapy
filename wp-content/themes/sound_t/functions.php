@@ -195,19 +195,17 @@ add_action('wp_ajax_soundtrerapy_ajax_search_TEST','soundtrerapy_ajax_search_MYT
 
 function soundtrerapy_ajax_search_MYTEST(){	
 	global $wpdb;
-	// creating a search query
+	// creating a life search
 	$stat_users = $wpdb->get_results("SELECT DISTINCT username FROM user_stat");
 	$input_username = strtolower($_POST['term']); 	 	 
-	// display results
 	$wpdb->show_errors();
-	//echo count($stat_users);
-for ($j=0; $j<=count($stat_users); $j++) {
-	foreach ($stat_users[$j] as $key => $stat_user_name) {
-		if($input_username == substr(strtolower($stat_user_name), 0, strlen($input_username))) {
-				echo "Username from DB: " . $stat_user_name;
+	for ($j=0; $j<=count($stat_users); $j++) {
+		foreach ($stat_users[$j] as $key => $stat_user_name) {
+			if($input_username == substr(strtolower($stat_user_name), 0, strlen($input_username))) {
+				echo "<p class = 'soundtherapy-ajax-search-item'>" . $stat_user_name . "</p>";
+			}
 		}
 	}
-}
 	exit;
 };
 /**
