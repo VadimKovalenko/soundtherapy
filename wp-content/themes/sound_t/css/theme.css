@@ -163,6 +163,10 @@ footer {
     width: 100%;
     color: #fff;
 }
+
+.selected {
+    color: red;
+}
  
 /*.soundtherapy-ajax-search li{
     border-bottom: 1px solid #D8D5BF;

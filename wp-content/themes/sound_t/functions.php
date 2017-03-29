@@ -188,7 +188,7 @@ function soundtrerapy_ajax_search($input_username){
 	exit;
 };
 
-/*TES*/
+/*TEST*/
 
 add_action('wp_ajax_nopriv_soundtrerapy_ajax_search_TEST','soundtrerapy_ajax_search_MYTEST');
 add_action('wp_ajax_soundtrerapy_ajax_search_TEST','soundtrerapy_ajax_search_MYTEST');
@@ -206,6 +206,26 @@ function soundtrerapy_ajax_search_MYTEST(){
 			}
 		}
 	}
+	exit;
+};
+
+/*FINAL STAT AJAX CALL*/
+add_action('wp_ajax_nopriv_soundtrerapy_ajax_search_TEST_FINAL','soundtrerapy_ajax_search_MYTEST_3');
+add_action('wp_ajax_soundtrerapy_ajax_search_TEST_FINAL','soundtrerapy_ajax_search_MYTEST_3');
+
+function soundtrerapy_ajax_search_MYTEST_3(){	
+	global $wpdb;
+	// creating a life search
+	$stat_users = $wpdb->get_results("SELECT DISTINCT username FROM user_stat");
+	$input_username = strtolower($_POST['term']); 	 	 
+	$wpdb->show_errors();
+	for ($j=0; $j<=count($stat_users); $j++) {
+		foreach ($stat_users[$j] as $key => $stat_user_name) {
+			if($input_username == substr(strtolower($stat_user_name), 0, strlen($input_username))) {
+				echo "<p class = 'soundtherapy-ajax-search-item-3'>" . $stat_user_name . "</p>";
+			}
+		}
+	};
 	exit;
 };
 /**
