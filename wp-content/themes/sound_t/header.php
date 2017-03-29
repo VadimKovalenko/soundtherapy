@@ -22,7 +22,6 @@ $settings_options = fw()->theme->get_settings_options();
 <script type="text/javascript">
     var ajaxurl = "<?php echo admin_url('admin-ajax.php'); ?>";
 </script>
-
 <?php wp_head(); ?>
 </head>
 
@@ -31,26 +30,25 @@ $settings_options = fw()->theme->get_settings_options();
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'sound_t' ); ?></a>
 
 	<header id="masthead" class="site-header" role="banner">
-		<div class="site-branding">
-			<?php
-			if ( is_front_page() && is_home() ) : ?>
-				<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<?php else : ?>
-				<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
-			<?php
-			endif;
-
-			$description = get_bloginfo( 'description', 'display' );
-			if ( $description || is_customize_preview() ) : ?>
-				<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
-			<?php
-			endif; ?>
-		</div><!-- .site-branding -->
-
-		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'sound_t' ); ?></button>
-			<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
-		</nav><!-- #site-navigation -->
+		<div class = "fw-container">
+			<div class="site-branding">
+				<?php get_sidebar(); ?>
+				<div>
+					<a class = "reg-btn" href = "http://soundtherapy/registration-page/">Register</a>
+				</div>
+				<?php
+				$description = get_bloginfo( 'description', 'display' );
+				if ( $description || is_customize_preview() ) : ?>
+					<p class="site-description"><?php echo $description; /* WPCS: xss ok. */ ?></p>
+				<?php
+				endif; ?>
+			</div><!-- .site-branding -->
+			<div style = "clear: both"></div>
+			<nav id="site-navigation" class="main-navigation" role="navigation">
+				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'sound_t' ); ?></button>
+				<?php wp_nav_menu( array( 'theme_location' => 'menu-1', 'menu_id' => 'primary-menu' ) ); ?>
+			</nav><!-- #site-navigation -->
+		</div>
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">

@@ -13,6 +13,69 @@ audio::-webkit-media-controls-panel {
 /*
 AJAX SEARCH CSS
  */
+html {
+    *margin-top: 0px !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 200;
+}
+
+span.green {
+    color: #9fd02f;
+}
+
+header {
+    background-color: #6e338d;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+.site-branding {
+    padding-top: 15px;
+}
+
+.site-branding .widget-area .login-username>label,
+.site-branding .widget-area .login-password>label,
+.site-branding .widget-area .login-remember {
+    padding-top: 6px;
+}
+
+.site-branding .widget-area .login-username>label {
+    width: 140px !important;
+}
+
+.site-branding .widget-area .login-password>label {
+    width: 80px !important;
+}
+
+.site-branding .widget-area .login-username .input,
+.site-branding .widget-area .login-password .input {
+    width: 160px !important;
+    margin-left: 8px !important;
+    margin-right: 8px !important;
+}
+
+.site-branding .widget-area {
+    float: left;
+    margin-right: 20px;
+    *width: 80%;    
+}
+
+.wppb-user-forms>form>p {
+    float: left;
+}
+
+.reg-btn {
+    display: inline-block;
+    background: #acce43;
+    color: #fff !important;
+    text-decoration: none;
+    font-family: 'adamcg proregular', sans-serif;
+    text-transform: uppercase;
+    padding: 5px 30px 5px 30px;
+    border-radius: 20px;
+}
  
 #soundtherapy-ajax-search{ 
     *position: absolute;
@@ -27,7 +90,79 @@ AJAX SEARCH CSS
     color: red;
     display: none;
     margin: 15px;
-}   
+}
+
+.main-hero-sect {
+    background-color: #6e338d;
+    color: #fff;
+}
+
+.main-hero-sect h1 {
+    font-family: 'adamcg proregular', sans-serif;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-bottom: 0px;   
+}
+
+.main-hero-sect h3 {
+    font-family: 'adamcg proregular', sans-serif;
+    margin-top: 0px;
+    margin-bottom: 0px; 
+}
+
+.unlog-user-text-wrap h2 {
+    font-family: 'adamcg proregular', sans-serif;
+    color: #6e338d;
+    text-align: center;
+    margin-top: 130px;
+}    
+
+.main-hero-sect h2 {
+    font-family: 'rajdhaniregular';
+    margin-top: 60px;
+    margin-bottom: 60px; 
+}
+
+.unlog-user-wrap {
+    margin-top: 60px;
+}
+
+.unlog-user-wrap,
+.unlog-user-wrap>div {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+#wppb-submit {
+    background: #75c0dd;
+    border: none;
+    padding: 9px 30px 9px 30px;
+    border-radius: 20px;
+    color: #fff;
+    font-family: 'adamcg proregular', sans-serif;
+    font-size: 16px;
+    margin-left: 15px;
+    text-transform: uppercase;
+}
+
+
+img.img-ipad {
+    width: 60%;
+    margin-bottom: -7px;
+}
+
+.audio-wrapper {
+    margin-bottom: 90px;
+}
+
+footer {
+    position: inherit;
+    background-color: #75c0dd;
+    min-height: 50px;
+    bottom: 0px;
+    width: 100%;
+    color: #fff;
+}
  
 /*.soundtherapy-ajax-search li{
     border-bottom: 1px solid #D8D5BF;

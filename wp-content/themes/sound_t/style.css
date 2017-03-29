@@ -893,3 +893,23 @@ object {
 .gallery-caption {
 	display: block;
 }
+
+
+/*Custom fonts*/
+@font-face {
+    font-family: 'rajdhaniregular';
+    src: url('http://soundtherapy/wp-content/themes/sound_t/fonts/rajdhani-regular-webfont.woff2') format('woff2'),
+         url('http://soundtherapy/wp-content/themes/sound_t/fonts/rajdhani-regular-webfont.woff') format('woff'),
+	 url('http://soundtherapy/wp-content/themes/sound_t/fonts/Rajdhani-Medium.ttf') format('tff');
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'adamcg proregular';
+    src: url('http://soundtherapy/wp-content/themes/sound_t/fonts/adamcg_pro-webfont.woff2') format('woff2'),
+         url('http://soundtherapy/wp-content/themes/sound_t/fonts/adamcg_pro-webfont.woff') format('woff'),
+	 url('http://soundtherapy/wp-content/themes/sound_t/fonts/ADAMCG PRO.otf') format('otf');
+    font-style: normal;
+
+}

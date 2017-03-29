@@ -14,11 +14,11 @@
 	</div><!-- #content -->
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'sound_t' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'sound_t' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'sound_t' ), 'sound_t', '<a href="https://automattic.com/" rel="designer">Underscores.me</a>' ); ?>
-		</div><!-- .site-info -->
+		<div class="fw-container">
+			<div class="site-info">
+				<p>&copy; <?php echo date('Y'); ?> soundtherapy.pl</p>
+			</div><!-- .site-info -->
+		</div>
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
