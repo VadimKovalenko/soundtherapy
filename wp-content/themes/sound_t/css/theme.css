@@ -58,8 +58,7 @@ header {
 
 .site-branding .widget-area {
     float: left;
-    margin-right: 20px;
-    *width: 80%;    
+    margin-right: 20px;   
 }
 
 .wppb-user-forms>form>p {
@@ -77,8 +76,7 @@ header {
     border-radius: 20px;
 }
  
-#soundtherapy-ajax-search{ 
-    *position: absolute;
+#soundtherapy-ajax-search{
     background: rgb(247, 245, 231);
     width:500px;
     z-index: 999;
@@ -166,9 +164,26 @@ footer {
 
 .selected {
     color: red;
+    background: #ccc;
 }
  
 /*.soundtherapy-ajax-search li{
     border-bottom: 1px solid #D8D5BF;
     padding: 5px 10px;
 }*/
+
+#soundtherapy-ajax-search {
+    display: none;
+    border: 1px solid black;
+    width: 400px;
+}
+
+.soundtherapy-ajax-search-item {
+    cursor: pointer;
+    z-index: 10;
+    list-style: none;
+}
+
+.livesearch-wrapper {
+    margin-bottom: 30px;
+}

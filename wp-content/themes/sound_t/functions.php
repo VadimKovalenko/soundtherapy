@@ -148,10 +148,14 @@ function dwwp_save_stat() {
 add_action('wp_ajax_save_stat', 'dwwp_save_stat');
 
 
-add_action('wp_ajax_nopriv_soundtrerapy_ajax_search','soundtrerapy_ajax_search');
-add_action('wp_ajax_soundtrerapy_ajax_search','soundtrerapy_ajax_search');
+/*add_action('wp_ajax_nopriv_soundtrerapy_ajax_search','soundtrerapy_ajax_search');
+add_action('wp_ajax_soundtrerapy_ajax_search','soundtrerapy_ajax_search');*/
 
-function soundtrerapy_ajax_search($input_username){
+add_action('wp_ajax_nopriv_soundtrerapy_ajax_search_table','soundtrerapy_ajax_search_table');
+add_action('wp_ajax_soundtrerapy_ajax_search_table','soundtrerapy_ajax_search_table');
+
+//Show table of users depending on AJAX query
+function soundtrerapy_ajax_search_table($input_username){
 	global $wpdb;
 	// creating a search query
 	$input_username = $_POST['term']; 	 	 
@@ -188,32 +192,11 @@ function soundtrerapy_ajax_search($input_username){
 	exit;
 };
 
-/*TEST*/
-
-add_action('wp_ajax_nopriv_soundtrerapy_ajax_search_TEST','soundtrerapy_ajax_search_MYTEST');
-add_action('wp_ajax_soundtrerapy_ajax_search_TEST','soundtrerapy_ajax_search_MYTEST');
-
-function soundtrerapy_ajax_search_MYTEST(){	
-	global $wpdb;
-	// creating a life search
-	$stat_users = $wpdb->get_results("SELECT DISTINCT username FROM user_stat");
-	$input_username = strtolower($_POST['term']); 	 	 
-	$wpdb->show_errors();
-	for ($j=0; $j<=count($stat_users); $j++) {
-		foreach ($stat_users[$j] as $key => $stat_user_name) {
-			if($input_username == substr(strtolower($stat_user_name), 0, strlen($input_username))) {
-				echo "<p class = 'soundtherapy-ajax-search-item'>" . $stat_user_name . "</p>";
-			}
-		}
-	}
-	exit;
-};
-
 /*FINAL STAT AJAX CALL*/
-add_action('wp_ajax_nopriv_soundtrerapy_ajax_search_TEST_FINAL','soundtrerapy_ajax_search_MYTEST_3');
-add_action('wp_ajax_soundtrerapy_ajax_search_TEST_FINAL','soundtrerapy_ajax_search_MYTEST_3');
+add_action('wp_ajax_nopriv_soundtrerapy_ajax_search_username','soundtrerapy_ajax_search_username');
+add_action('wp_ajax_soundtrerapy_ajax_search_username','soundtrerapy_ajax_search_username');
 
-function soundtrerapy_ajax_search_MYTEST_3(){	
+function soundtrerapy_ajax_search_username(){	
 	global $wpdb;
 	// creating a life search
 	$stat_users = $wpdb->get_results("SELECT DISTINCT username FROM user_stat");
@@ -222,12 +205,16 @@ function soundtrerapy_ajax_search_MYTEST_3(){
 	for ($j=0; $j<=count($stat_users); $j++) {
 		foreach ($stat_users[$j] as $key => $stat_user_name) {
 			if($input_username == substr(strtolower($stat_user_name), 0, strlen($input_username))) {
-				echo "<p class = 'soundtherapy-ajax-search-item-3'>" . $stat_user_name . "</p>";
+				echo "<li class = 'soundtherapy-ajax-search-item'>" . $stat_user_name . "</li>";
 			}
 		}
 	};
 	exit;
 };
+
+/*FINAL - FINAL STAT AJAX CALL after we get a full username from DB, we have to display the whole table on the page*/
+
+
 /**
  * Implement the Custom Header feature.
  */

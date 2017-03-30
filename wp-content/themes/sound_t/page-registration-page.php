@@ -32,7 +32,6 @@
 		form {
 			background-color: #fff;
 			width: 400px;
-			height: 360px;
 			margin-left: auto;
 			margin-right: auto;
 			padding-top: 20px;
@@ -78,10 +77,17 @@
 
 		.return-home-link {
 			position: relative;
-			top: -60px;
-			margin-left: 40px;
 			font-family: 'adamcg proregular', sans-serif;
-			color: #6e338d;
+			color: #75c0dd;
+			text-align: center;
+			display: block;
+		}
+
+		#wppb_form_success_message,
+		#wppb_general_top_error_message {
+			color: #fff;
+			font-family: 'adamcg proregular', sans-serif;
+			text-align: center;
 		}
 	</style>
 	<div id="primary" class="content-area">

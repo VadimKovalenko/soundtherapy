@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 /**
  * The template for displaying all pages
  *
@@ -21,27 +21,15 @@ get_header(); ?>
 			while ( have_posts() ) : the_post();
 				//get_template_part( 'template-parts/content', 'page' );
 				?> 
-				<h3>List of stats</h3>
-				<b> Get current user: <input type="text" id="cur_usr" placeholder = "Search..."></b>
-				<div class = "livesearch-wrapper">
-					<b> Test current user: <input type="text" id="cur_usr_2" placeholder = "Search..."></b>
-					<div id="soundtherapy-ajax-search">
-					</div>
-				</div>	
-				<hr>
-					<div class="soundtherapy-ajax-search">	
-					</div>
-
+				<h3 class="stat-title">List of stats</h3>
 				<!--Final-->
 				<div class = "livesearch-wrapper">
-					<b> FINAL Test: <input type="text" id="cur_usr_3" placeholder = "Search..."></b>
-					<div id="soundtherapy-ajax-search-3">
-					</div>
-				</div>	
-				<hr>
-				<div class="soundtherapy-ajax-search-3">	
+					<b> Type username: <input type="text" id="cur_usr" placeholder = "Search..."></b>
+					<ul id="soundtherapy-ajax-search">
+					</ul>
 				</div>
-
+					<div class="soundtherapy-ajax-search">	
+					</div>
 				<?php
 				// If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) :
@@ -53,6 +41,5 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
 <?php
 get_sidebar();
