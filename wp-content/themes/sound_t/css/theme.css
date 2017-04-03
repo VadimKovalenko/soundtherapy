@@ -31,6 +31,28 @@ header {
     color: #fff;
 }
 
+body.error404 {
+    background-color: #6e338d;
+}
+
+body.error404 .page-header>h1 {
+    text-align: center;
+}
+
+body.error404 .page-content>p {
+    color: #fff;
+    text-align: center;
+}
+
+body.error404 .page-content>p>a,
+body.error404 .page-content>p>span {
+    color: #fff;
+}
+
+body.logged-in .reg-btn{
+    display: none;
+}
+
 .site-branding {
     padding-top: 15px;
 }
@@ -71,6 +93,7 @@ header {
     color: #fff !important;
     text-decoration: none;
     font-family: 'adamcg proregular', sans-serif;
+    font-size: 14px;
     text-transform: uppercase;
     padding: 5px 30px 5px 30px;
     border-radius: 20px;
@@ -138,7 +161,7 @@ header {
     border-radius: 20px;
     color: #fff;
     font-family: 'adamcg proregular', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 15px;
     text-transform: uppercase;
 }
