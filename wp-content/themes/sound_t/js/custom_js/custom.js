@@ -241,6 +241,26 @@ jQuery( "#cur_usr" ).on( "keydown", function( event ) {
     }
 });
 
+//Show additional info text box when relevant checkbox checked
+jQuery('input[type=checkbox]').click(function() {
+    console.log("Clicked checkbox");
+    if(jQuery(this).is(':checked')) {
+        jQuery(this).closest('.additional-info-wrap').find('.additional-info').removeClass('hide').find('input,select,textarea').removeAttr('disabled');
+    }
+    else {
+        jQuery(this).closest('.additional-info-wrap').find('.additional-info').addClass('hide').find('input,select,textarea').val('').attr('disabled','disabled');
+    }
+});
+
+//Show additional info text box when relevant radio checked
+    jQuery('input[type=radio]').click(function() {
+        console.log("Clicked radio");
+        jQuery(this).closest('.form-group').find('.additional-info-wrap .additional-info').addClass('hide').find('input,select,textarea').val('').attr('disabled','disabled');
+        if(jQuery(this).closest('.additional-info-wrap').length > 0) {
+            jQuery(this).closest('.additional-info-wrap').find('.additional-info').removeClass('hide').find('input,select,textarea').removeAttr('disabled');
+        }        
+    });
+
 });
 
 
