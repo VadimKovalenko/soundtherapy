@@ -21,11 +21,11 @@ get_header(); ?>
 			while ( have_posts() ) : the_post();
 				//get_template_part( 'template-parts/content', 'page' );
 				?> 
-				<h3 class="stat-title">List of stats</h3>
+				<h2 class="stat-title">List of stats</h2>
 				<!--Final-->
 				<div class = "livesearch-wrapper">
 					<b> Type username: <input type="text" id="cur_usr" placeholder = "Search..."></b>
-					<ul id="soundtherapy-ajax-search">
+					<ul id="soundtherapy-ajax-search" class = "soundtherapy-ajax">
 					</ul>
 				</div>
 					<div class="soundtherapy-ajax-search">	

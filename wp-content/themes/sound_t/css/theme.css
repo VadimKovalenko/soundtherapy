@@ -97,20 +97,19 @@ body.logged-in .reg-btn{
     text-transform: uppercase;
     padding: 5px 30px 5px 30px;
     border-radius: 20px;
+    width: 120px;
 }
  
-#soundtherapy-ajax-search{
+.soundtherapy-ajax {
     background: rgb(247, 245, 231);
     width:500px;
     z-index: 999;
-    right:0;
+    margin-left: 125px;
     top:29px;
     border:1px solid #D8D5BF;
     border-top:none;
     padding: 0;
-    color: red;
     display: none;
-    margin: 15px;
 }
 
 .main-hero-sect {
@@ -164,6 +163,7 @@ body.logged-in .reg-btn{
     font-size: 14px;
     margin-left: 15px;
     text-transform: uppercase;
+    width: 120px;
 }
 
 
@@ -186,14 +186,13 @@ footer {
 }
 
 .selected {
-    color: red;
+    font-weight: bold;
     background: #ccc;
 }
- 
-/*.soundtherapy-ajax-search li{
-    border-bottom: 1px solid #D8D5BF;
-    padding: 5px 10px;
-}*/
+
+.page-id-70 .site-content {
+    padding: 15px;
+}
 
 #soundtherapy-ajax-search {
     display: none;
@@ -209,4 +208,12 @@ footer {
 
 .livesearch-wrapper {
     margin-bottom: 30px;
+}
+
+.welc-usr-wrap {
+    margin-top: 15px;
+}
+
+.stat-info-usr-wrap {
+    margin-bottom: 15px;
 }

@@ -142,7 +142,7 @@ function dwwp_save_stat() {
 	//echo $_POST[get_users_browsing_site()];
 	$current_user = wp_get_current_user();
 	$wpdb->show_errors();
-	$wpdb->insert('user_stat', array(/*'id' => intval($_POST[event_id]), */"username" => strval($current_user->user_login), "trek" => $_POST[song], "status" => $_POST[status], date => current_time('mysql')), array('%s', '%s', '%s'/*, '%s'*/));
+	$wpdb->insert('user_stat', array("username" => strval($current_user->user_login), "trek" => $_POST[song], "status" => $_POST[status], date => current_time('mysql')), array('%s', '%s', '%s'));
 	exit;
 }
 add_action('wp_ajax_save_stat', 'dwwp_save_stat');
@@ -167,10 +167,12 @@ function soundtrerapy_ajax_search_table($input_username){
 		$result = $wpdb->get_results( "SELECT * FROM user_stat WHERE username = '$input_username'");
 		$start_count = $wpdb->get_results( "SELECT COUNT(status) as total FROM user_stat WHERE status = 'started' AND username = '$input_username'");
 		$finished_count = $wpdb->get_results( "SELECT COUNT(status) as total FROM user_stat WHERE status = 'finished' AND username = '$input_username'");
-		echo "Statistic for user with nickname <b>" . $input_username . "</b>";
-		echo "<br>";	
-		echo "Started listening: <b>" . ($start_count[0]->total) . "</b> times, ";
-		echo "Finished listening: <b>" . ($finished_count[0]->total) . "</b> times";
+		echo "<div class = 'stat-info-usr-wrap'>";
+			echo "Statistic for user with nickname <b>" . $input_username . "</b>";
+			echo "<br>";	
+			echo "Started listening: <b>" . ($start_count[0]->total) . "</b> times, ";
+			echo "Finished listening: <b>" . ($finished_count[0]->total) . "</b> times";
+		echo "</div>";
 	}?>
 	<table border = "1">
 		<tr>
@@ -212,8 +214,12 @@ function soundtrerapy_ajax_search_username(){
 	exit;
 };
 
-/*FINAL - FINAL STAT AJAX CALL after we get a full username from DB, we have to display the whole table on the page*/
-
+/*Edit user profile info*/
+function add_user_profile_info() {
+	global $wpdb;
+	$wpdb->show_errors();
+	$wpdb->insert();
+}
 
 /**
  * Implement the Custom Header feature.

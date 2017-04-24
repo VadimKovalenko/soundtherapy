@@ -30,36 +30,111 @@ get_header(); ?>
 		.radio-inline {
 			margin-right: 15px;
 		}
+
+		h3, h4 {
+			text-align: center;
+		}
+
+		.profile-main-info>div {
+			display: inline-block;
+			width:100%;
+		}
+
+		.profile-main-info>div>input {
+			margin-bottom: 20px;
+			
+		}
+
+		.profile-main-info>div>label {
+			float: left;
+			width: 40%;
+			padding-top: 5px;
+		}
+
+		.submit-usr-info {
+			margin-right: auto;
+			margin-left: auto;
+    		display: block;
+    		background: #acce43;
+		    color: #fff !important;
+		    text-decoration: none;
+		    font-family: 'adamcg proregular', sans-serif;
+		    font-size: 14px;
+		    text-transform: uppercase;
+		    padding: 5px 30px 5px 30px;
+		    border-radius: 20px;
+		}
+
+		.user-profile-container fieldset.profile-additional-info {
+			margin-bottom: 15px;
+			border-bottom: 1px solid #c0c0c0 !important;
+		}
+
+		.user-profile-container fieldset.profile-main-info {
+			border-bottom: 1px solid #c0c0c0 !important;
+		}
+
+		.user-profile-container fieldset {
+			border-bottom: none;
+		}
+
+		.profile-ear-block-feel .additional-info,
+		.profile-vertigo .additional-info {
+			border: 1px solid #c0c0c0;
+			padding: 10px;
+		}
+
+		.profile-ear-block-feel .additional-info>p,
+		.profile-vertigo .additional-info>p {
+			margin-top: 5px;
+			margin-bottom: 15px;
+		}
 	</style>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-			<div class="fw-container">
-				<h3>Additional user info</h3>
-				<h4><b>CHARAKTERYSTYKA SZUMU USZNEGO</b></h4>
+			<div class="fw-container user-profile-container">
+				<h3><b>KWESTIONARIUSZ CHARAKTERYSTYKI SZUMU USZNEGO</b></h3>
 				<form action="">
 					<div class="form-group">
 						<div class="fw-col-md-12">
-							<label for="user_name">IMIĘ</label>
-							<input type="text" name="user_name">
-							<br>
-							<label for="user_lastname">NAZWISKO</label>
-							<input type="text" name="user_lastname">
-							<br>
-							<label for="user_birth">DATA URODZENIA (DZIEŃ-MIESIĄC-ROK):</label>
-							<input type="date" name="user_birth">
-							<br>
-							<label for="user_pesel">PESEL</label>
-							<input type="text" name="user_pesel">
-							<br>
-							<label for="user_adress">ADRES DO KORESPONDENCJI:</label>
-							<input type="text" name="user_adress">
-							<br>
-							<label for="user_tel">TEL.:</label>
-							<input type="text" name="user_tel">
-							<br>
-							<label for="user_date_research">DATA BADANIA(DZIEŃ-MIESIĄC-ROK):</label>
-							<input type="date" name="user_date_research">
-							<br>
+							<fieldset id="profile-main-info" class="profile-main-info">
+								<h4><b>DANE OSOBOWE</b></h4>
+								<div>
+									<label for="user_name">IMIĘ</label>
+									<input type="text" name="user_name">
+								</div>
+								<br>								
+								<div>
+									<label for="user_lastname">NAZWISKO</label>
+									<input type="text" name="user_lastname">
+								</div>
+								<br>
+								<div>
+									<label for="user_birth">DATA URODZENIA (DZIEŃ-MIESIĄC-ROK):</label>
+									<input type="date" name="user_birth">
+								</div>
+								<br>
+								<div>
+									<label for="user_pesel">PESEL</label>
+									<input type="text" name="user_pesel">
+								</div>
+								<br>
+								<div>
+									<label for="user_adress">ADRES DO KORESPONDENCJI:</label>
+									<input type="text" name="user_adress">
+								</div>
+								<br>
+								<div>
+									<label for="user_tel">TEL.:</label>
+									<input type="text" name="user_tel">
+								</div>
+								<br>
+								<div>
+									<label for="user_date_research">DATA BADANIA(DZIEŃ-MIESIĄC-ROK):</label>
+									<input type="date" name="user_date_research">
+								</div>
+								<br>
+							</fieldset>
 
 							<h4><b>CHARAKTERYSTYKA SZUMU USZNEGO</b></h4>
 
@@ -532,7 +607,7 @@ get_header(); ?>
 			                    </span>
 							</fieldset>
 
-							<fieldset id="profile_ear_block_feel">
+							<fieldset id="profile_ear_block_feel" class="profile-ear-block-feel">
 								<label for="">22. Czy ma Pan(i) uczucie zatkanych uszu?</label>
 								<br>
 								 <span class="additional-info-wrap">
@@ -613,7 +688,7 @@ get_header(); ?>
 			                    </label>								
 							</fieldset>
 
-							<fieldset id="profile_vertigo">
+							<fieldset id="profile_vertigo" class="profile-vertigo">
 								<label for="">23. Czy miewa Pan(i) zawroty głowy?</label>
 								<br>
 								 <span class="additional-info-wrap">
@@ -730,12 +805,12 @@ get_header(); ?>
 			                    </span>
 							</fieldset>
 
-							<fieldset id="profile_additional_info">
+							<fieldset id="profile_additional_info" class="profile-additional-info">
 								<label class="radio-inline" for="profile_additional_info">Uwagi</label>
 								<textarea id="profile_additional_info1" name="profile_additional_info" placeholder="" class="form-control"></textarea>
 							</fieldset>
 
-							<button type="submit">Submit</button>							
+							<button type="submit" class="submit-usr-info">Submit</button>							
 
 						</div>
 					</div>
