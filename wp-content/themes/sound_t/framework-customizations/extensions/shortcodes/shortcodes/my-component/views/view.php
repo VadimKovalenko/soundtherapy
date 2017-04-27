@@ -9,7 +9,10 @@ if ( is_user_logged_in() ) {
 	if (current_user_can('editor') || current_user_can('administrator')) {
 		echo "<div class = 'welc-usr-wrap'>";
 		echo 'Welcome, Admin! ';
+		echo "<br/>";
 		echo "<a href = '/user-stat-page'>Statistic -></a>";
+		echo "<br/>";
+		echo "<a href = '/user-profile-page/'>Anketa -></a>";
 		echo "</div>";
 		if (function_exists('get_users_browsing_site')): ?>
 			<div class="user-online-wrapper">

@@ -148,8 +148,7 @@ function dwwp_save_stat() {
 add_action('wp_ajax_save_stat', 'dwwp_save_stat');
 
 
-/*add_action('wp_ajax_nopriv_soundtrerapy_ajax_search','soundtrerapy_ajax_search');
-add_action('wp_ajax_soundtrerapy_ajax_search','soundtrerapy_ajax_search');*/
+
 
 add_action('wp_ajax_nopriv_soundtrerapy_ajax_search_table','soundtrerapy_ajax_search_table');
 add_action('wp_ajax_soundtrerapy_ajax_search_table','soundtrerapy_ajax_search_table');
@@ -215,11 +214,24 @@ function soundtrerapy_ajax_search_username(){
 };
 
 /*Edit user profile info*/
-function add_user_profile_info() {
-	global $wpdb;
-	$wpdb->show_errors();
-	$wpdb->insert();
-}
+//add_action('addUserInfo', 'add_user_profile_info');
+
+/*function add_user_profile_info() {
+		if (isset( $_POST['submit'] )){
+			require_once('../../../wp-load.php');
+			global $wpdb;
+			$wpdb->show_errors();
+			$wpdb->insert('user_stat_profile_2',
+			array(
+				'user_stat_profile_firstname' => $_POST[user_name],
+				'user_stat_profile_lastname' => $_POST[user_lastname]
+			),
+			array('%s',
+				  '%s')
+			);
+			exit;
+	}
+}*/
 
 /**
  * Implement the Custom Header feature.
