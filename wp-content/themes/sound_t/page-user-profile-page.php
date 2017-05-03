@@ -239,7 +239,8 @@ get_header(); ?>
 								</div>
 								<br>
 							</fieldset>
-
+						</div><!--End of form group-->
+						<div class="form-group">
 							<h4><b>CHARAKTERYSTYKA SZUMU USZNEGO</b></h4>
 
 							<fieldset id = "profile_where_noise">
@@ -276,6 +277,9 @@ get_header(); ?>
 			                    </label>
 		                    </fieldset>
 
+		                    </div><!--End of form group-->
+							<div class="form-group">
+
 		                    <fieldset id="profile_how_long_noise">
 		                    	<label for="profile_how_long_noise">2. Jak długo odczuwa Pan(i) szum uszny? (w miesiącach)</label>
 		                    	<input type="text" name="profile_how_long_noise">
@@ -302,6 +306,9 @@ get_header(); ?>
 			                    </span>
 		                    </fieldset>
 
+		                    </div><!--End of form group-->
+							<div class="form-group">
+
 							<fieldset>
 								<label for="profile_noise_changed">4. Czy odczuwany przez Panią/Pana szum uszny zmienił się od czasu kiedy pojawił się po raz pierwszy?</label>
 								<br>
@@ -319,6 +326,9 @@ get_header(); ?>
 			                        </div>
 			                    </span>
 		                    </fieldset>
+
+		                    </div><!--End of form group-->
+							<div class="form-group">
 
 		                    <fieldset id="profile_noise_periodic">
 								<label for="">5. Czy Pani/Pana szum uszny jest stały czy zmienia się (np. utrzymuje się przez pewien czas potem znowu pojawia się, zanika, itd.)?</label>
@@ -338,6 +348,9 @@ get_header(); ?>
 			                    </span>
 		                    </fieldset>
 
+		                    </div><!--End of form group-->
+							<div class="form-group">
+
 		                    <fieldset id="profile_noise_eval">
 		                    	<label for="profile_noise_eval">6. Proszę ocenić uporczywość Pani/Pana szumu usznego</label>
 		                    	<select name="profile_noise_eval" id="">
@@ -354,6 +367,9 @@ get_header(); ?>
 		                    		<option value="10 (Bardzo uporczywy)">10 (Bardzo uporczywy)</option>
 		                    	</select>
 		                    </fieldset>
+
+		                    </div><!--End of form group-->
+							<div class="form-group">
 
 							<fieldset id="profile_noise_situation">
 								<label for="profile_noise_situation">7. W których sytuacjach szum uszny szczególnie się nasila?</label>
@@ -464,6 +480,9 @@ get_header(); ?>
 			                    </span>
 							</fieldset>
 
+							</div><!--End of form group-->
+							<div class="form-group">
+
 							<fieldset id="profile_noise_percentage">
 								<label for="profile_noise_percentage">8. Zakładając, że cały dzień (bez snu) to 100%, proszę podać przez średnio ile procent dnia jest Pan(i) świadomy/a obecności szumu</label>
 								<textarea name="profile_noise_percentage" id="" cols="30" rows="10"></textarea>
@@ -499,6 +518,9 @@ get_header(); ?>
 			                        </div>
 			                    </span>
 							</fieldset>
+
+							</div><!--End of form group-->
+							<div class="form-group">
 							
 							<fieldset id="profile_noise_volume">
 								<label for="profile_noise_volume">10. Czy głośność Pani/Pana szumu usznego jest stała?   </label>
@@ -567,6 +589,9 @@ get_header(); ?>
 			                    </span>
 							</fieldset>
 
+							</div><!--End of form group-->
+							<div class="form-group">
+
 							<fieldset id="profile_bad_hearing">
 								<label for="">12. Czy ma Pan(i) niedosłuch?</label>
 								<br>
@@ -579,6 +604,9 @@ get_header(); ?>
 			                      Tak
 			                    </label>
 							</fieldset>
+
+							</div><!--End of form group-->
+							<div class="form-group">
 
 							<fieldset id="profile_aerophone">
 								<label for="">13. Czy używa Pan(i) aparatu słuchowego?</label>
@@ -593,6 +621,9 @@ get_header(); ?>
 			                    </label>
 							</fieldset>
 
+							</div><!--End of form group-->
+							<div class="form-group">
+
 							<fieldset id="profile_noise_now">
 								<label for="">14. Czy w tej chwili słyszy Pan(i) szum uszny?</label>
 								<br>
@@ -605,6 +636,9 @@ get_header(); ?>
 			                      Tak
 			                    </label>								
 							</fieldset>
+
+							</div><!--End of form group-->
+							<div class="form-group">
 
 							<fieldset id="profile_smoking">
 								<label for="">15. Jak często Pan(i) pali?</label>
@@ -623,6 +657,9 @@ get_header(); ?>
 			                    </label>								
 							</fieldset>
 
+							</div><!--End of form group-->
+							<div class="form-group">
+
 							<fieldset id="profile_drink">
 								<label for="">16. Jak często pije Pan(i) kawę, herbatę lub wodę gazowaną?</label>
 								<br>
@@ -639,6 +676,9 @@ get_header(); ?>
 			                      Częściej niż 2-3 razy dziennie
 			                    </label>								
 							</fieldset>
+
+							</div><!--End of form group-->
+							<div class="form-group">
 
 							<fieldset id="profile_head_injury">
 								<label for="">17. Czy miał(a) Pan(i) kiedyś uraz głowy? </label>
@@ -658,6 +698,9 @@ get_header(); ?>
 			                    </span>
 							</fieldset>
 
+							</div><!--End of form group-->
+							<div class="form-group">
+
 							<fieldset id="profile_loud_sound">
 								<label for="">18. Czy był(a) Pan(i) kiedyś narażony/narażona na hałas (tak głośny, że trzeba było krzyczeć do osoby, która stała w niewielkiej odległości?)</label>
 								<br>
@@ -675,6 +718,9 @@ get_header(); ?>
 			                        </div>
 			                    </span>
 							</fieldset>
+
+							</div><!--End of form group-->
+							<div class="form-group">
 	
 							<fieldset id = "profile_ear_protection">
 								<label for="">19. Czy chroni Pan(i) uszy przed głośnymi dźwiękami (np. stosując zatyczki do uszu)? </label>
@@ -688,6 +734,9 @@ get_header(); ?>
 			                      Tak
 			                    </label>
 							</fieldset>
+
+							</div><!--End of form group-->
+							<div class="form-group">
 
 							<fieldset id = "profile_custom_ear_protection">
 								<label for="">20. Czy ma Pan(i) jakiś skuteczny sposób „wyciszania” szumu usznego?</label>
@@ -706,6 +755,9 @@ get_header(); ?>
 			                        </div>
 			                    </span>
 							</fieldset>
+
+							</div><!--End of form group-->
+							<div class="form-group">
 
 							<fieldset id="profile_ear_block_feel" class="profile-ear-block-feel">
 								<label for="">21. Czy ma Pan(i) uczucie zatkanych uszu?</label>
@@ -788,6 +840,9 @@ get_header(); ?>
 			                    </label>								
 							</fieldset>
 
+							</div><!--End of form group-->
+							<div class="form-group">
+
 							<fieldset id="profile_vertigo" class="profile-vertigo">
 								<label for="">22. Czy miewa Pan(i) zawroty głowy?</label>
 								<br>
@@ -869,6 +924,9 @@ get_header(); ?>
 			                    </label>								
 							</fieldset>
 
+							</div><!--End of form group-->
+							<div class="form-group">
+
 							<fieldset id="profile_doctor">
 								<label for="">23. Czy przebywa Pan(i) pod opieką lekarza specjalisty (poza IFPS)?</label>
 								<br>
@@ -886,6 +944,9 @@ get_header(); ?>
 			                        </div>
 			                    </span>
 							</fieldset>
+
+							</div><!--End of form group-->
+							<div class="form-group">
 
 							<fieldset id="profile_medicine">
 								<label for="">24. Czy bierze Pan(i) przewlekle leki?</label>
@@ -905,6 +966,9 @@ get_header(); ?>
 			                    </span>
 							</fieldset>
 
+							</div><!--End of form group-->
+							<div class="form-group">
+
 							<fieldset id="profile_additional_info" class="profile-additional-info">
 								<label class="radio-inline" for="profile_additional_info">Uwagi</label>
 								<textarea id="profile_additional_info1" name="profile_additional_info" placeholder="" class="form-control profile-additional-info-area"></textarea>
@@ -912,7 +976,7 @@ get_header(); ?>
 
 							<button type="submit" class="submit-usr-info" name="submitInfo">Submit</button>							
 
-						</div>
+							</div><!--End of form group-->
 					</div>
 				</form>
 			</div>
