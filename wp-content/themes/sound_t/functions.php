@@ -213,25 +213,25 @@ function soundtrerapy_ajax_search_username(){
 	exit;
 };
 
-/*Edit user profile info*/
-//add_action('addUserInfo', 'add_user_profile_info');
+//to add registration hook
+add_action( 'user_register', 'myplugin_registration_save', 10, 1 );
+function myplugin_registration_save( $user_id ) {
+    $location = home_url()."/?pb_autologin=true&pb_uid=$user_id";
+    echo "<script> window.location.replace('$location'); </script>";
+}
 
-/*function add_user_profile_info() {
-		if (isset( $_POST['submit'] )){
-			require_once('../../../wp-load.php');
-			global $wpdb;
-			$wpdb->show_errors();
-			$wpdb->insert('user_stat_profile_2',
-			array(
-				'user_stat_profile_firstname' => $_POST[user_name],
-				'user_stat_profile_lastname' => $_POST[user_lastname]
-			),
-			array('%s',
-				  '%s')
-			);
-			exit;
-	}
-}*/
+add_action( 'init', 'wppb_custom_autologin' );
+function wppb_custom_autologin(){
+	$url="http://soundtherapy/user-profile-page";
+    if( isset( $_GET['pb_autologin'] ) && isset( $_GET['pb_uid'] )  ){
+        $uid = $_GET['pb_uid'];
+        wp_set_auth_cookie( $uid );
+        delete_user_meta($uid, 'pb_autologin' . $uid );
+        delete_user_meta($uid, 'pb_autologin' . $uid . '_expiration');
+        wp_redirect( $url );
+        exit;
+    }
+}
 
 /**
  * Implement the Custom Header feature.

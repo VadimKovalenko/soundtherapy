@@ -89,6 +89,10 @@
 			font-family: 'adamcg proregular', sans-serif;
 			text-align: center;
 		}
+
+		.wppb-form-error {
+			color: red;
+		}
 	</style>
 	<div id="primary" class="content-area">
 		<div class = "reg-page-wrap">

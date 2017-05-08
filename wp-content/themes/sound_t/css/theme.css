@@ -53,6 +53,8 @@ body.logged-in .reg-btn{
     display: none;
 }
 
+textarea {resize: none}
+
 .site-branding {
     padding-top: 15px;
 }

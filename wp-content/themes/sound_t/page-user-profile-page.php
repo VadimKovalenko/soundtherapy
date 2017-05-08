@@ -206,6 +206,15 @@ get_header(); ?>
 				float: right;
 		    	position: absolute;
 		    	right: 15px;
+		    	text-decoration: none;
+		    	color: #404040;
+		    	font-weight: bold;
+		}
+
+		.skip-btn:focus,
+		.skip-btn:visited,
+		.skip-btn:active{
+			color: #404040;
 		}
 
 	</style>
@@ -220,12 +229,12 @@ get_header(); ?>
 								<h4><b>DANE OSOBOWE</b></h4>
 								<div>
 									<label for="user_name">IMIĘ</label>
-									<input type="text" name="user_name" value="">
+									<input type="text" name="user_name" value="" placeholder=<?php echo  $current_user->user_firstname ?>>
 								</div>
 								<br>								
 								<div>
 									<label for="user_lastname">NAZWISKO</label>
-									<input type="text" name="user_lastname">
+									<input type="text" name="user_lastname" placeholder= <?php echo $current_user->user_lastname?>>
 								</div>
 								<br>
 								<div>
@@ -991,7 +1000,7 @@ get_header(); ?>
 
 							<div class = "btns-wrap">
 								<button type="submit" class="submit-usr-info" name="submitInfo">Submit</button>
-								<button type="button" class="skip-btn" name="skip">Skip</button>
+								<a href="/" class="btn skip-btn" name="skip">Skip <span class="glyphicon glyphicon-arrow-right"></span></a>
 							</div>
 
 							</div>	
