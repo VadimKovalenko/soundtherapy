@@ -18,7 +18,7 @@ $settings_options = fw()->theme->get_settings_options();
 <meta charset="<?php bloginfo( 'charset' ); ?>">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="profile" href="http://gmpg.org/xfn/11">
-<script src = "wp-content/themes/sound_t/js/js-webshim/minified/polyfiller.js"></script>
+<script src = "../wp-content/themes/sound_t/js/js-webshim/minified/polyfiller.js"></script>
 <script type="text/javascript">
     var ajaxurl = "<?php echo admin_url('admin-ajax.php'); ?>";
 </script>

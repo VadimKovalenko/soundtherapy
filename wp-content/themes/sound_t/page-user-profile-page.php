@@ -193,14 +193,29 @@ get_header(); ?>
 		.profile-additional-info-area {
 			
 		}
+
+		.submit-usr-info {
+			display: inline-block;
+		}
+
+		.btns-wrap {
+			text-align: center;
+		}
+
+		.skip-btn{
+				float: right;
+		    	position: absolute;
+		    	right: 15px;
+		}
+
 	</style>
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<div class="fw-container user-profile-container">
 				<h3><b>KWESTIONARIUSZ CHARAKTERYSTYKI SZUMU USZNEGO</b></h3>
 				<form action="" method="post">
+					<div class="fw-col-md-12">
 					<div class="form-group">
-						<div class="fw-col-md-12">
 							<fieldset id="profile-main-info" class="profile-main-info">
 								<h4><b>DANE OSOBOWE</b></h4>
 								<div>
@@ -215,7 +230,7 @@ get_header(); ?>
 								<br>
 								<div>
 									<label for="user_birth">DATA URODZENIA (DZIEŃ-MIESIĄC-ROK):</label>
-									<input type="date" name="user_birth">
+									<input type="date" name="user_birth" required="required">
 								</div>
 								<br>
 								<div>
@@ -235,7 +250,7 @@ get_header(); ?>
 								<br>
 								<div>
 									<label for="user_date_research">DATA BADANIA(DZIEŃ-MIESIĄC-ROK):</label>
-									<input type="date" name="user_date_research">
+									<input type="date" name="user_date_research" required="required">
 								</div>
 								<br>
 							</fieldset>
@@ -247,32 +262,32 @@ get_header(); ?>
 								<label for="">1. Gdzie odczuwa Pan(i) szum uszny?</label>
 								<br>
 								<label class="radio-inline" for="profile_where_noise">
-			                      <input type="radio" name="profile_where_noise" id="profile_where_noise1" value="W obu uszach jednakowo">
+			                      <input type="radio" name="profile_where_noise" id="profile_where_noise1" value="W obu uszach jednakowo" required="required">
 			                      W obu uszach jednakowo
 			                    </label>
 			                    <br>
 			                    <label class="radio-inline" for="profile_where_noise">
-			                      <input type="radio" name="profile_where_noise" id="profile_where_noise2" value="W obu uszach, ale w każdym słyszę inny dźwięk">
+			                      <input type="radio" name="profile_where_noise" id="profile_where_noise2" value="W obu uszach, ale w każdym słyszę inny dźwięk" required="required">
 			                      W obu uszach, ale w każdym słyszę inny dźwięk
 			                    </label>
 			                    <br>
 			                    <label class="radio-inline" for="profile_where_noise">
-			                      <input type="radio" name="profile_where_noise" id="profile_where_noise3" value="Tylko w lewym uchu">
+			                      <input type="radio" name="profile_where_noise" id="profile_where_noise3" value="Tylko w lewym uchu" required="required">
 			                      Tylko w lewym uchu
 			                    </label>
 			                    <br>
 			                    <label class="radio-inline" for="profile_where_noise">
-			                      <input type="radio" name="profile_where_noise" id="profile_where_noise4" value="Tylko w prawym uchu">
+			                      <input type="radio" name="profile_where_noise" id="profile_where_noise4" value="Tylko w prawym uchu" required="required">
 			                      Tylko w prawym uchu
 			                    </label>
 			                    <br>
 			                    <label class="radio-inline" for="profile_where_noise">
-			                      <input type="radio" name="profile_where_noise" id="profile_where_noise5" value="W głowie">
+			                      <input type="radio" name="profile_where_noise" id="profile_where_noise5" value="W głowie" required="required">
 			                      W głowie
 			                    </label>
 			                    <br>
 			                    <label class="radio-inline" for="profile_where_noise">
-			                      <input type="radio" name="profile_where_noise" id="profile_where_noise6" value="Trudno powiedzieć, zdarza się, że słyszę szum w obu uszach, w jednym uchu, w głowie">
+			                      <input type="radio" name="profile_where_noise" id="profile_where_noise6" value="Trudno powiedzieć, zdarza się, że słyszę szum w obu uszach, w jednym uchu, w głowie" required="required">
 			                      Trudno powiedzieć, zdarza się, że słyszę szum w obu uszach, w jednym uchu, w głowie
 			                    </label>
 		                    </fieldset>
@@ -282,19 +297,19 @@ get_header(); ?>
 
 		                    <fieldset id="profile_how_long_noise">
 		                    	<label for="profile_how_long_noise">2. Jak długo odczuwa Pan(i) szum uszny? (w miesiącach)</label>
-		                    	<input type="text" name="profile_how_long_noise">
+		                    	<input type="text" name="profile_how_long_noise" required="required">
 		                    </fieldset>
 
 		                    <fieldset id="profile_noise_reason">
 								<label for="">3. Czy pamięta Pan(i) jakieś zdarzenie/zdarzenia ze swojego życia, które mogłoby przyczynić się do pojawienia się szumu usznego (np. uraz głowy, przewlekły stres, długotrwała praca w hałasie, itp.)?</label>
 								<br>
 								<label class="radio-inline" for="profile_noise_reason">
-			                      <input type="radio" name="profile_noise_reason" id="profile_noise_reason1" value="Nie">
+			                      <input type="radio" name="profile_noise_reason" id="profile_noise_reason1" value="Nie" required="required">
 			                      Nie
 			                    </label>
 			                    <span class="additional-info-wrap">
 			                        <label class="radio-inline" for="profile_noise_reason">
-			                          <input type="radio" name="profile_noise_reason" id="profile_noise_reason2" value="Tak">
+			                          <input type="radio" name="profile_noise_reason" id="profile_noise_reason2" value="Tak" required="required">
 			                          Tak
 			                        </label>
 			                        <div class="additional-info hide">
@@ -313,12 +328,12 @@ get_header(); ?>
 								<label for="profile_noise_changed">4. Czy odczuwany przez Panią/Pana szum uszny zmienił się od czasu kiedy pojawił się po raz pierwszy?</label>
 								<br>
 								<label class="radio-inline" for="profile_noise_changed">
-			                      <input type="radio" name="profile_noise_changed" id="profile_noise_changed1" value="Nie">
+			                      <input type="radio" name="profile_noise_changed" id="profile_noise_changed1" value="Nie" required="required">
 			                      Nie
 			                    </label>
 			                    <span class="additional-info-wrap">
 			                        <label class="radio-inline" for="profile_noise_changed">
-			                          <input type="radio" name="profile_noise_changed" id="profile_noise_changed2" value="Tak">
+			                          <input type="radio" name="profile_noise_changed" id="profile_noise_changed2" value="Tak" required="required">
 			                          Tak
 			                        </label>
 			                        <div class="additional-info hide">
@@ -334,12 +349,12 @@ get_header(); ?>
 								<label for="">5. Czy Pani/Pana szum uszny jest stały czy zmienia się (np. utrzymuje się przez pewien czas potem znowu pojawia się, zanika, itd.)?</label>
 								<br>
 								<label class="radio-inline" for="profile_noise_periodic">
-			                      <input type="radio" name="profile_noise_periodic" id="profile_noise_periodic1" value="Jest względnie stały, jednostajny">
+			                      <input type="radio" name="profile_noise_periodic" id="profile_noise_periodic1" value="Jest względnie stały, jednostajny" required="required">
 			                      Jest względnie stały, jednostajny
 			                    </label>
 			                    <span class="additional-info-wrap">
 			                        <label class="radio-inline" for="Radios_Other">
-			                          <input type="radio" name="profile_noise_periodic" id="profile_noise_periodic2" value="Zmienia się w ciągu godziny/dnia">
+			                          <input type="radio" name="profile_noise_periodic" id="profile_noise_periodic2" value="Zmienia się w ciągu godziny/dnia" required="required">
 			                          Zmienia się w ciągu godziny/dnia
 			                        </label>
 			                        <div class="additional-info hide">
@@ -353,7 +368,7 @@ get_header(); ?>
 
 		                    <fieldset id="profile_noise_eval">
 		                    	<label for="profile_noise_eval">6. Proszę ocenić uporczywość Pani/Pana szumu usznego</label>
-		                    	<select name="profile_noise_eval" id="">
+		                    	<select name="profile_noise_eval" id="" required="required">
 		                    		<option value="">Prosze wybrać</option>
 		                    		<option value="1 (Łagodny)">1 (Łagodny)</option>
 		                    		<option value="2">2</option>
@@ -371,66 +386,66 @@ get_header(); ?>
 		                    </div><!--End of form group-->
 							<div class="form-group">
 
-							<fieldset id="profile_noise_situation">
+							<fieldset id="profile_noise_situation" class="checkbox-group required">
 								<label for="profile_noise_situation">7. W których sytuacjach szum uszny szczególnie się nasila?</label>
 								<br>
 								<label class="checkbox-inline" for="profile_noise_situation">
-			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation1" value="Zawsze słyszę go tak samo">
+			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation1" value="Zawsze słyszę go tak samo" required="required">
 			                      Zawsze słyszę go tak samo
 			                    </label>
 			                    <br>
 			                    <label class="checkbox-inline" for="profile_noise_situation">
-			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation2" value="W dzień">
+			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation2" value="W dzień" required="required">
 			                      W dzień
 			                    </label>
 			                    <br>
 			                    <label class="checkbox-inline" for="profile_noise_situation">
-			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation3" value="Pod wpływem stresu/kiedy jestem zdenerwowany(a)">
+			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation3" value="Pod wpływem stresu/kiedy jestem zdenerwowany(a)" required="required">
 			                      Pod wpływem stresu/kiedy jestem zdenerwowany(a)
 			                    </label>
 			                    <br>
 			                    <label class="checkbox-inline" for="profile_noise_situation">
-			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation4" value="Po wypiciu kawy">
+			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation4" value="Po wypiciu kawy" required="required">
 			                      Po wypiciu kawy
 			                    </label>
 			                    <br>
 			                    <label class="checkbox-inline" for="profile_noise_situation">
-			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation5" value="Po dłuższym przebywaniu w hałasie (np. na koncercie)">
+			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation5" value="Po dłuższym przebywaniu w hałasie (np. na koncercie)" required="required">
 			                      Po dłuższym przebywaniu w hałasie (np. na koncercie)
 			                    </label>			                    
 			                    <br>
 			                    <label class="checkbox-inline" for="profile_noise_situation">
-			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation6" value="W nocy, przed zaśnięciem">
+			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation6" value="W nocy, przed zaśnięciem" required="required">
 			                      W nocy, przed zaśnięciem 
 			                    </label>			                    
 			                    <br>
 			                    <label class="checkbox-inline" for="profile_noise_situation">
-			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation7" value="Kiedy jestem zrelaksowany(a)">
+			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation7" value="Kiedy jestem zrelaksowany(a)" required="required">
 			                      Kiedy jestem zrelaksowany(a) 
 			                    </label>			                    
 			                    <br>
 			                    <label class="checkbox-inline" for="profile_noise_situation">
-			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation8" value="Pod wpływem alkoholu">
+			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation8" value="Pod wpływem alkoholu" required="required">
 			                      Pod wpływem alkoholu 
 			                    </label>			                    
 			                    <br>
 			                    <label class="checkbox-inline" for="profile_noise_situation">
-			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation9" value="Po zapaleniu papierosa">
+			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation9" value="Po zapaleniu papierosa" required="required">
 			                      Po zapaleniu papierosa 
 			                    </label>			                    
 			                    <br>
 			                    <label class="checkbox-inline" for="profile_noise_situation">
-			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation10" value="Podczas i/lub po wysiłku fizycznym">
+			                      <input type="checkbox" name="profile_noise_situation" id="profile_noise_situation10" value="Podczas i/lub po wysiłku fizycznym" required="required">
 			                      Podczas i/lub po wysiłku fizycznym 
 			                    </label>
 			                    <br>
 			                    <span class="additional-info-wrap">
 			                        <label class="checkbox-inline" for="profile_noise_situation_descr">
-			                          <input type="checkbox" name="profile_noise_situation_descr" id="" value="Podczas alergii na ">
+			                          <input type="checkbox" name="profile_noise_situation_descr" id="" value="Podczas alergii na " required="required">
 			                          Podczas alergii na...
 			                        </label>
 			                        <div class="additional-info hide">
-			                              <input type="text" id="" name="profile_noise_situation_descr" placeholder="proszę wymienić alergeny" class="form-control" disabled="">
+			                            <input type="text" id="" name="profile_noise_situation_descr" placeholder="proszę wymienić alergeny" class="form-control" disabled="" required="required">
 			                        </div>
 			                    </span>
 			                    <br>
@@ -440,13 +455,13 @@ get_header(); ?>
 			                          Po przyjęciu leków...
 			                        </label>
 			                        <div class="additional-info hide">
-			                              <input type="text" id="" name="profile_noise_situation_descr" placeholder="proszę wymienić jakich" class="form-control" disabled="">
+			                              <input type="text" id="" name="profile_noise_situation_descr" placeholder="proszę wymienić jakich" class="form-control" disabled="" required="required">
 			                        </div>
 			                    </span>			                    
 			                    <br>
 			                    <span class="additional-info-wrap">
 			                        <label class="checkbox-inline" for="profile_noise_situation_descr">
-			                          <input type="checkbox" name="profile_noise_situation_descr" id="" value="Po zjedzeniu/wypiciu ">
+			                          <input type="checkbox" name="profile_noise_situation_descr" id="" value="Po zjedzeniu/wypiciu " required="required">
 			                          Po zjedzeniu/wypiciu...
 			                        </label>
 			                        <div class="additional-info hide">
@@ -460,18 +475,18 @@ get_header(); ?>
 			                    </label>
 			                    <br>		                    
 			                    <label class="checkbox-inline" for="profile_noise_situation">
-			                      <input type="checkbox" name="profile_noise_situation" id="" value="Kiedy mam skoki ciśnienia krwi">
+			                      <input type="checkbox" name="profile_noise_situation" id="" value="Kiedy mam skoki ciśnienia krwi" required="required">
 			                      Kiedy mam skoki ciśnienia krwi 
 			                    </label>			                    
 			                    <br>		                    
 			                    <label class="checkbox-inline" for="profile_noise_situation">
-			                      <input type="checkbox" name="profile_noise_situation" id="" value="Kiedy wykonuję ruchy głowy, skręty szyi, zaciskam zęby">
+			                      <input type="checkbox" name="profile_noise_situation" id="" value="Kiedy wykonuję ruchy głowy, skręty szyi, zaciskam zęby" required="required">
 			                      Kiedy wykonuję ruchy głowy, skręty szyi, zaciskam zęby 
 			                    </label>
 			                    <br>			                    
 			                    <span class="additional-info-wrap">
 			                        <label class="checkbox-inline" for="profile_noise_situation_descr">
-			                          <input type="checkbox" name="profile_noise_situation_descr" id="" value="Inne: ">
+			                          <input type="checkbox" name="profile_noise_situation_descr" id="" value="Inne: " required="required">
 			                          Inne
 			                        </label>
 			                        <div class="additional-info hide">
@@ -485,19 +500,19 @@ get_header(); ?>
 
 							<fieldset id="profile_noise_percentage">
 								<label for="profile_noise_percentage">8. Zakładając, że cały dzień (bez snu) to 100%, proszę podać przez średnio ile procent dnia jest Pan(i) świadomy/a obecności szumu</label>
-								<textarea name="profile_noise_percentage" id="" cols="30" rows="10"></textarea>
+								<textarea name="profile_noise_percentage" id="" cols="30" rows="10" required="required"></textarea>
 							</fieldset>
 
 							<fieldset id="profile_noise_frequency">
 								<label for="">9. Czy potrafi Pan(i) oszacować częstotliwość (wysokość) dźwięku szumu usznego?  </label>
 								<br>
 								<label class="radio-inline" for="profile_noise_frequency">
-			                      <input type="radio" name="profile_noise_frequency" id="profile_noise_frequency1" value="Nie">
+			                      <input type="radio" name="profile_noise_frequency" id="profile_noise_frequency1" value="Nie" required="required">
 			                      Nie
 			                    </label>
 								<span class="additional-info-wrap">
 			                        <label class="radio-inline" for="profile_noise_frequency">
-			                          <input type="radio" name="profile_noise_frequency" id="profile_noise_frequency2" value="Tak">
+			                          <input type="radio" name="profile_noise_frequency" id="profile_noise_frequency2" value="Tak" required="required">
 			                          Tak
 			                        </label>
 			                        <div class="additional-info hide">
@@ -526,61 +541,61 @@ get_header(); ?>
 								<label for="profile_noise_volume">10. Czy głośność Pani/Pana szumu usznego jest stała?   </label>
 								<br>
 								<label class="radio-inline" for="profile_noise_volume">
-			                      <input type="radio" name="profile_noise_volume" id="profile_noise_volume1" value="Nie">
+			                      <input type="radio" name="profile_noise_volume" id="profile_noise_volume1" value="Nie" required="required">
 			                      Nie
 			                    </label>
 			                    <label class="radio-inline" for="profile_noise_volume">
-			                      <input type="radio" name="profile_noise_volume" id="profile_noise_volume2" value="Tak">
+			                      <input type="radio" name="profile_noise_volume" id="profile_noise_volume2" value="Tak" required="required">
 			                      Tak
 			                    </label>
 							</fieldset>
 
-							<fieldset id="profile_noise_descr">
+							<fieldset id="profile_noise_descr" class="checkbox-group">
 								<label for="profile_noise_descr">11. Proszę opisać dźwięk szumu usznego.</label>
 								<br>
 								<label class="checkbox-inline" for="profile_noise_descr">
-			                      <input type="checkbox" name="profile_noise_descr" id="profile_noise_descr1" value="Gwizdanie">
+			                      <input type="checkbox" name="profile_noise_descr" id="profile_noise_descr1" value="Gwizdanie" required="required">
 			                      Gwizdanie
 			                    </label>
 			                    <br>
 			                    <label class="checkbox-inline" for="profile_noise_descr">
-			                      <input type="checkbox" name="profile_noise_descr" id="profile_noise_descr2" value="Syczenie">
+			                      <input type="checkbox" name="profile_noise_descr" id="profile_noise_descr2" value="Syczenie" required="required">
 			                      Syczenie
 			                    </label>
 			                    <br>
 			                    <label class="checkbox-inline" for="profile_noise_descr">
-			                      <input type="checkbox" name="profile_noise_descr" id="profile_noise_descr3" value="Dzwonienie">
+			                      <input type="checkbox" name="profile_noise_descr" id="profile_noise_descr3" value="Dzwonienie" required="required">
 			                      Dzwonienie
 			                    </label>
 			                    <br>
 			                    <label class="checkbox-inline" for="profile_noise_descr">
-			                      <input type="checkbox" name="profile_noise_descr" id="profile_noise_descr4" value="Pulsowanie/łomotanie">
+			                      <input type="checkbox" name="profile_noise_descr" id="profile_noise_descr4" value="Pulsowanie/łomotanie" required="required">
 			                      Pulsowanie/łomotanie
 			                    </label>
 			                    <br>
 			                    <label class="checkbox-inline" for="profile_noise_descr">
-			                      <input type="checkbox" name="profile_noise_descr" id="profile_noise_descr5" value="Świergotanie">
+			                      <input type="checkbox" name="profile_noise_descr" id="profile_noise_descr5" value="Świergotanie" required="required">
 			                      Świergotanie
 			                    </label>			                    
 			                    <br>
 			                    <label class="checkbox-inline" for="profile_noise_descr">
-			                      <input type="checkbox" name="profile_noise_descr" id="profile_noise_descr7" value="Brzęczenie">
+			                      <input type="checkbox" name="profile_noise_descr" id="profile_noise_descr7" value="Brzęczenie" required="required">
 			                      Brzęczenie 
 			                    </label>
 			                    <br>
 			                    <label class="checkbox-inline" for="profile_noise_descr">
-			                      <input type="checkbox" name="profile_noise_descr" id="profile_noise_descr7" value="Szum">
+			                      <input type="checkbox" name="profile_noise_descr" id="profile_noise_descr7" value="Szum" required="required">
 			                      Szum 
 			                    </label>
 			                    <br>
 			                    <label class="checkbox-inline" for="profile_noise_descr">
-			                      <input type="checkbox" name="profile_noise_descr" id="profile_noise_descr7" value="Głosy">
+			                      <input type="checkbox" name="profile_noise_descr" id="profile_noise_descr7" value="Głosy" required="required">
 			                      Głosy 
 			                    </label>
 			                    <br>			                    
 			                    <span class="additional-info-wrap">
 			                        <label class="checkbox-inline" for="profile_noise_descr_other">
-			                          <input type="checkbox" name="profile_noise_descr_other" id="profile_noise_descr8" value="Inne: ">
+			                          <input type="checkbox" name="profile_noise_descr_other" id="profile_noise_descr8" value="Inne: " required="required">
 			                          Inne
 			                        </label>
 			                        <div class="additional-info hide">
@@ -596,11 +611,11 @@ get_header(); ?>
 								<label for="">12. Czy ma Pan(i) niedosłuch?</label>
 								<br>
 								<label class="radio-inline" for="profile_bad_hearing">
-			                      <input type="radio" name="profile_bad_hearing" id="profile_bad_hearing1" value="Nie">
+			                      <input type="radio" name="profile_bad_hearing" id="profile_bad_hearing1" value="Nie" required="required">
 			                      Nie
 			                    </label>
 			                    <label class="radio-inline" for="profile_bad_hearing">
-			                      <input type="radio" name="profile_bad_hearing" id="profile_bad_hearing2" value="Tak">
+			                      <input type="radio" name="profile_bad_hearing" id="profile_bad_hearing2" value="Tak" required="required">
 			                      Tak
 			                    </label>
 							</fieldset>
@@ -612,11 +627,11 @@ get_header(); ?>
 								<label for="">13. Czy używa Pan(i) aparatu słuchowego?</label>
 								<br>
 								<label class="radio-inline" for="profile_aerophone">
-			                      <input type="radio" name="profile_aerophone" id="profile_aerophone1" value="Nie">
+			                      <input type="radio" name="profile_aerophone" id="profile_aerophone1" value="Nie" required="required">
 			                      Nie
 			                    </label>
 			                    <label class="radio-inline" for="profile_aerophone">
-			                      <input type="radio" name="profile_aerophone" id="profile_aerophone2" value="Tak">
+			                      <input type="radio" name="profile_aerophone" id="profile_aerophone2" value="Tak" required="required">
 			                      Tak
 			                    </label>
 							</fieldset>
@@ -628,11 +643,11 @@ get_header(); ?>
 								<label for="">14. Czy w tej chwili słyszy Pan(i) szum uszny?</label>
 								<br>
 								<label class="radio-inline" for="profile_noise_now">
-			                      <input type="radio" name="profile_noise_now" id="profile_noise_now1" value="Nie">
+			                      <input type="radio" name="profile_noise_now" id="profile_noise_now1" value="Nie" required="required">
 			                      Nie
 			                    </label>
 			                    <label class="radio-inline" for="profile_noise_now">
-			                      <input type="radio" name="profile_noise_now" id="profile_noise_now2" value="Tak">
+			                      <input type="radio" name="profile_noise_now" id="profile_noise_now2" value="Tak" required="required">
 			                      Tak
 			                    </label>								
 							</fieldset>
@@ -644,15 +659,15 @@ get_header(); ?>
 								<label for="">15. Jak często Pan(i) pali?</label>
 								<br>
 								<label class="radio-inline" for="profile_smoking">
-			                      <input type="radio" name="profile_smoking" id="" value="Nie palę">
+			                      <input type="radio" name="profile_smoking" id="" value="Nie palę" required="required">
 			                      Nie palę
 			                    </label>
 			                    <label class="radio-inline" for="profile_smoking">
-			                      <input type="radio" name="profile_smoking" id="" value="1-5 razy dzienne">
+			                      <input type="radio" name="profile_smoking" id="" value="1-5 razy dzienne" required="required">
 			                      1-5 razy dzienne
 			                    </label>			                    
 			                    <label class="radio-inline" for="profile_smoking">
-			                      <input type="radio" name="profile_smoking" id="" value="Częściej niż 5 razy dziennie">
+			                      <input type="radio" name="profile_smoking" id="" value="Częściej niż 5 razy dziennie" required="required">
 			                      Częściej niż 5 razy dziennie
 			                    </label>								
 							</fieldset>
@@ -664,15 +679,15 @@ get_header(); ?>
 								<label for="">16. Jak często pije Pan(i) kawę, herbatę lub wodę gazowaną?</label>
 								<br>
 								<label class="radio-inline" for="profile_drink">
-			                      <input type="radio" name="profile_drink" id="profile_drink1" value="0-1 raz dziennie">
+			                      <input type="radio" name="profile_drink" id="profile_drink1" value="0-1 raz dziennie" required="required">
 			                      0-1 raz dziennie
 			                    </label>
 			                    <label class="radio-inline" for="profile_drink">
-			                      <input type="radio" name="profile_drink" id="profile_drink2" value="2-3 razy dziennie">
+			                      <input type="radio" name="profile_drink" id="profile_drink2" value="2-3 razy dziennie" required="required">
 			                      2-3 razy dziennie
 			                    </label>			                    
 			                    <label class="radio-inline" for="profile_drink">
-			                      <input type="radio" name="profile_drink" id="profile_drink3" value="Częściej niż 2-3 razy dziennie">
+			                      <input type="radio" name="profile_drink" id="profile_drink3" value="Częściej niż 2-3 razy dziennie" required="required">
 			                      Częściej niż 2-3 razy dziennie
 			                    </label>								
 							</fieldset>
@@ -684,12 +699,12 @@ get_header(); ?>
 								<label for="">17. Czy miał(a) Pan(i) kiedyś uraz głowy? </label>
 								<br>
 								<label class="radio-inline" for="profile_head_injury">
-			                      <input type="radio" name="profile_head_injury" id="profile_head_injury1" value="Nie">
+			                      <input type="radio" name="profile_head_injury" id="profile_head_injury1" value="Nie" required="required">
 			                      Nie
 			                    </label>
 			                    <span class="additional-info-wrap">
 			                        <label class="radio-inline" for="profile_head_injury">
-			                          <input type="radio" name="profile_head_injury" id="profile_head_injury2" value="Tak, ">
+			                          <input type="radio" name="profile_head_injury" id="profile_head_injury2" value="Tak, " required="required">
 			                          Tak
 			                        </label>
 			                        <div class="additional-info hide">
@@ -705,12 +720,12 @@ get_header(); ?>
 								<label for="">18. Czy był(a) Pan(i) kiedyś narażony/narażona na hałas (tak głośny, że trzeba było krzyczeć do osoby, która stała w niewielkiej odległości?)</label>
 								<br>
 								<label class="radio-inline" for="profile_loud_sound">
-			                      <input type="radio" name="profile_loud_sound" id="profile_loud_sound1" value="Nie">
+			                      <input type="radio" name="profile_loud_sound" id="profile_loud_sound1" value="Nie" required="required">
 			                      Nie
 			                    </label>
 			                    <span class="additional-info-wrap">
 			                        <label class="radio-inline" for="profile_loud_sound">
-			                          <input type="radio" name="profile_loud_sound" id="profile_loud_sound2" value="Tak, ">
+			                          <input type="radio" name="profile_loud_sound" id="profile_loud_sound2" value="Tak, " required="required">
 			                          Tak
 			                        </label>
 			                        <div class="additional-info hide">
@@ -726,11 +741,11 @@ get_header(); ?>
 								<label for="">19. Czy chroni Pan(i) uszy przed głośnymi dźwiękami (np. stosując zatyczki do uszu)? </label>
 								<br>							
 								<label class="radio-inline" for="profile_ear_protection1">
-			                      <input type="radio" name="profile_ear_protection" id="profile_ear_protection1" value="Nie">
+			                      <input type="radio" name="profile_ear_protection" id="profile_ear_protection1" value="Nie" required="required">
 			                      Nie
 			                    </label>
 			                    <label class="radio-inline" for="profile_ear_protection2">
-			                      <input type="radio" name="profile_ear_protection" id="profile_ear_protection2" value="Tak">
+			                      <input type="radio" name="profile_ear_protection" id="profile_ear_protection2" value="Tak" required="required">
 			                      Tak
 			                    </label>
 							</fieldset>
@@ -742,12 +757,12 @@ get_header(); ?>
 								<label for="">20. Czy ma Pan(i) jakiś skuteczny sposób „wyciszania” szumu usznego?</label>
 								<br>
 								<label class="radio-inline" for="profile_custom_ear_protection">
-			                      <input type="radio" name="profile_custom_ear_protection" id="profile_custom_ear_protection1" value="Nie">
+			                      <input type="radio" name="profile_custom_ear_protection" id="profile_custom_ear_protection1" value="Nie" required="required">
 			                      Nie
 			                    </label>
 			                    <span class="additional-info-wrap">
 			                        <label class="radio-inline" for="profile_custom_ear_protection">
-			                          <input type="radio" name="profile_custom_ear_protection" id="profile_custom_ear_protection2" value="Tak">
+			                          <input type="radio" name="profile_custom_ear_protection" id="profile_custom_ear_protection2" value="Tak" required="required">
 			                          Tak
 			                        </label>
 			                        <div class="additional-info hide">
@@ -764,7 +779,7 @@ get_header(); ?>
 								<br>
 								 <span class="additional-info-wrap">
 								 	<label class="radio-inline" for="profile_ear_block_feel">
-			                      	<input type="radio" name="profile_ear_block_feel" id="profile_ear_block_feel1" value="Bardzo często">
+			                      	<input type="radio" name="profile_ear_block_feel" id="profile_ear_block_feel1" value="Bardzo często"  required="required">
 			                      	Bardzo często
 			                    	</label>
 			                        <div class="additional-info hide">
@@ -782,7 +797,7 @@ get_header(); ?>
 			                    <br>
 			                    <span class="additional-info-wrap">
 									<label class="radio-inline" for="profile_ear_block_feel">
-				                      <input type="radio" name="profile_ear_block_feel" id="profile_ear_block_feel2" value="Często">
+				                      <input type="radio" name="profile_ear_block_feel" id="profile_ear_block_feel2" value="Często" required="required">
 				                      Często
 				                    </label>
 			                        <div class="additional-info hide">
@@ -800,7 +815,7 @@ get_header(); ?>
 			                    <br>
 			                    <span class="additional-info-wrap">
 									<label class="radio-inline" for="profile_ear_block_feel">
-				                      <input type="radio" name="profile_ear_block_feel" id="profile_ear_block_feel3" value="Czasami">
+				                      <input type="radio" name="profile_ear_block_feel" id="profile_ear_block_feel3" value="Czasami" required="required">
 				                      Czasami
 				                    </label>
 			                        <div class="additional-info hide">
@@ -818,7 +833,7 @@ get_header(); ?>
 			                    <br>
 			                    <span class="additional-info-wrap">
 									<label class="radio-inline" for="profile_ear_block_feel">
-				                      <input type="radio" name="profile_ear_block_feel" id="profile_ear_block_feel4" value="Rzadko">
+				                      <input type="radio" name="profile_ear_block_feel" id="profile_ear_block_feel4" value="Rzadko" required="required">
 				                      Rzadko
 				                    </label>
 			                        <div class="additional-info hide">
@@ -835,7 +850,7 @@ get_header(); ?>
 			                    </span>			                    
 			                    <br>
 								<label class="radio-inline" for="profile_ear_block_feel">
-			                      <input type="radio" name="profile_ear_block_feel" id="profile_ear_block_feel5" value="Nie zdarza się">
+			                      <input type="radio" name="profile_ear_block_feel" id="profile_ear_block_feel5" value="Nie zdarza się" required="required">
 			                      Nie zdarza się
 			                    </label>								
 							</fieldset>
@@ -848,7 +863,7 @@ get_header(); ?>
 								<br>
 								 <span class="additional-info-wrap">
 								 	<label class="radio-inline" for="profile_vertigo">
-			                      	<input type="radio" name="profile_vertigo" id="profile_vertigo1" value="Bardzo często">
+			                      	<input type="radio" name="profile_vertigo" id="profile_vertigo1" value="Bardzo często" required="required">
 			                      	Bardzo często
 			                    	</label>
 			                        <div class="additional-info hide">
@@ -866,7 +881,7 @@ get_header(); ?>
 			                    <br>
 			                    <span class="additional-info-wrap">
 									<label class="radio-inline" for="profile_vertigo">
-				                      <input type="radio" name="profile_vertigo" id="profile_vertigo2" value="Często">
+				                      <input type="radio" name="profile_vertigo" id="profile_vertigo2" value="Często" required="required">
 				                      Często
 				                    </label>
 			                        <div class="additional-info hide">
@@ -884,7 +899,7 @@ get_header(); ?>
 			                    <br>
 			                    <span class="additional-info-wrap">
 									<label class="radio-inline" for="profile_vertigo">
-				                      <input type="radio" name="profile_vertigo" id="profile_vertigo3" value="Czasami">
+				                      <input type="radio" name="profile_vertigo" id="profile_vertigo3" value="Czasami" required="required">
 				                      Czasami
 				                    </label>
 			                        <div class="additional-info hide">
@@ -902,13 +917,13 @@ get_header(); ?>
 			                    <br>
 			                    <span class="additional-info-wrap">
 									<label class="radio-inline" for="profile_vertigo">
-				                      <input type="radio" name="profile_vertigo" id="profile_vertigo4" value="Rzadko">
+				                      <input type="radio" name="profile_vertigo" id="profile_vertigo4" value="Rzadko" required="required">
 				                      Rzadko
 				                    </label>
 			                        <div class="additional-info hide">
 			                             <p>Jeśli tak, czy wówczas zmienia się szum uszny?</p>
 			                             <label class="radio-inline" for="profile_vertigo_descr">
-					                      <input type="radio" name="profile_vertigo4_1" id="profile_vertigo4_1_1" value="Nie">
+					                      <input type="radio" name="profile_vertigo_descr" id="profile_vertigo4_1_1" value="Nie">
 					                      Nie
 					                    </label>
 					                    <label class="radio-inline" for="profile_vertigo_descr">
@@ -919,7 +934,7 @@ get_header(); ?>
 			                    </span>			                    
 			                    <br>
 								<label class="radio-inline" for="profile_vertigo">
-			                      <input type="radio" name="profile_vertigo" id="profile_vertigo5" value="Nie zdarza się">
+			                      <input type="radio" name="profile_vertigo" id="profile_vertigo5" value="Nie zdarza się" required="required">
 			                      Nie zdarza się
 			                    </label>								
 							</fieldset>
@@ -931,12 +946,12 @@ get_header(); ?>
 								<label for="">23. Czy przebywa Pan(i) pod opieką lekarza specjalisty (poza IFPS)?</label>
 								<br>
 								<label class="radio-inline" for="profile_doctor1">
-			                      <input type="radio" name="profile_doctor" id="profile_doctor1" value="Nie">
+			                      <input type="radio" name="profile_doctor" id="profile_doctor1" value="Nie" required="required">
 			                      Nie
 			                    </label>
 			                    <span class="additional-info-wrap">
 			                        <label class="radio-inline" for="profile_doctor">
-			                          <input type="radio" name="profile_doctor" id="profile_doctor2" value="Tak">
+			                          <input type="radio" name="profile_doctor" id="profile_doctor2" value="Tak" required="required">
 			                          Tak
 			                        </label>
 			                        <div class="additional-info hide">
@@ -952,12 +967,12 @@ get_header(); ?>
 								<label for="">24. Czy bierze Pan(i) przewlekle leki?</label>
 								<br>
 								<label class="radio-inline" for="profile_medicine">
-			                      <input type="radio" name="profile_medicine" id="profile_medicine1" value="Nie">
+			                      <input type="radio" name="profile_medicine" id="profile_medicine1" value="Nie" required="required">
 			                      Nie
 			                    </label>
 			                    <span class="additional-info-wrap">
 			                        <label class="radio-inline" for="profile_medicine">
-			                          <input type="radio" name="profile_medicine" id="profile_medicine2" value="Tak">
+			                          <input type="radio" name="profile_medicine" id="profile_medicine2" value="Tak" required="required">
 			                          Tak
 			                        </label>
 			                        <div class="additional-info hide">
@@ -974,8 +989,12 @@ get_header(); ?>
 								<textarea id="profile_additional_info1" name="profile_additional_info" placeholder="" class="form-control profile-additional-info-area"></textarea>
 							</fieldset>
 
-							<button type="submit" class="submit-usr-info" name="submitInfo">Submit</button>							
+							<div class = "btns-wrap">
+								<button type="submit" class="submit-usr-info" name="submitInfo">Submit</button>
+								<button type="button" class="skip-btn" name="skip">Skip</button>
+							</div>
 
+							</div>	
 							</div><!--End of form group-->
 					</div>
 				</form>

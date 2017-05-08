@@ -261,6 +261,24 @@ jQuery('input[type=checkbox]').click(function() {
         }        
     });
 
+    //Check if at least one checkbox was checked
+
+    jQuery(function(){
+        var requiredCheckboxes = jQuery('.checkbox-group :checkbox[required]');
+
+        requiredCheckboxes.change(function(){
+
+            if(requiredCheckboxes.is(':checked')) {
+                requiredCheckboxes.removeAttr('required');
+                console.log('Attr for checkbox removed');
+            }
+
+            else {
+                requiredCheckboxes.attr('required', 'required');
+                console.log('Attr for checkbox add');
+            }
+        });
+    });
 });
 
 
