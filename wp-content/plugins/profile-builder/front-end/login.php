@@ -38,7 +38,7 @@ function wppb_change_login_with_email(){
 
 			// if this setting is active, the posted username is, in fact the user's email
 			if( isset( $wppb_generalSettings['loginWith'] ) && ( $wppb_generalSettings['loginWith'] == 'email' ) ){
-				$username = $wpdb->get_var( $wpdb->prepare( "SELECT user_login FROM $wpdb->users WHERE user_email= %s LIMIT 1", trim( $_POST['log'] ) ) );
+				$username = $wpdb->get_var( $wpdb->prepare( "SELECT user_login FROM $wpdb->users WHERE user_email= %s LIMIT 1", sanitize_email( $_POST['log'] ) ) );
 				
 				if( !empty( $username ) )
 					$_POST['log'] = $username;
@@ -52,7 +52,7 @@ function wppb_change_login_with_email(){
 			// if this setting is active, the posted username is, in fact the user's email or username
 			if( isset( $wppb_generalSettings['loginWith'] ) && ( $wppb_generalSettings['loginWith'] == 'usernameemail' ) ) {
 				if( is_email( $_POST['log'] ) ) {
-					$username = $wpdb->get_var( $wpdb->prepare( "SELECT user_login FROM $wpdb->users WHERE user_email= %s LIMIT 1", trim( $_POST['log'] ) ) );
+					$username = $wpdb->get_var( $wpdb->prepare( "SELECT user_login FROM $wpdb->users WHERE user_email= %s LIMIT 1", sanitize_email( $_POST['log'] ) ) );
 				} else {
 					$username = $_POST['log'];
 				}
@@ -110,13 +110,13 @@ if( isset( $wppb_generalSettings['loginWith'] ) && ( $wppb_generalSettings['logi
 }
 
 // login redirect filter. used to redirect from wp-login.php if it errors out
-function wppb_login_redirect( $redirect_to, $redirect_url, $user ){
+function wppb_login_redirect( $redirect_to, $requested_redirect_to, $user ){
 	// if login action initialized by our form
-	if( isset( $_POST['wppb_login'] ) ){
+    if( isset( $_POST['wppb_login'] ) ){
 		if( is_wp_error( $user ) ) {
             // if we don't have a successful login we must redirect to the url of the form, so make sure this happens
-            $redirect_to = $_POST['wppb_request_url'];
-            $request_form_location = $_POST['wppb_form_location'];
+            $redirect_to = esc_url_raw( $_POST['wppb_request_url'] );
+            $request_form_location = sanitize_text_field( $_POST['wppb_form_location'] );
             $error_string = $user->get_error_message();
 
             $wppb_generalSettings = get_option('wppb_general_settings');
@@ -135,14 +135,14 @@ function wppb_login_redirect( $redirect_to, $redirect_url, $user ){
 
                 if ($user->get_error_code() == 'incorrect_password') {
                     $error_string = '<strong>' . __('ERROR', 'profile-builder') . '</strong>: ' . __('The password you entered is incorrect.', 'profile-builder') . ' ';
-                    $error_string .= '<a href="' . $LostPassURL . '" title="' . __('Password Lost and Found.', 'profile-builder') . '">' . __('Lost your password', 'profile-builder') . '</a>?';
+                    $error_string .= '<a href="' . esc_url( $LostPassURL ) . '" title="' . __('Password Lost and Found.', 'profile-builder') . '">' . __('Lost your password', 'profile-builder') . '</a>?';
 
                     // change the recover password link
                     $error_string = str_replace(site_url('/wp-login.php?action=lostpassword'), $LostPassURL, $error_string);
                 }
                 if ($user->get_error_code() == 'invalid_username') {
                     $error_string = '<strong>' . __('ERROR', 'profile-builder') . '</strong>: ' . __('Invalid username.', 'profile-builder') . ' ';
-                    $error_string .= '<a href="' . $LostPassURL . '" title="' . __('Password Lost and Found.', 'profile-builder') . '">' . __('Lost your password', 'profile-builder') . '</a>?';
+                    $error_string .= '<a href="' . esc_url( $LostPassURL ) . '" title="' . __('Password Lost and Found.', 'profile-builder') . '">' . __('Lost your password', 'profile-builder') . '</a>?';
                 }
                 // if login with email is enabled change the word username with email
                 if ($wppb_generalSettings['loginWith'] == 'email')
@@ -170,18 +170,8 @@ function wppb_login_redirect( $redirect_to, $redirect_url, $user ){
 			// we don't have an error make sure to remove the error from the query arg
 			$redirect_to = remove_query_arg( 'loginerror', $redirect_to );
 
-			// check if Custom Redirects is enabled and take custom redirect link from db
-			if( PROFILE_BUILDER == 'Profile Builder Pro' ) {
-				$wppb_module_settings = get_option( 'wppb_module_settings' );
-
-				if( isset( $wppb_module_settings['wppb_customRedirect'] ) && $wppb_module_settings['wppb_customRedirect'] == 'show' && $_POST['wppb_redirect_priority'] != 'top' && function_exists( 'wppb_custom_redirect_url' ) ) {
-					$redirect_url = wppb_custom_redirect_url( 'after_login', $redirect_to, $user );
-
-					if( ! empty( $redirect_url ) ) {
-						$redirect_to = $redirect_url;
-					}
-				}
-			}
+            // CHECK FOR REDIRECT
+            $redirect_to = wppb_get_redirect_url( sanitize_text_field( $_POST['wppb_redirect_priority'] ), 'after_login', $redirect_to, $user );
             $redirect_to = apply_filters( 'wppb_after_login_redirect_url', $redirect_to );
 		}
 	}
@@ -193,8 +183,11 @@ add_filter( 'login_redirect', 'wppb_login_redirect', 10, 3 );
 
 /* shortcode function */
 function wppb_front_end_login( $atts ){
+	/* define a global so we now we have the shortcode login present */
+	global $wppb_login_shortcode;
+	$wppb_login_shortcode = true;
 
-    extract( shortcode_atts( array( 'display' => true, 'redirect' => '', 'redirect_url' => '', 'register_url' => '', 'lostpassword_url' => '', 'redirect_priority' => 'normal' ), $atts ) );
+    extract( shortcode_atts( array( 'display' => true, 'redirect' => '', 'redirect_url' => '', 'logout_redirect_url' => wppb_curpageurl(), 'register_url' => '', 'lostpassword_url' => '', 'redirect_priority' => 'normal' ), $atts ) );
 
 	$wppb_generalSettings = get_option('wppb_general_settings');
 
@@ -208,11 +201,11 @@ function wppb_front_end_login( $atts ){
 		}
 
         if ( ! empty( $redirect_url ) ) {
-			if( $redirect_priority == 'top' || ! empty( $redirect ) ) {
-				$form_args['redirect_priority'] = 'top';
-			} else {
-				$form_args['redirect_priority'] = 'normal';
-			}
+            if( $redirect_priority == 'top' ) {
+                $form_args['redirect_priority'] = 'top';
+            } else {
+                $form_args['redirect_priority'] = 'normal';
+            }
 
 			$form_args['redirect'] = trim( $redirect_url );
 		}
@@ -230,7 +223,7 @@ function wppb_front_end_login( $atts ){
 
 		// initialize our form variable
 		$login_form = '';
-		
+
 		// display our login errors
 		if( isset( $_GET['loginerror'] ) || isset( $_POST['loginerror'] ) ){
             $loginerror = isset( $_GET['loginerror'] ) ? $_GET['loginerror'] : $_POST['loginerror'];
@@ -295,21 +288,15 @@ function wppb_front_end_login( $atts ){
 
 		$logged_in_message = '<p class="wppb-alert">';
 
-		$redirect_after_logout_url = wppb_curpageurl();
-		if( PROFILE_BUILDER == 'Profile Builder Pro' ) {
-			$wppb_module_settings = get_option( 'wppb_module_settings' );
+        // CHECK FOR REDIRECT
+        $logout_redirect_url = wppb_get_redirect_url( $redirect_priority, 'after_logout', $logout_redirect_url, $wppb_user );
+        $logout_redirect_url = apply_filters( 'wppb_after_logout_redirect_url', $logout_redirect_url );
 
-			if( isset( $wppb_module_settings['wppb_customRedirect'] ) && $wppb_module_settings['wppb_customRedirect'] == 'show' && function_exists( 'wppb_custom_redirect_url' ) ) {
-				$redirect_after_logout_url = wppb_custom_redirect_url( 'after_logout', $redirect_after_logout_url );
-			}
-		}
-		$redirect_after_logout_url = apply_filters( 'wppb_after_logout_redirect_url', $redirect_after_logout_url );
-		$logout_url = '<a href="'.wp_logout_url( $redirect_after_logout_url ).'" class="wppb-logout-url" title="'.__( 'Log out of this account', 'profile-builder' ).'">'. __( 'Log out', 'profile-builder').' &raquo;</a>';
+        $logout_url = '<a href="'.wp_logout_url( $logout_redirect_url ).'" class="wppb-logout-url" title="'.__( 'Log out of this account', 'profile-builder' ).'">'. __( 'Log out', 'profile-builder').' &raquo;</a>';
 		$logged_in_message .= sprintf(__( 'You are currently logged in as %1$s. %2$s', 'profile-builder' ), $display_name, $logout_url );
 
         $logged_in_message .= '</p><!-- .wppb-alert-->';
 		
 		return apply_filters( 'wppb_login_message', $logged_in_message, $wppb_user->ID, $display_name );
-		
 	}
 }

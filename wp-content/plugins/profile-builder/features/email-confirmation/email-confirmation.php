@@ -93,13 +93,10 @@ function wppb_get_unconfirmed_email_number(){
 	
 
 function wppb_handle_email_confirmation_cases() {
-	global $current_user;
 	global $wpdb;
-	
-	//die($current_user);
-	$url = trim($_POST['URL']);
-	$todo = trim($_POST['todo']);
-	$user_email = trim($_POST['user_email']);
+
+	$todo = sanitize_text_field($_POST['todo']);
+	$user_email = sanitize_email($_POST['user_email']);
 	
 	if ( current_user_can( 'delete_users' ) )
 		if ( ( $todo != '' ) && ( $user_email != '' ) ){
@@ -570,7 +567,7 @@ function wppb_notify_user_registration_email( $bloginfo, $user_name, $email, $se
 		$user_message_from = apply_filters( 'wppb_register_from_email_message_user_email', $bloginfo );
 
 		$user_message_subject = sprintf( __( '[%1$s] Your new account information', 'profile-builder' ), $user_message_from, $user_name, $password );
-		$user_message_subject = apply_filters( 'wppb_register_user_email_subject_without_admin_approval', $user_message_subject, $email, $password, $user_message_subject, 'wppb_user_emailc_default_registration_email_subject' );
+		$user_message_subject = apply_filters( 'wppb_register_user_email_subject_without_admin_approval', $user_message_subject, $email, $password, $user_message_from, 'wppb_user_emailc_default_registration_email_subject' );
 
         if ( $password === NULL ) {
             $password = __( 'Your selected password at signup', 'profile-builder' );

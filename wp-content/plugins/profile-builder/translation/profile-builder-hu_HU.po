@@ -1,12 +1,12 @@
-# Translation of Profile Builder in French (France)
+# Translation of Profile Builder in Hungarian
 # This file is distributed under the same license as the Profile Builder package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-07-12 14:12:45+0000\n"
+"PO-Revision-Date: 2017-04-12 05:30:46+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Generator: GlotPress/0.1\n"
 "Project-Id-Version: Profile Builder\n"
 
@@ -85,11 +85,11 @@ msgstr ""
 
 #: features/email-confirmation/email-confirmation.php:578
 msgid "Welcome to %1$s!<br/><br/><br/>Your username is:%2$s"
-msgstr ""
+msgstr "Üdvözlünk a(z) %1$s oldalon!<br/><br/><br/>A felhasználóneved:%2$s"
 
 #: modules/user-listing/userlisting.php:1303
 msgid "View Map"
-msgstr ""
+msgstr "Térkép megtekintése"
 
 #: admin/add-ons.php:103
 msgid "Available in Hobbyist and Pro Versions"
@@ -173,7 +173,7 @@ msgstr ""
 
 #: admin/manage-fields.php:144
 msgid "Error Message"
-msgstr ""
+msgstr "Hibaüzenet"
 
 #: admin/manage-fields.php:144
 msgid "Set a custom error message that will be displayed to the user."
@@ -1109,349 +1109,349 @@ msgstr ""
 
 #: admin/add-ons.php:190
 msgid "Recommended Plugins"
-msgstr "Plugins recommandés"
+msgstr "Ajánlott Bővítmények"
 
 #: admin/add-ons.php:219 admin/pms-cross-promotion.php:102
 msgid "Free"
-msgstr "Gratuit"
+msgstr "Ingyenes"
 
 #: admin/add-ons.php:221
 msgid "Accept user payments, create subscription plans and restrict content on your membership site."
-msgstr "Accepter les paiements des utilisateurs, créer des plans de souscription et restreindre le contenu sur votre site d'adhésion."
+msgstr "Felhasználói fizetés, feliratkozási tervek és tartalom korlátozása a tagsági oldalán."
 
 #: admin/add-ons.php:222 admin/pms-cross-promotion.php:105
 msgid "More Details"
-msgstr "Plus de détails"
+msgstr "További Részletek"
 
 #: admin/add-ons.php:240 admin/pms-cross-promotion.php:88
 #: admin/pms-cross-promotion.php:123 admin/pms-cross-promotion.php:202
 msgid "Plugin is <strong>inactive</strong>"
-msgstr "Plugin <strong>désactivé</strong>"
+msgstr "Bővítmény <strong>kikapcsolva</strong>"
 
 #: admin/add-ons.php:242 admin/pms-cross-promotion.php:87
 #: admin/pms-cross-promotion.php:125 admin/pms-cross-promotion.php:204
 msgid "Plugin is <strong>active</strong>"
-msgstr "Plugin <strong>désactivé</strong>"
+msgstr "Bővítmény <strong>bekapcsolva</strong>"
 
 #: admin/add-ons.php:256 admin/pms-cross-promotion.php:146
 msgid "Could not install plugin. Retry or <a href=\"%s\" target=\"_blank\">install manually</a>."
-msgstr "Ne peut installer le plugin. Essayer à nouveau ou <a href=\"%s\" target=\"_blank\">installer manuellement</a>."
+msgstr "Bővítmény telepítése sikertelen. Próbálja újra vagy <a href=\"%s\" target=\"_blank\">telepítse manuálisan</a>."
 
 #: admin/pms-cross-promotion.php:10
 msgid "Paid Accounts"
-msgstr "Payé ces comptes"
+msgstr "Fizetős Fiókok"
 
 #: admin/pms-cross-promotion.php:33
 msgid "Paid Member Subscriptions - a free WordPress plugin"
-msgstr "Payer les abonnements membres - un plugin WordPress gratuit"
+msgstr "Előfizetéses Tagság  - ingyenes WordPress bővítmény"
 
 #: admin/pms-cross-promotion.php:37
 msgid "With the new Subscriptions Field in Profile Builder, your registration forms will allow your users to sign up for paid accounts."
-msgstr "Avec le nouveau champ abonnements dans Profile Builder, vos formulaires d'inscription permettront à vos utilisateurs de s'inscrire pour les comptes payés."
+msgstr "Az új Előfizetések mezővel a Profile Builder-ben, a regisztrációs formokon lehetőség nyílik a felhasználók számára a fizetős fiókra történő előfizetésre."
 
 #: admin/pms-cross-promotion.php:40
 msgid "Paid & Free Subscriptions"
-msgstr "Abonnements payants et gratuits"
+msgstr "Fizetős és ingyenes előfizetések"
 
 #: admin/pms-cross-promotion.php:41
 msgid "Restrict Content"
-msgstr "Restreindre le contenu"
+msgstr "Korlátozott hozzáférésű tartalom"
 
 #: admin/pms-cross-promotion.php:42
 msgid "Member Management"
-msgstr "Gestion des membres"
+msgstr "Tag menedzsment"
 
 #: admin/pms-cross-promotion.php:43
 msgid "Email Templates"
-msgstr "Modèles d'Emails"
+msgstr "Email Sablonok"
 
 #: admin/pms-cross-promotion.php:44
 msgid "Account Management"
-msgstr "Gestion des comptes"
+msgstr "Fiók Menedzsment"
 
 #: admin/pms-cross-promotion.php:45
 msgid "Subscription Management"
-msgstr "Gestion des inscriptions"
+msgstr "Előfizetés Menedzsment"
 
 #: admin/pms-cross-promotion.php:46
 msgid "Payment Management"
-msgstr "Gestion des paiements"
+msgstr "Fizetés Menedzsment"
 
 #: admin/pms-cross-promotion.php:83
 msgid "Plugin is Active"
-msgstr "Le plugin est activé"
+msgstr "A Plugin Aktív"
 
 #: admin/pms-cross-promotion.php:84
 msgid "Plugin has been activated"
-msgstr "Le plugin a été activé"
+msgstr "Plugin aktiválva"
 
 #: admin/pms-cross-promotion.php:91
 msgid "Plugin has been deactivated."
-msgstr "Le plugin a été désactivé"
+msgstr "A bővítményt kikapcsolták."
 
 #: admin/pms-cross-promotion.php:104
 msgid "Accept user payments, create subscription plans and restrict content on your website."
-msgstr "Accepter les paiements des utilisateurs, créer des plans de souscription et restreindre le contenu sur votre site."
+msgstr "Felhasználói fizetések elfogadása, előfizetési tervek készítése és korlátozott hozzáférésű tartalom az oldaladon."
 
 #: admin/pms-cross-promotion.php:155
 msgid "Step by Step Quick Setup"
-msgstr "Configuration rapide étape par étape "
+msgstr "Lépésről lépésre Gyorsbeállító"
 
 #: features/email-confirmation/email-confirmation.php:400
 msgid "To activate your user, please click the following link:<br><br>%s%s%s<br><br>After you activate it you will receive yet *another email* with your login."
-msgstr "Pour activer votre inscription, cliquez s'il vous plaît, sur le lien suivant :<br><br>%s%s%s<br><br>Après l'avoir activée, vous allez recevoir * un autre courriel * avec votre procédure de connexion."
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:45
 msgid "After Login"
-msgstr "Après Connexion"
+msgstr "Bejelentkezés után"
 
 #: modules/custom-redirects/custom_redirects_admin.php:46
 msgid "After Logout"
-msgstr "Après déconnexion"
+msgstr "Kijelentkezés után"
 
 #: modules/custom-redirects/custom_redirects_admin.php:47
 msgid "After Registration"
-msgstr "Après inscription"
+msgstr "Regisztráció után"
 
 #: modules/custom-redirects/custom_redirects_admin.php:48
 msgid "After Edit Profile"
-msgstr "Après Modification du profil"
+msgstr "Profil szerkesztése után"
 
 #: modules/custom-redirects/custom_redirects_admin.php:49
 msgid "After Successful Email Confirmation"
-msgstr "Après avoir réussi la confirmation de l'Email "
+msgstr "Sikeres E-mail megerősítés után"
 
 #: modules/custom-redirects/custom_redirects_admin.php:50
 msgid "After Successful Password Reset"
-msgstr "Après avoir réussi la réinitialisation du mot de passe"
+msgstr "Sikeres új jelszó beállítása után"
 
 #: modules/custom-redirects/custom_redirects_admin.php:51
 msgid "Dashboard (redirect users from accessing the dashboard)"
-msgstr "Tableau de bord (rediriger les utilisateurs pour accéder au tableau de bord)"
+msgstr "Vezérlőpult"
 
 #: modules/custom-redirects/custom_redirects_admin.php:55
 msgid "User ID"
-msgstr "Identifiant utilisateur"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:61
 msgid "User ID or Username"
-msgstr "Identifiant d'utilisateur ou Nom d'utilisateur"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:62
 msgid "User ID / Username"
-msgstr "Identifiant d'utilisateur / Nom d'utilisateur"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:62
 msgid "Please select and enter the ID or username of your user."
-msgstr "S'il vous plaît sélectionner et entrer l'idantifiant ou le nom d'utilisateur de votre utilisateur."
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:63
 #: modules/custom-redirects/custom_redirects_admin.php:93
 #: modules/custom-redirects/custom_redirects_admin.php:112
 #: modules/custom-redirects/custom_redirects_admin.php:131
 msgid "Redirect Type"
-msgstr "Type de redirection"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:64
 #: modules/custom-redirects/custom_redirects_admin.php:94
 #: modules/custom-redirects/custom_redirects_admin.php:113
 #: modules/custom-redirects/custom_redirects_admin.php:138
 msgid "Redirect URL"
-msgstr "Rediriger l'URL"
+msgstr "Átirányítási URL"
 
 #: modules/custom-redirects/custom_redirects_admin.php:64
 #: modules/custom-redirects/custom_redirects_admin.php:94
 #: modules/custom-redirects/custom_redirects_admin.php:113
 #: modules/custom-redirects/custom_redirects_admin.php:138
 msgid "Can contain the following dynamic tags:{{homeurl}}, {{siteurl}}, {{user_id}}, {{user_nicename}}, {{http_referer}}"
-msgstr "Peut contenir les balises dynamiques suivantes:{{homeurl}}, {{siteurl}}, {{user_id}}, {{user_nicename}}, {{http_referer}}"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:71
 #: modules/custom-redirects/custom_redirects_admin.php:241
 msgid "Individual User Redirects"
-msgstr "Redirections d'utilisateurs individuels"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:84
 msgid "... Choose"
-msgstr "Choisir"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:92
 msgid "Select a user role."
-msgstr "sélectionner un rôle d'utilisateur"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:101
 #: modules/custom-redirects/custom_redirects_admin.php:242
 msgid "User Role based Redirects"
-msgstr "Redirection basée sur le rôle de l'utilisateur"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:120
 #: modules/custom-redirects/custom_redirects_admin.php:243
 msgid "Global Redirects"
-msgstr "Redirection globale"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:133
 msgid "Login ( wp_login.php )"
-msgstr "Identification ( wp_login.php )"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:134
 msgid "Register ( wp-login.php?action=register )"
-msgstr "Enregistrement ( wp-login.php?action=register )"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:135
 msgid "Lost Password ( wp-login.php?action=lostpassword )"
-msgstr "Mot de passe perdu ( wp-login.php?action=lostpassword )"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:136
 msgid "Author Archive ( http://sitename.com/author/admin )"
-msgstr "Archive Auteur ( http://sitename.com/author/admin )"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:145
 msgid "Redirect Default WordPress Forms and Pages"
-msgstr "Rediriger formes et Pages WordPress par défaut"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:157
 msgid "How does this work?"
-msgstr "Comment cela marche-t-il?"
+msgstr "Hogy működik ez?"
 
 #: modules/custom-redirects/custom_redirects_admin.php:179
 msgid "<pre>User ID / Username</pre><pre>Redirect</pre><pre>URL</pre>"
-msgstr "<pre>Identification utilisateur / Nom d'utilisateur</pre><pre>Redirection</pre><pre>URL</pre>"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:193
 msgid "<pre>User Role</pre><pre>Redirect</pre><pre>URL</pre>"
-msgstr "<pre>Rôle de l'utilisateur</pre><pre>Redirection</pre><pre>URL</pre>"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:207
 #: modules/custom-redirects/custom_redirects_admin.php:221
 msgid "<pre>Redirect</pre><pre>URL</pre>"
-msgstr "<pre>Redirection</pre><pre>URL</pre>"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:236
 msgid "These redirects happen after a successful action, like registration or after a successful login."
-msgstr "Ces redirections se produisent après une action réussie, comme l'enregistrement ou après une connexion réussie."
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:238
 msgid "Which redirect happens depends on the following priority:"
-msgstr "Cette redirection dépend de la priorité suivante:"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:247
 msgid "Redirect Default WordPress forms and pages"
-msgstr "Redirection par défaut des formes et pages WordPress"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:248
 msgid "With these you can redirect various WordPress forms and pages to pages created with profile builder."
-msgstr "Avec ceux-ci, vous pouvez rediriger différentes formes et pages WordPress vers des pages créées avec profil builder."
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:250
 msgid "Available tags for dynamic URLs"
-msgstr "Balises disponibles pour les URL dynamiques"
+msgstr "Elérhető címkék dinamikus URL-ekhez"
 
 #: modules/custom-redirects/custom_redirects_admin.php:251
 msgid "You use the following tags in your URLs to redirect users to various pages."
-msgstr "Vous utilisez les balises suivantes dans vos URL pour rediriger les utilisateurs vers différentes pages."
+msgstr "A következő címkéket használod az URL-eidben a felhasználók átirányításához a különböző oldalakhoz."
 
 #: modules/custom-redirects/custom_redirects_admin.php:253
 msgid "generates a url of the current website homepage."
-msgstr "génère une URL de la page d'accueil du site actuel."
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:254
 msgid "in WordPress the <a target='_blank' href='https://codex.wordpress.org/Function_Reference/site_url'>site url</a> can be different then the home url"
-msgstr "dans WordPress l'<a target='_blank' href='https://codex.wordpress.org/Function_Reference/site_url'>URL du site</a> peut être différente de l'url principale"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:255
 msgid "the ID of the user"
-msgstr "l'identifiant de l'utilisateur"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:256
 msgid "the URL sanitized version of the username, the user nicename can be safely used in URLs since it can't contain special characters or spaces."
-msgstr "l'URL version aseptisée du nom d'utilisateur, le véritable nom utilisateur peut être utilisé en toute sécurité dans les URL, car il ne peut pas contenir des caractères spéciaux ou des espaces."
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:257
 msgid "the URL of the previously visited page"
-msgstr "l'URL de la page visitée précédemment"
+msgstr ""
 
 #: modules/custom-redirects/custom_redirects_admin.php:340
 #: modules/custom-redirects/custom_redirects_admin.php:346
 #: modules/custom-redirects/custom_redirects_admin.php:352
 msgid "You can't add duplicate redirects!"
-msgstr "Vous ne pouvez pas ajouter des redirections dupliqués!"
+msgstr ""
 
 #: admin/admin-functions.php:41
 msgid "Display name publicly as - only appears on the Edit Profile page!"
-msgstr "Affichage nom public comme - apparaissant uniquement sur la page de modification de profil!"
+msgstr "Név megjelenítése mint.. - csak a Profil szerkesztése oldalon jelenik meg."
 
 #: admin/basic-info.php:37
 msgid "Friction-less login using %s shortcode or a widget."
-msgstr "Connexion sans problème en utilisant %s un shortcode ou un widget."
+msgstr ""
 
 #: admin/basic-info.php:41
 msgid "Beautiful registration forms fully customizable using the %s shortcode."
-msgstr "Beaux formulaires d'inscription entièrement personnalisables en utilisant le shortcode %s."
+msgstr ""
 
 #: admin/basic-info.php:45
 msgid "Straight forward edit profile forms using %s shortcode."
-msgstr "Simple modification du profil en utilisant le shortcode %s."
+msgstr ""
 
 #: admin/basic-info.php:58
 msgid "Allow users to recover their password in the front-end using the %s."
-msgstr "Permet aux utilisateurs de récupérer leur mot de passe dans le front-end en utilisant le %s."
+msgstr ""
 
 #: admin/basic-info.php:140
 msgid "To create a page containing the users registered to this current site/blog, insert the following shortcode in a page of your chosing: %s."
-msgstr "Pour créer une page contenant les utilisateurs enregistrés à ce site/blog, insérer le shortcode suivant dans une page de votre choix: %s."
+msgstr ""
 
 #: admin/general-settings.php:118
 msgid "\"Admin Approval\" on User Role:"
-msgstr "\"Approbation Administrateur\" sur le rôle de l'utilisateur:"
+msgstr ""
 
 #: admin/general-settings.php:137
 msgid "Select on what user roles to activate Admin Approval."
-msgstr "Sélectionnez les rôles utilisateur pour activer l'approbation de l'administrateur."
+msgstr ""
 
 #: admin/manage-fields.php:131
 msgid "Display on PB forms"
-msgstr "Affichage sur les formes de PB"
+msgstr ""
 
 #: admin/manage-fields.php:131
 msgid "PB Login"
-msgstr "Connexion PB "
+msgstr ""
 
 #: admin/manage-fields.php:131
 msgid "PB Register"
-msgstr "Enregistrement PB"
+msgstr ""
 
 #: admin/manage-fields.php:131
 msgid "PB Recover Password"
-msgstr "Récupération Mot de passe PB"
+msgstr ""
 
 #: admin/manage-fields.php:131
 msgid "Select on which Profile Builder forms to display reCAPTCHA"
-msgstr "Sélectionner sur quelles formes Profil Builder, afficher reCAPTCHA"
+msgstr ""
 
 #: admin/manage-fields.php:132
 msgid "Display on default WP forms"
-msgstr "Afficher les formes WP par défaut"
+msgstr ""
 
 #: admin/manage-fields.php:132
 msgid "Default WP Login"
-msgstr "Connexion WP par défaut"
+msgstr ""
 
 #: admin/manage-fields.php:132
 msgid "Default WP Register"
-msgstr "Enregistrement WP par défaut"
+msgstr ""
 
 #: admin/manage-fields.php:132
 msgid "Default WP Recover Password"
-msgstr "Récupération mot de passe WP par défaut"
+msgstr ""
 
 #: admin/manage-fields.php:132
 msgid "Select on which default WP forms to display reCAPTCHA"
-msgstr "Sélectionner sur quelles formes WP par défaut, afficher reCAPTCHA"
+msgstr ""
 
 #: admin/manage-fields.php:138 admin/manage-fields.php:139
 #: admin/manage-fields.php:140
 msgid "Default option of the field"
-msgstr "Option par défaut du champ"
+msgstr "A mező alapértelmezett értéke"
 
 #: admin/manage-fields.php:279
 #: front-end/extra-fields/select-country/select-country.php:10
@@ -2674,15 +2674,15 @@ msgstr "Zimbabwe"
 
 #: admin/manage-fields.php:1216
 msgid "With Profile Builder Pro v2 you can display different fields in the registration and edit profile forms, using the Multiple Registration & Edit Profile Forms module."
-msgstr "Avec Profile Builder Pro v2, vous pouvez afficher différents champs dans les formulaires d'inscription et modifier les profils, en utilisant l'enregistrement multiple et Modifier le module Profil Forms."
+msgstr ""
 
 #: assets/misc/plugin-compatibilities.php:237
 msgid "Your account has to be confirmed by an administrator before you can log in."
-msgstr "Votre compte doit être confirmé par un administrateur avant de pouvoir vous connecter."
+msgstr "Az Ön fiókját egy jóvá kell hagynia adminisztrátornak, mielőtt beléphet."
 
 #: features/admin-approval/admin-approval.php:214
 msgid "Your account has been successfully created!"
-msgstr "Votre compte à été créé avec succès!"
+msgstr "Fiókja sikeresen létrehozva!"
 
 #: features/functions.php:678
 #: front-end/extra-fields/recaptcha/recaptcha.php:374
@@ -2690,185 +2690,185 @@ msgstr "Votre compte à été créé avec succès!"
 #: front-end/extra-fields/recaptcha/recaptcha.php:421
 #: front-end/extra-fields/recaptcha/recaptcha.php:458
 msgid "Please enter a (valid) reCAPTCHA value"
-msgstr "S'il vous plaît entrer une valeur reCAPTCHA (valide)"
+msgstr "Kérem adjon meg egy (valós) reCAPTCHA értéket"
 
 #: front-end/extra-fields/recaptcha/recaptcha.php:421
 msgid "Click the BACK button on your browser, and try again."
-msgstr "Cliquez sur le bouton BACK de votre navigateur, et essayez à nouveau."
+msgstr "Kattintson a VISSZA gombra a böngészőjében, és próbálja újra."
 
 #: front-end/extra-fields/upload/upload_helper_functions.php:78
 #: front-end/extra-fields/upload/upload_helper_functions.php:87
 msgid "Sorry, you cannot upload this file type for this field."
-msgstr "Désolé, vous ne pouvez pas télécharger ce type de fichier pour ce champ."
+msgstr "Sajnáljuk, ilyen fájl típust nem tölthet fel ebbe a mezőbe."
 
 #: front-end/extra-fields/upload/upload_helper_functions.php:94
 msgid "An error occurred, please try again later."
-msgstr "Une erreur est survenue, s'il vous plaît réessayer plus tard."
+msgstr "Valami hiba történt, kérem, próbálja meg később."
 
 #: modules/user-listing/userlisting.php:282
 msgid "More"
-msgstr "Plus"
+msgstr "Több"
 
 #: modules/user-listing/userlisting.php:376
 msgid "You do not have permission to view this user list."
-msgstr "Vous n'êtes pas autorisé à voir cette liste d'utilisateurs."
+msgstr "Önnek nincs joga a felhasználói lista megtekintésére."
 
 #: modules/user-listing/userlisting.php:389
 msgid "You do not have the required user role to view this user list."
-msgstr "Vous n'êtes pas autorisé à voir cette liste d'utilisateurs."
+msgstr "Önnek nincs meg a megfelelő jogosultsága ahhoz, hogy ezt a felhasználólistát megnyissa."
 
 #: modules/user-listing/userlisting.php:2186
 msgid "Ascending"
-msgstr "Ascendant"
+msgstr "Növekvő"
 
 #: modules/user-listing/userlisting.php:2187
 msgid "Descending"
-msgstr "Descendant"
+msgstr "Csökkenő"
 
 #: admin/add-ons.php:148 admin/add-ons.php:248
 #: admin/pms-cross-promotion.php:134 admin/pms-cross-promotion.php:213
 msgid "Download Now"
-msgstr "Téléchargez maintenant"
+msgstr "Letöltés most"
 
 #: admin/admin-functions.php:200
 msgid "If you enjoy using <strong> %1$s </strong> please <a href=\"%2$s\" target=\"_blank\">rate us on WordPress.org</a>. More happy users means more features, less bugs and better support for everyone. "
-msgstr "Si vous aimez utiliser <strong> %1$s </strong> veuillez <a href=\"%2$s\" target=\"_blank\">  nous évaluer sur WordPress.org</a>. Plus d'utilisateurs heureux résulte en plus de fonctionnalités, moins de bogues et un meilleur support pour tous."
+msgstr ""
 
 #: admin/manage-fields.php:80
 msgid "Choose one of the supported field types"
-msgstr "Choisir un des champs supporté"
+msgstr "Válassz egyet a támogatott mező formátumokból"
 
 #: admin/manage-fields.php:82
 msgid ". Extra Field Types are available in <a href=\"%s\">Hobbyist or PRO versions</a>."
-msgstr "Des champs additionnels sont disponibles dans <a href=\"%s\">les versions Hobbyist et PRO </a>."
+msgstr ""
 
 #: admin/manage-fields.php:129
 msgid "Site Key"
-msgstr "Clé pour site"
+msgstr ""
 
 #: admin/manage-fields.php:129
 msgid "The site key from Google, <a href=\"http://www.google.com/recaptcha\" target=\"_blank\">www.google.com/recaptcha</a>"
-msgstr "La clé du site donné par Google est <a href=\"http://www.google.com/recaptcha\" target=\"_blank\">www.google.com/recaptcha</a>"
+msgstr ""
 
 #: admin/manage-fields.php:130
 msgid "Secret Key"
-msgstr "Clé secrète"
+msgstr ""
 
 #: admin/manage-fields.php:130
 msgid "The secret key from Google, <a href=\"http://www.google.com/recaptcha\" target=\"_blank\">www.google.com/recaptcha</a>"
-msgstr "La clé secrète de Google, <a href=\"http://www.google.com/recaptcha\" target=\"_blank\">www.google.com/recaptcha</a>"
+msgstr ""
 
 #: admin/manage-fields.php:1020
 msgid "You must enter the site key\n"
-msgstr "Vous devez saisir la clé du site.\n"
+msgstr ""
 
 #: admin/manage-fields.php:1022
 msgid "You must enter the secret key\n"
-msgstr "Vous devez entrer la clé secrète\n"
+msgstr ""
 
 #: admin/add-ons.php:10 admin/add-ons.php:32
 msgid "Add-Ons"
-msgstr "Add-ons"
+msgstr "Bővítmények"
 
 #: admin/add-ons.php:34 admin/add-ons.php:129 admin/add-ons.php:231
 #: admin/pms-cross-promotion.php:78 admin/pms-cross-promotion.php:114
 #: admin/pms-cross-promotion.php:193
 msgid "Activate"
-msgstr "Activer"
+msgstr "Aktivál"
 
 #: admin/add-ons.php:36 admin/pms-cross-promotion.php:80
 msgid "Downloading and installing..."
-msgstr "Téléchargement et Installation en cours…"
+msgstr "Letöltés és telepítés"
 
 #: admin/add-ons.php:37 admin/pms-cross-promotion.php:81
 msgid "Installation complete"
-msgstr "Installation terminée"
+msgstr "Telepítés kész"
 
 #: admin/add-ons.php:39
 msgid "Add-On is Active"
-msgstr "Add-On est active."
+msgstr ""
 
 #: admin/add-ons.php:40
 msgid "Add-On has been activated"
-msgstr "Add-On a été activé."
+msgstr ""
 
 #: admin/add-ons.php:41 admin/pms-cross-promotion.php:85
 msgid "Retry Install"
-msgstr "Ré-essayer l'installation"
+msgstr "Telepítés megismétlése"
 
 #: admin/add-ons.php:43 admin/add-ons.php:140
 msgid "Add-On is <strong>active</strong>"
-msgstr "Add-On est <strong>active</strong>. "
+msgstr ""
 
 #: admin/add-ons.php:44 admin/add-ons.php:138
 msgid "Add-On is <strong>inactive</strong>"
-msgstr "Add-On est <strong>inactive</strong>"
+msgstr ""
 
 #: admin/add-ons.php:46 admin/add-ons.php:133 admin/add-ons.php:235
 #: admin/pms-cross-promotion.php:90 admin/pms-cross-promotion.php:118
 #: admin/pms-cross-promotion.php:197
 msgid "Deactivate"
-msgstr "Désactiver"
+msgstr "Kikapcsol"
 
 #: admin/add-ons.php:47
 msgid "Add-On has been deactivated."
-msgstr "Les Add-On ont été désactivés"
+msgstr ""
 
 #: admin/add-ons.php:59
 msgid "Something went wrong, we could not connect to the server. Please try again later."
-msgstr "Problème de connection au serveur. Merci de réessayer plus tard."
+msgstr "Hiba történt és nem tudtunk csatlakozni a szerverhez. Kérjük, próbáld újra később."
 
 #: admin/pms-cross-promotion.php:137 admin/pms-cross-promotion.php:216
 msgid "Install Now"
-msgstr "Installer maintenant"
+msgstr "Telepítés most"
 
 #: admin/add-ons.php:153 admin/add-ons.php:251
 #: admin/pms-cross-promotion.php:141 admin/pms-cross-promotion.php:220
 msgid "Compatible with your version of Profile Builder."
-msgstr "Compatible avec votre version de Profile Builder"
+msgstr "Kompatibilis a te Profile Builder verzióddal."
 
 #: admin/add-ons.php:162
 msgid "Upgrade Profile Builder"
-msgstr "Mettre à jour Profile Builder"
+msgstr "Profile Builder frissítése"
 
 #: admin/add-ons.php:163
 msgid "Not compatible with Profile Builder"
-msgstr "Non compatible avec Profile Builder."
+msgstr "Nem kompatibilis a Profile Builder-rel"
 
 #: admin/add-ons.php:171
 msgid "Not compatible with your version of Profile Builder."
-msgstr "Incompatible avec votre version de Profile Builder"
+msgstr "Nem kompatibilis a te Profile Builder verzióddal."
 
 #: admin/add-ons.php:172
 msgid "Minimum required Profile Builder version:"
-msgstr "Version minimum de Profil Builder requise :"
+msgstr "A minimálisan elvárt Profile Builder verzió:"
 
 #: admin/add-ons.php:177
 msgid "Could not install add-on. Retry or <a href=\"%s\" target=\"_blank\">install manually</a>."
-msgstr "Impossible d'installer l'add-on. Réessayer ou<a href=\"%s\" target=\"_blank\">installer le manuellement</a>."
+msgstr ""
 
 #: front-end/default-fields/email/email.php:51
 msgid "You must enter a valid email address."
-msgstr "Vous devez entrer une adresse mail valide."
+msgstr "Érvényes e-mail címet kell megadnod."
 
 #: front-end/default-fields/username/username.php:52
 #: front-end/default-fields/username/username.php:60
 msgid "This username is invalid because it uses illegal characters."
-msgstr "Ce nom d'utilisateur est invalide parce qu'elle utilise des caractères illégaux."
+msgstr "Ez a felhasználónév érvénytelen, mert nem megengedett karaktereket használ."
 
 #: front-end/default-fields/username/username.php:52
 #: front-end/default-fields/username/username.php:60
 msgid "Please enter a valid username."
-msgstr "Merci d'entrer un nom d'utilisateur valide."
+msgstr "Kérjük, adj meg egy érvényes felhasználónevet."
 
 #: front-end/extra-fields/user-role/user-role.php:72
 #: front-end/extra-fields/user-role/user-role.php:85
 msgid "Only administrators can see this field on edit profile forms."
-msgstr "Seuls les administrateurs peuvent voir ce domaine sur les formes modifier de profil."
+msgstr "Csak az adminisztrátorok láthatják ezt a mezőt a profilszerkesztő űrlapon."
 
 #: front-end/extra-fields/user-role/user-role.php:81
 msgid "As an administrator you cannot change your role."
-msgstr "Comme administrateur, vous ne pouvez pas changer votre rôle."
+msgstr "Mint adminisztrátor, Ön nem módosíthatja saját jogosultságát."
 
 #: modules/email-customizer/admin-email-customizer.php:117
 msgid ""
@@ -2876,24 +2876,25 @@ msgid ""
 "<p>{{username}} has requested a password change via the password reset feature.</p>\n"
 "<p>His/her new password is: {{password}}</p>\n"
 msgstr ""
-"<p>{{username}}  demandé un changement de mot de passe via la fonction de réinitialisation de mot de passe.</p>\n"
-"<p>Son nouveau mot de passe est: {{password}}</p>\n"
+"\n"
+"<p>{{username}} új jelszót igényelt a jelszó újraigénylő funkcióval.</p>\n"
+"<p>Az új jelszó: {{password}}</p>\n"
 
 #: modules/email-customizer/admin-email-customizer.php:141
 msgid "Admin Notification for User Password Reset"
-msgstr "Autorisation Administrateur pour faire une réinitialisation du mot de passe utilisateur"
+msgstr ""
 
 #: modules/email-customizer/email-customizer.php:46
 msgid "Reset Key"
-msgstr "Touche de réinitialisation"
+msgstr ""
 
 #: modules/email-customizer/email-customizer.php:47
 msgid "Reset Url"
-msgstr "Réinitialisation Url"
+msgstr ""
 
 #: modules/email-customizer/email-customizer.php:48
 msgid "Reset Link"
-msgstr "Lien de réinitialisation "
+msgstr ""
 
 #: modules/email-customizer/user-email-customizer.php:204
 msgid ""
@@ -2904,21 +2905,20 @@ msgid ""
 "<p>To reset your password, visit the following address:<br/>\n"
 "{{{reset_link}}}</p>\n"
 msgstr ""
-"<p>Quelqu'un a demandé que le mot de passe soit réinitialisé pour le compte suivant: {{site_name}}<br/>\n"
-"Nom utilisateur: {{username}}</p>\n"
-"<p>Si c'est une erreur, ignorez cet Email et rien ne se produira.</p>\n"
-"<p>Pour réinitialiser votre mot de passe visitez l'adresse suivante:<br/>\n"
+"\n"
+"<p>Új jelszóigénylés érkezett a következő fiókra: {{site_name}}<br/>\n"
+"Felhasználónév: {{username}}</p>\n"
+"<p>Ha ez véletlen történt, nyugodtan hagyd figyelmen kívül ezt a levelet és semmi sem fog történni.</p>\n"
+"<p>Az új jelszó igényléséhez látogasd meg a következő címet:<br/>\n"
 "{{{reset_link}}}</p>\n"
-"\n"
-"\n"
 
 #: modules/email-customizer/user-email-customizer.php:218
 msgid "[{{site_name}}] Password Reset"
-msgstr "[{{site_name}}] Réinitialisation Mot de passe"
+msgstr "[{{site_name}}] Új jelszó beállítása"
 
 #: modules/email-customizer/user-email-customizer.php:229
 msgid "Password Reset Email"
-msgstr "Email de Réinitialisation Mot de passe"
+msgstr "Új jelszó igénylő e-mail"
 
 #: modules/email-customizer/user-email-customizer.php:235
 msgid ""
@@ -2926,189 +2926,189 @@ msgid ""
 "<p>You have successfully reset your password to: {{password}}</p>\n"
 msgstr ""
 "\n"
-"<p>Votre mot de passe à été réinitialisé avec succès pour: {{password}}</p>\n"
+"<p>Sikeresen megváltoztattad a jelszavadat a következőre: {{password}}</p>\n"
 
 #: modules/email-customizer/user-email-customizer.php:245
 msgid "[{{site_name}}] Password Reset Successfully"
-msgstr "[{{site_name}}] Mot de passe réinitialisé avec succès"
+msgstr "[{{site_name}}] Új jelszó sikeresen beállítva"
 
 #: modules/email-customizer/user-email-customizer.php:256
 msgid "Password Reset Success Email"
-msgstr "Email de Mot de passe réinitialisé avec succès"
+msgstr "Új jelszó sikeresen beállítva e-mail"
 
 #: modules/user-listing/userlisting.php:159
 msgid "User Nicename"
-msgstr "Pseudo utilisateur"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:499
 msgid "None"
-msgstr "Aucun"
+msgstr "Nincs"
 
 #: admin/admin-functions.php:132
 msgid "<strong>ERROR</strong>: The password must have the minimum length of %s characters"
-msgstr "<strong>ERREUR</strong>: Le mot de passe doit avoir au minimum %s caractères"
+msgstr "<strong>HIBA</strong>: A jelszónak minimum %s karakteresnek kell lennie"
 
 #: admin/admin-functions.php:148
 msgid "<strong>ERROR</strong>: The password must have a minimum strength of %s"
-msgstr "<strong>ERREUR</strong>: Le mot de passe doit avoir une force minimum de %s"
+msgstr "<strong>HIBA</strong>: A jelszónak minimum %s erősnek kell lennie"
 
 #: admin/general-settings.php:163
 msgid "Username and Email"
-msgstr "Nom utilisateur et Email"
+msgstr "Felhasználónév és Email"
 
 #: admin/general-settings.php:168
 msgid "\"Username and Email\" - users can Log In with both Username and Email."
-msgstr "«Nom d'utilisateur et E-mail\" - les utilisateurs peuvent s'identifier à la fois avec le Nom d'utilisateur et l'E-mail."
+msgstr "\"Felhasználónév és Email\". a belépéshez a felhasználónevét és email címét is használhatja."
 
 #: admin/general-settings.php:169
 msgid "\"Username\" - users can Log In only with Username."
-msgstr "\"Nom utilisateur\" - les utilisateurs peuvent se connecter uniquement avec leur Nom d'utilisateur."
+msgstr "\"Felhasználónév\" . csak a felhasználónevet használhatja belépéshez."
 
 #: admin/general-settings.php:170
 msgid "\"Email\" - users can Log In only with Email."
-msgstr "\"E-mail\" - les utilisateurs peuvent se connecter uniquement avec leur E-mail."
+msgstr "\"Email\" . csak az email címét használhatja belépéshez."
 
 #: admin/manage-fields.php:122
 msgid "Specify the extension(s) you want to limit to upload<br/>Example: .ext1,.ext2,.ext3<br/>If not specified, defaults to: .jpg,.jpeg,.gif,.png (.*)"
-msgstr "Spécifiez l'extension(s) que vous souhaitez limiter en téléchargement<br/>Example: .ext1,.ext2,.ext3<br/>Si non spécifié, par défaut les extensions suivantes: .jpg,.jpeg,.gif,.png (.*)"
+msgstr "Határozza meg a fájlkiterjesztés(eke)t, amiket a felhasználó feltöltéskor használhat<br/>Például: .ext1,.ext2,.ext3<br/>alapbeállítás (beállítás nélkül): .jpg,.jpeg,.gif,.png (.*)"
 
 #: admin/manage-fields.php:123
 msgid "Specify the extension(s) you want to limit to upload<br/>Example: .ext1,.ext2,.ext3<br/>If not specified, defaults to all WordPress allowed file extensions (.*)"
-msgstr "Spécifiez l'extension(s) que vous souhaitez limiter au téléchargement <br/> Exemple: .ext1, .ext2, .ext3 <br/> Si non spécifié,  toutes les extensions de fichiers WordPress sont autorisées par défaut(.*)"
+msgstr "Határozza meg a fájlkiterjesztés(eke)t, amiket a felhasználó feltöltéskor használhat<br/>Például: .ext1,.ext2,.ext3<br/>(beállítás nélkül): .a WordPress által engedélyezettek (.*)"
 
 #: admin/manage-fields.php:133
 msgid "User Roles"
-msgstr "Rôles de l'utilisateur"
+msgstr "Felhasználói engedélyek"
 
 #: admin/manage-fields.php:133
 msgid "Select which user roles to show to the user ( drag and drop to re-order )"
-msgstr "Sélectionnez quels rôles utilisateur à montrer à l'utilisateur (glisser-déposer pour réorganiser)"
+msgstr "Válaszd ki, hogy a felhasználók mihez férhetnek hozzá (húzd és vidd a módosításhoz)"
 
 #: admin/manage-fields.php:134
 msgid "User Roles Order"
-msgstr "Ordre des Rôles utilisateur "
+msgstr "Felhasználói engedélyek rendezése"
 
 #: admin/manage-fields.php:134
 msgid "Save the user role order from the user roles checkboxes"
-msgstr "Enregistrer l'ordre des rôles d'utilisateurs à partir des cases à cocher"
+msgstr ""
 
 #: admin/manage-fields.php:1125
 msgid "Please select at least one user role\n"
-msgstr "S'il vous plaît sélectionner au moins un rôle utilisateur \n"
+msgstr "Legalább egy engedélyt választani kell \n"
 
 #: admin/register-version.php:22
 msgid "Profile Builder Register"
-msgstr "Inscription Profil Builder"
+msgstr "Profile Builder Regisztráció"
 
 #: admin/register-version.php:81
 msgid "The serial number is about to expire soon!"
-msgstr "Le numéro de série est bientôt sur le point d'expirer!"
+msgstr "A széria szám hamarosan lejár!"
 
 #: admin/register-version.php:81
 msgid " Your serial number is about to expire, please %1$s Renew Your License%2$s."
-msgstr "Votre numéro de série est sur le point d'expirer, s'il vous plaît %1$s Renouvelez votre licence %2$s."
+msgstr "Sorozatszáma hamarosan lejár, kérem %1$s Újítsa meg Licenszét%2$s. "
 
 #: admin/register-version.php:83
 msgid " Your serial number is expired, please %1$s Renew Your License%2$s."
-msgstr "Votre numéro de série est expiré, s'il vous plaît %1$s Renouvelez votre licence %2$s."
+msgstr "Sorozatszáma lejárt, kérem %1$s Újítsa meg Licenszét%2$s."
 
 #: assets/lib/wck-api/wordpress-creation-kit.php:334
 msgid "Add Entry"
-msgstr "Ajouter une entrée"
+msgstr "Bejegyzés hozzáadása"
 
 #: features/email-confirmation/class-email-confirmation.php:91
 msgid "show"
-msgstr "Montrer"
+msgstr "Megmutat"
 
 #: features/functions.php:736
 msgid "To allow users to register for your website via Profile Builder, you first must enable user registration. Go to %1$sNetwork Settings%2$s, and under Registration Settings make sure to check “User accounts may be registered”. %3$sDismiss%4$s"
-msgstr "Pour permettre aux utilisateurs de s'enregistrer sur votre site via Profile Builder, vous devez d'abord activer l'enregistrement des utilisateurs. Aller à %1$s Paramètres Network %2$s, et sous Paramètres d'enregistrement assurez-vous de vérifier \"Les comptes utilisateur peuvent être enregistrés». %3$s Renvoyer %4$s"
+msgstr ""
 
 #: front-end/class-formbuilder.php:643
 msgid "User to edit:"
-msgstr "Pour modification utilisateur :"
+msgstr "Szerkesztendő felhasználó:"
 
 #: front-end/default-fields/password/password.php:46 front-end/recover.php:254
 msgid "The password must have the minimum length of %s characters"
-msgstr "Le mot de passe doit avoir une longueur minimale de %s caractères"
+msgstr "A jelszónak minimum %s karakter hosszúnak kell lennie"
 
 #: front-end/default-fields/password/password.php:50 front-end/recover.php:258
 msgid "The password must have a minimum strength of %s"
-msgstr "Le mot de passe doit avoir une résistance minimale de %s"
+msgstr "A jelszónak minimum %s erősnek kell lennie"
 
 #: front-end/extra-fields/user-role/user-role.php:118
 msgid "You cannot register this user role"
-msgstr "Vous ne pouvez pas enregistrer ce rôle d'utilisateur"
+msgstr "Nem regisztrálhatsz ilyen felhasználóként"
 
 #: front-end/login.php:153
 msgid "username or email"
-msgstr "Pseudo ou Email"
+msgstr "felhasználónév vagy email"
 
 #: front-end/login.php:222
 msgid "Username or Email"
-msgstr "Pseudo ou Email"
+msgstr "Felhasználónév vagy Email"
 
 #: front-end/logout.php:15
 msgid "You are currently logged in as %s. "
-msgstr "Vous êtes actuellement connecté en tant que %s."
+msgstr "Jelenleg bejelentkezve mint %s."
 
 #: front-end/logout.php:15
 msgid "Log out &raquo;"
-msgstr "Déconnexion &raquo;"
+msgstr "Kijelentkezés &raquo;"
 
 #: modules/custom-redirects/custom_redirects_admin.php:92
 #: modules/email-customizer/email-customizer.php:31
 msgid "User Role"
-msgstr "Rôle utilisateur"
+msgstr "Felhasználói engedély"
 
 #: modules/user-listing/userlisting.php:2100
 msgid "View all extra shortcode parameters"
-msgstr "Voir tous les paramètres des shortcodes supplémentaires"
+msgstr "Minden extra shortcode paraméter mutatása"
 
 #: modules/user-listing/userlisting.php:2114
 msgid "displays only the users that you specified the user_id for"
-msgstr "affiche uniquement les utilisateurs dont vous avez spécifié l'ID utilisateur"
+msgstr "csak azon felhasználók megjelenítése akik a user_id"
 
 #: modules/user-listing/userlisting.php:2120
 msgid "displays all users except the ones you specified the user_id for"
-msgstr "affiche tous les utilisateurs, sauf ceux dont vous avez spécifié l'ID"
+msgstr "csak azon felhasználók mutatása akiknél nem szerepel a user_id"
 
 #: features/functions.php:566
 msgid "Minimum length of %d characters"
-msgstr "Longueur minimale de %d caractères"
+msgstr "Minimum %d karakter hosszú"
 
 #: front-end/class-formbuilder.php:135 front-end/class-formbuilder.php:138
 msgid "This message is only visible by administrators"
-msgstr "Ce message n'est visible que par les administrateurs."
+msgstr "Ez az üzenet csak az adminisztrátorok számára látható"
 
 #: modules/user-listing/userlisting.php:413
 msgid "User not found"
-msgstr "Utilisateur introuvable."
+msgstr "Felhasználó nem található"
 
 #: modules/email-customizer/admin-email-customizer.php:38
 #: modules/email-customizer/user-email-customizer.php:38
 msgid "Valid tags {{reply_to}} and {{site_name}}"
-msgstr "Tags valides {{reply_to}} et {{site_name}}"
+msgstr ""
 
 #: admin/admin-bar.php:48
 msgid "Choose which user roles view the admin bar in the front-end of the website."
-msgstr "Choisir quels rôles-utilisateurs peuvent voir la barre administration sur l'interface client du site web."
+msgstr "Válaszd ki melyik felhasználói szerepkörök láthatják az admin bar-t a weboldalon front-end."
 
 #: admin/manage-fields.php:127
 msgid "Enter a comma separated list of values<br/>This can be anything, as it is hidden from the user, but should not contain special characters or apostrophes"
-msgstr "Entrez une liste de valeurs séparées par une virgule.<br/>Cela peut être n'importe quoi, puisque c'est masqué pour l'utilisateur, mais ça ne devrait pas contenir de caractères spéciaux ni d'apostrophes."
+msgstr ""
 
 #: admin/manage-fields.php:1052
 msgid "The meta-name cannot be empty\n"
-msgstr "Le méta-nom ne peut pas être vide\n"
+msgstr ""
 
 #: admin/register-version.php:69
 msgid "Now that you acquired a copy of %s, you should take the time and register it with the serial number you received"
-msgstr "Maintenant que vous possédez une copie de %s, vous devriez prendre le temps de l'enregistrer avec le numéro de série que vous avez reçu."
+msgstr ""
 
 #: admin/register-version.php:243
 msgid "<p>Your <strong>Profile Builder</strong> serial number is invalid or missing. <br/>Please %1$sregister your copy%2$s to receive access to automatic updates and support. Need a license key? %3$sPurchase one now%4$s</p>"
-msgstr "<p>Votre numéro de série de <strong>Profile Builder</strong> est invalide ou manquant. <br/>Merci d' %1$s enregistrer votre copie%2$s pour recevoir automatiquement mises à jour et supports. Besoin d'une licence ? %3$sAchetez la maintenant%4$s</p>"
+msgstr ""
 
 #: assets/lib/wck-api/fields/country select.php:14
 #: assets/lib/wck-api/fields/cpt select.php:17
@@ -3116,37 +3116,37 @@ msgstr "<p>Votre numéro de série de <strong>Profile Builder</strong> est inval
 #: select.php:15 front-end/extra-fields/select-cpt/select-cpt.php:36
 #: front-end/extra-fields/select-cpt/select-cpt.php:60
 msgid "...Choose"
-msgstr "...Choisir"
+msgstr "... Válassz"
 
 #: features/class-list-table.php:526 features/class-list-table.php:942
 msgid "1 item"
 msgid_plural "%s items"
-msgstr[0] "1 élément"
+msgstr[0] "1 elem"
 msgstr[1] ""
 
 #: features/functions.php:552
 msgid "Very Weak"
-msgstr "Très faible"
+msgstr "Nagyon Gyenge"
 
 #: features/functions.php:640
 msgid "This field is required"
-msgstr "Ce champ est obligatoire"
+msgstr "Ez kötelező mező!"
 
 #: features/functions.php:704
 msgid "Cancel"
-msgstr "Annuler"
+msgstr "Mégsem"
 
 #: features/functions.php:740
 msgid "To allow users to register for your website via Profile Builder, you first must enable user registration. Go to %1$sSettings -> General%2$s tab, and under Membership make sure to check “Anyone can register”. %3$sDismiss%4$s"
-msgstr "Pour autoriser les utilisateurs de s'inscrire sur le site via Profile Builder, vous devez permettre l'enregistrement des utilisateurs. Allez à  %1$sSettings -> General%2$s  et cocher la case \" Tout le monde peut s'enregistrer\". %3$sEffacer%4$s"
+msgstr ""
 
 #: front-end/login.php:144
 msgid "Invalid username."
-msgstr "Nom d'utilisateur non-valide."
+msgstr "Nem megfelelő felhasználónév"
 
 #: front-end/login.php:149 front-end/login.php:153
 msgid "username"
-msgstr "nom d'utilisateur"
+msgstr "felhasználónév"
 
 #: front-end/login.php:149
 msgid "email"
@@ -3154,16 +3154,16 @@ msgstr "email"
 
 #: front-end/login.php:256
 msgid "Lost your password?"
-msgstr "Mot de passe perdu?"
+msgstr "Elfelejtette a jelszavát?"
 
 #: index.php:34
 msgid " is also activated. You need to deactivate it before activating this version of the plugin."
-msgstr "est aussi activé. Vous devez le désactiver avec d'activer cette version de l'extension."
+msgstr "már aktiválva. Deaktiváld mielőtt aktiválod a plugin ezen verzióját."
 
 #: modules/email-customizer/admin-email-customizer.php:54
 #: modules/email-customizer/user-email-customizer.php:54
 msgid "Must be a valid email address or the tag {{reply_to}} which defaults to the administrator email"
-msgstr "Ce doit être une adresse Mail valide ou bien le tag {{reply_to}} par défaut de l'adresse Mail de l'administrateur."
+msgstr ""
 
 #: features/email-confirmation/email-confirmation.php:573
 #: features/email-confirmation/email-confirmation.php:582
@@ -3171,111 +3171,111 @@ msgstr "Ce doit être une adresse Mail valide ou bien le tag {{reply_to}} par d�
 #: modules/email-customizer/email-customizer.php:494
 #: modules/email-customizer/email-customizer.php:508
 msgid "Your selected password at signup"
-msgstr "Votre mot de passe sélectionné lors de l'inscription"
+msgstr "A regisztrációkor választott jelszavad"
 
 #: modules/email-customizer/user-email-customizer.php:38
 msgid "These settings are also replicated in the \"Admin Email Customizer\" settings-page upon save."
-msgstr "Ces réglages sont également sauvegardés dans la page des réglages de \"Customisation du Mail de l'Administrateur\"."
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:274
 msgid "This form is empty."
-msgstr "Ce formulaire est vide."
+msgstr "Az űrlap üres."
 
 #: modules/multiple-forms/multiple-forms.php:406
 msgid "Delete all items"
-msgstr "Supprimer tous les éléments"
+msgstr "Minden elem törlése"
 
 #: modules/multiple-forms/multiple-forms.php:406
 msgid "Delete all"
-msgstr "Tout supprimer"
+msgstr "Mindent töröl"
 
 #: modules/user-listing/userlisting.php:1592
 msgid "Choose..."
-msgstr "Choisir..."
+msgstr "Válassz ..."
 
 #: modules/user-listing/userlisting.php:2196
 msgid "Set the number of users to be displayed on every paginated part of the all-userlisting"
-msgstr "Préciser le nombre d'utilisateurs à afficher sur chaque page de la liste des utilisateurs."
+msgstr "Válaszd ki az egy oldalon megjeleníthető felhasználók számát"
 
 #: admin/admin-bar.php:10
 msgid "Show/Hide the Admin Bar on the Front-End"
-msgstr "Afficher/masquer la barre Administration sur l'interface client"
+msgstr "Mutat/elrejt az Admin Bar a Front-end-en"
 
 #: admin/admin-bar.php:10 admin/admin-bar.php:47
 msgid "Admin Bar Settings"
-msgstr "Paramètres de la barre Administration"
+msgstr "Admin Bar beállítások"
 
 #: admin/admin-bar.php:57
 msgid "User-Role"
-msgstr "Rôle-Utilisateur"
+msgstr "Felhasználói-szerepek"
 
 #: admin/admin-bar.php:58
 msgid "Visibility"
-msgstr "Visibilité"
+msgstr "Láthatóság"
 
 #: admin/admin-bar.php:73 modules/multiple-forms/edit-profile-forms.php:206
 #: modules/multiple-forms/register-forms.php:230
 msgid "Default"
-msgstr "Par défaut"
+msgstr "Alapértelmezett"
 
 #: admin/admin-bar.php:74
 msgid "Show"
-msgstr "Afficher"
+msgstr "Mutat"
 
 #: admin/admin-bar.php:75 modules/user-listing/userlisting.php:1537
 msgid "Hide"
-msgstr "Masquer"
+msgstr "Elrejt"
 
 #: admin/admin-bar.php:86 admin/general-settings.php:208
 #: admin/register-version.php:95 features/functions.php:697
 #: modules/modules.php:127
 msgid "Save Changes"
-msgstr "Enregistrer les modifications"
+msgstr "Változások mentése"
 
 #: admin/admin-functions.php:37
 msgid "Login is set to be done using the E-mail. This field will NOT appear in the front-end! ( you can change these settings under the \"%s\" tab )"
-msgstr "La connexion se fera avec votre adresse de messagerie. Ce champ n'apparaîtra PAS sur l'interface client ! ( vous pouvez changer ces paramètres dans l'onglet \"%s\" )"
+msgstr ""
 
 #: admin/admin-functions.php:37 admin/general-settings.php:10
 #: admin/general-settings.php:38
 msgid "General Settings"
-msgstr "Paramètres Généraux"
+msgstr "Általános beállítások"
 
 #: admin/admin-functions.php:137 admin/general-settings.php:194
 msgid "Very weak"
-msgstr "Très faible"
+msgstr "Nagyon gyenge"
 
 #: admin/admin-functions.php:137 admin/general-settings.php:195
 #: features/functions.php:552
 msgid "Weak"
-msgstr "Faible"
+msgstr "Gyenge"
 
 #: admin/admin-functions.php:137 admin/general-settings.php:196
 #: features/functions.php:552
 msgid "Medium"
-msgstr "Moyen"
+msgstr "Közepes"
 
 #: admin/admin-functions.php:137 admin/general-settings.php:197
 #: features/functions.php:552
 msgid "Strong"
-msgstr "Fort"
+msgstr "Erős"
 
 #: admin/admin-functions.php:187
 msgid "Add Field"
-msgstr "Ajouter un Champ"
+msgstr "Mező hozzáadása"
 
 #: admin/admin-functions.php:189
 #: modules/class-mustache-templates/class-mustache-templates.php:390
 msgid "Save Settings"
-msgstr "Enregistrer les Paramètres"
+msgstr "Beállítások mentése"
 
 #: admin/basic-info.php:10
 msgid "Basic Information"
-msgstr "Informations de base"
+msgstr "Alap információ"
 
 #: admin/basic-info.php:29
 msgid "Version %s"
-msgstr "Version %s"
+msgstr ""
 
 #: admin/basic-info.php:30
 msgid "<strong>Profile Builder </strong>"
@@ -3283,151 +3283,151 @@ msgstr "<strong>Profile Builder </strong>"
 
 #: admin/basic-info.php:31
 msgid "The best way to add front-end registration, edit profile and login forms."
-msgstr "Le meilleur moyen d'ajouter une inscription via l'interface client, de modifier un profil et des formulaires de connexion."
+msgstr ""
 
 #: admin/basic-info.php:33
 msgid "For Modern User Interaction"
-msgstr "Pour une Interaction Utilisateur Moderne"
+msgstr ""
 
 #: admin/basic-info.php:36 features/login-widget/login-widget.php:59
 msgid "Login"
-msgstr "Identification"
+msgstr "Bejelentkezés"
 
 #: admin/basic-info.php:40
 msgid "Registration"
-msgstr "Inscription"
+msgstr "Regisztráció"
 
 #: admin/basic-info.php:44
 msgid "Edit Profile"
-msgstr "Modifier le Profil"
+msgstr "Profil szerkesztése"
 
 #: admin/basic-info.php:51
 msgid "Extra Features"
-msgstr "Fonctionnalités supplémentaires"
+msgstr "Extra funkciók"
 
 #: admin/basic-info.php:52
 msgid "Features that give you more control over your users, increased security and help you fight user registration spam."
-msgstr "Des fonctionnalités qui vous donnent plus de contrôle sur vos utilisateurs, une sécurité renforcée et qui vous aident à lutter contre le spam d'inscription d'utilisateurs."
+msgstr ""
 
 #: admin/basic-info.php:53
 msgid "Enable extra features"
-msgstr "Activer les fonctionnalités supplémentaires"
+msgstr ""
 
 #: admin/basic-info.php:57
 msgid "Recover Password"
-msgstr "Récupérer le Mot De Passe"
+msgstr "Jelszó helyreállítása"
 
 #: admin/basic-info.php:61
 msgid "Admin Approval (*)"
-msgstr "Approbation par l'Administrateur"
+msgstr ""
 
 #: admin/basic-info.php:62
 msgid "You decide who is a user on your website. Get notified via email or approve multiple users at once from the WordPress UI."
-msgstr "Vous décidez qui est un utilisateur sur votre site. Soyez informé par e-mail ou approuvez plusieurs utilisateurs d'un coup à partir de l'IU WordPress."
+msgstr ""
 
 #: admin/basic-info.php:65
 msgid "Email Confirmation"
-msgstr "Confirmation de l'adresse de messagerie"
+msgstr "E-mail megerősítés"
 
 #: admin/basic-info.php:66
 msgid "Make sure users sign up with genuine emails. On registration users will receive a notification to confirm their email address."
-msgstr "S'assurer que les utilisateurs s'incrivent avec des adresses de messagerie authentiques. Lors de l'inscription, un e-mail sera envoyé aux utilisateurs afin de confirmer leur adresse de messagerie."
+msgstr ""
 
 #: admin/basic-info.php:69
 msgid "Minimum Password Length and Strength Meter"
-msgstr "Longueur Minimale du Mot De Masse et Métrique de Sûreté"
+msgstr "Jelszó minimális hosszának és erősségének mérése"
 
 #: admin/basic-info.php:70
 msgid "Eliminate weak passwords altogether by setting a minimum password length and enforcing a certain password strength."
-msgstr "Eliminer les mots de passe trop faibles en imposant une longueur minimale et un niveau de sûreté minimum."
+msgstr ""
 
 #: admin/basic-info.php:73
 msgid "Login with Email or Username"
-msgstr "Se connecter avec une adresse de messagerie ou avec le nom d'utilisateur"
+msgstr "Bejelentkezés e-mail címmel vagy felhasználónévvel"
 
 #: admin/basic-info.php:74
 msgid "Allow users to log in with their email or username when accessing your site."
-msgstr "Autoriser les utilisateurs à se connecter avec leur adresse de messagerie ou leur nom d'utilisateur lorsqu'ils accèdent à votre site."
+msgstr ""
 
 #: admin/basic-info.php:87
 msgid "Customize Your Forms The Way You Want (*)"
-msgstr "Personnaliser Vos Formulaires Comme Vous Le Souhaitez (*)"
+msgstr ""
 
 #: admin/basic-info.php:88
 msgid "With Extra Profile Fields you can create the exact registration form your project needs."
-msgstr "Avec les champs supplémentaires de profil vous pouvez créer le formulaire exact d'inscription dont votre projet a besoin."
+msgstr ""
 
 #: admin/basic-info.php:90
 msgid "Extra Profile Fields are available in Hobbyist or PRO versions"
-msgstr "Les champs supplémentaires de profil sont disponibles dans les version Hobbyist ou PRO."
+msgstr ""
 
 #: admin/basic-info.php:92
 msgid "Get started with extra fields"
-msgstr "Bien commencer avec les champs supplémentaires"
+msgstr ""
 
 #: admin/basic-info.php:95
 msgid "Avatar Upload"
-msgstr "Téléchargement d'avatar"
+msgstr "Avatar feltöltése"
 
 #: admin/basic-info.php:96
 msgid "Generic Uploads"
-msgstr "Téléchargements Génériques"
+msgstr ""
 
 #: admin/basic-info.php:97
 msgid "Agree To Terms Checkbox"
-msgstr "Accepter les conditions par une case à cocher"
+msgstr "Szabályzat elfogadása checkdoboz"
 
 #: admin/basic-info.php:98
 msgid "Datepicker"
-msgstr "Outil de sélection de date"
+msgstr ""
 
 #: admin/basic-info.php:101
 msgid "reCAPTCHA"
-msgstr "reCAPTCHA"
+msgstr ""
 
 #: admin/basic-info.php:102
 msgid "Country Select"
-msgstr "Sélection du Pays"
+msgstr "Ország kiválasztása"
 
 #: admin/basic-info.php:104
 msgid "Timezone Select"
-msgstr "Sélection du Fuseau Horaire"
+msgstr "Időzóna kiválasztása"
 
 #: admin/basic-info.php:108
 msgid "Input / Hidden Input"
-msgstr "Entrée visible / Entrée cachée"
+msgstr ""
 
 #: admin/basic-info.php:110
 msgid "Checkbox"
-msgstr "Case à cocher"
+msgstr ""
 
 #: admin/basic-info.php:111
 msgid "Select"
-msgstr "Liste déroulante"
+msgstr "Választ"
 
 #: admin/basic-info.php:112
 msgid "Radio Buttons"
-msgstr "Boutons Radio"
+msgstr ""
 
 #: admin/basic-info.php:113
 msgid "Textarea"
-msgstr "Zone de Texte"
+msgstr ""
 
 #: admin/basic-info.php:125
 msgid "Powerful Modules (**)"
-msgstr "Des Modules Puissants (**)"
+msgstr ""
 
 #: admin/basic-info.php:126
 msgid "Everything you will need to manage your users is probably already available using the Pro Modules."
-msgstr "Tout ce dont vous aurez besoin pour gérer vos utilisateurs est probablement déjà disponible dans les Modules Pro."
+msgstr ""
 
 #: admin/basic-info.php:128
 msgid "Enable your modules"
-msgstr "Activer vos modules"
+msgstr ""
 
 #: admin/basic-info.php:131
 msgid "Find out more about PRO Modules"
-msgstr "Découvrez les Modules PRO"
+msgstr ""
 
 #: admin/basic-info.php:136 modules/modules.php:89
 #: modules/user-listing/userlisting.php:11
@@ -3435,58 +3435,58 @@ msgstr "Découvrez les Modules PRO"
 #: modules/user-listing/userlisting.php:17
 #: modules/user-listing/userlisting.php:23
 msgid "User Listing"
-msgstr "Listing d'utilisateurs"
+msgstr ""
 
 #: admin/basic-info.php:138
 msgid "Easy to edit templates for listing your website users as well as creating single user pages. Shortcode based, offering many options to customize your listings."
-msgstr "Facile pour modifier les modèles permettant de lister les utilisateurs de votre site web tout comme créer des formulaires pour un seul utilisateur. Basé sur des shortcodes, offrant de nombreuses options pour personnaliser vos listings."
+msgstr ""
 
 #: admin/basic-info.php:144
 msgid "Email Customizer"
-msgstr "Outil de personnalisation d'e-mails"
+msgstr "E-mail testreszabás"
 
 #: admin/basic-info.php:145
 msgid "Personalize all emails sent to your users or admins. On registration, email confirmation, admin approval / un-approval."
-msgstr "Personnalisez tous les e-mails envoyés à vos utilisateurs ou administrateurs. Au moment de l'inscription, de la confirmation de l'adresse de messagerie, de l'approbation / rejet par les administrateurs."
+msgstr ""
 
 #: admin/basic-info.php:148
 #: modules/custom-redirects/custom_redirects_admin.php:32
 #: modules/custom-redirects/custom_redirects_admin.php:33
 #: modules/modules.php:110
 msgid "Custom Redirects"
-msgstr "Redirections personnalisées"
+msgstr ""
 
 #: admin/basic-info.php:149
 msgid "Keep your users out of the WordPress dashboard, redirect them to the front-page after login or registration, everything is just a few clicks away."
-msgstr "Laissez vos utilisateurs hors du tableau de bord WordPress, redirigez-les sur la page d'accueil après qu'ils se sont identifiés ou inscrits, tout en quelques quelques clics."
+msgstr ""
 
 #: admin/basic-info.php:154 modules/modules.php:75
 msgid "Multiple Registration Forms"
-msgstr "Formulaires Multiples d'Inscription"
+msgstr ""
 
 #: admin/basic-info.php:155
 msgid "Set up multiple registration forms with different fields for certain user roles. Capture different information from different types of users."
-msgstr "Mettez en place des formulaires multiples d'inscription avec différents champs suivant les rôles utilisateur. Capturez des informations variées à partir de divers types d'utilisateurs."
+msgstr ""
 
 #: admin/basic-info.php:158 modules/modules.php:82
 msgid "Multiple Edit-profile Forms"
-msgstr "Formulaires Multiples de Modification de Profil"
+msgstr ""
 
 #: admin/basic-info.php:159
 msgid "Allow different user roles to edit their specific information. Set up multiple edit-profile forms with different fields for certain user roles."
-msgstr "Autorisez différents rôles-utilisateur à modifier les informations qui leur sont spécifiques. Mettez en place des formulaires multiples de modification de profil avec des champs différents suivant les rôles utilisateurs."
+msgstr ""
 
 #: admin/basic-info.php:187
 msgid " * only available in the %1$sHobbyist and Pro versions%2$s."
-msgstr "* disponible uniquement dans les versions %1$sHobbyist et Pro %2$s."
+msgstr "* csak a %1$sHobbyist és Pro verziókban%2$s elérhető."
 
 #: admin/basic-info.php:188
 msgid "** only available in the %1$sPro version%2$s."
-msgstr "** disponible uniquement dans la version %1$sPro %2$s."
+msgstr "** Csak a %1$sPro version%2$s tartalmazza."
 
 #: admin/general-settings.php:42
 msgid "Load Profile Builder's own CSS file in the front-end:"
-msgstr "Charge le fichier CSS de Profile Builder sur l'interface cliente:"
+msgstr ""
 
 #: admin/general-settings.php:45 admin/general-settings.php:58
 #: admin/general-settings.php:107
@@ -3495,58 +3495,58 @@ msgstr "Charge le fichier CSS de Profile Builder sur l'interface cliente:"
 #: modules/multiple-forms/register-forms.php:230
 #: modules/user-listing/userlisting.php:2201
 msgid "Yes"
-msgstr "Oui"
+msgstr "Igen"
 
 #: admin/general-settings.php:47
 msgid "You can find the default file here: %1$s"
-msgstr "Vous pouvez trouver le fichier par défaut ici: %1$s"
+msgstr ""
 
 #: admin/general-settings.php:54
 msgid "\"Email Confirmation\" Activated:"
-msgstr "\"Confirmation par e-mail\" Activée:"
+msgstr ""
 
 #: admin/general-settings.php:59 admin/general-settings.php:108
 #: modules/multiple-forms/edit-profile-forms.php:206
 #: modules/multiple-forms/register-forms.php:229
 #: modules/multiple-forms/register-forms.php:230
 msgid "No"
-msgstr "Non"
+msgstr "Nem"
 
 #: admin/general-settings.php:64
 msgid "You can find a list of unconfirmed email addresses %1$sUsers > All Users > Email Confirmation%2$s."
-msgstr "Vous pouvez trouver une liste d'adresses de messagerie non-confirmées sous %1$sUtilisateurs > Tous les Utilisateurs > Confirmation de l'adresse de messagerie %2$s."
+msgstr ""
 
 #: admin/general-settings.php:72
 msgid "\"Email Confirmation\" Landing Page:"
-msgstr "Page d'arrivée après \"Confirmation de l'adresse de messagerie\":"
+msgstr ""
 
 #: admin/general-settings.php:77
 msgid "Existing Pages"
-msgstr "Pages existantes"
+msgstr "Létező oldalak"
 
 #: admin/general-settings.php:92
 msgid "Specify the page where the users will be directed when confirming the email account. This page can differ from the register page(s) and can be changed at any time. If none selected, a simple confirmation page will be displayed for the user."
-msgstr "Spécifie la page vers laquelle les utilisateurs seront redirigés après avoir confirmé leur adresse de messagerie. Cette page peut être différente suivant la ou les page(s) d'inscription et peut être changée à n'importe quel moment. Si aucune n'est sélectionnée, une page de confirmation simple sera affichée à l'utilisateur."
+msgstr ""
 
 #: admin/general-settings.php:103
 msgid "\"Admin Approval\" Activated:"
-msgstr "\"Approbation par l'Admin\" Activée:"
+msgstr "\"Adminisztrátori Jóváhagyás\" aktiválva:"
 
 #: admin/general-settings.php:111
 msgid "You can find a list of users at %1$sUsers > All Users > Admin Approval%2$s."
-msgstr "Vous pouvez trouver une liste d'utilisateurs à %1$sUtilisateurs > Tous les Utilisateurs > Approbation par l'Admin %2$s."
+msgstr ""
 
 #: admin/general-settings.php:149
 msgid "\"Admin Approval\" Feature:"
-msgstr "Fonctionnalité \"Approbation par l'Admin\":"
+msgstr ""
 
 #: admin/general-settings.php:152
 msgid "You decide who is a user on your website. Get notified via email or approve multiple users at once from the WordPress UI. Enable Admin Approval by upgrading to %1$sHobbyist or PRO versions%2$s."
-msgstr "Vous décidez qui est utilisateur sur votre site. Soyez informé par e-mail ou approuvez plusieurs utilisateurs d'un coup à partir de l'IU WordPress. Activer l'approbation Admin en évoluant vers les versions %1$sHobbyist ou PRO %2$s."
+msgstr ""
 
 #: admin/general-settings.php:159
 msgid "Allow Users to Log in With:"
-msgstr "Permet aux utilisateurs à se connecter avec :"
+msgstr ""
 
 #: admin/general-settings.php:164 admin/manage-fields.php:198
 #: features/admin-approval/class-admin-approval.php:166
@@ -3559,56 +3559,56 @@ msgstr "Permet aux utilisateurs à se connecter avec :"
 #: modules/user-listing/userlisting.php:730
 #: modules/user-listing/userlisting.php:2152
 msgid "Username"
-msgstr "Nom d'utilisateur"
+msgstr "Felhasználónév"
 
 #: admin/general-settings.php:165 front-end/login.php:215
 #: modules/email-customizer/email-customizer.php:29
 #: modules/user-listing/userlisting.php:736
 #: modules/user-listing/userlisting.php:2153
 msgid "Email"
-msgstr "Adresse de messagerie"
+msgstr "E-mail"
 
 #: admin/general-settings.php:177
 msgid "Minimum Password Length:"
-msgstr "Longueur minimale du Mot de Passe :"
+msgstr "Minimális jelszó hosszúság:"
 
 #: admin/general-settings.php:182
 msgid "Enter the minimum characters the password should have. Leave empty for no minimum limit"
-msgstr "Entrez le nombre minimum de caractères que le mot de passe doit avoir. Laissez ce champ vide si vous ne voulez aucune limite minimale"
+msgstr "Add meg, hogy minimum hány karakteresnek kell lennie a jelszónak. Hagyd üresen, ha nem akarsz limitet meghatározni."
 
 #: admin/general-settings.php:189
 msgid "Minimum Password Strength:"
-msgstr "Sûreté minimale du Mot de Passe:"
+msgstr "Minimális jelszóerősség:"
 
 #: admin/general-settings.php:193
 msgid "Disabled"
-msgstr "Désactivé"
+msgstr "Kikapcsolva"
 
 #: admin/manage-fields.php:12
 msgid "Manage Fields"
-msgstr "Gérez les Champs"
+msgstr "Mezők kezelése"
 
 #: admin/manage-fields.php:13
 msgid "Manage Default and Extra Fields"
-msgstr "Gérez les Champs par défaut et les Champs supplémentaires"
+msgstr "Alapértelmezett és extra mezők beállítása"
 
 #: admin/manage-fields.php:116
 msgid "Field Title"
-msgstr "Titre du champ"
+msgstr "Mezőcím"
 
 #: admin/manage-fields.php:116
 msgid "Title of the field"
-msgstr "Titre du champ"
+msgstr "Mező címe"
 
 #: admin/manage-fields.php:117
 #: modules/multiple-forms/edit-profile-forms.php:245
 #: modules/multiple-forms/register-forms.php:266
 msgid "Field"
-msgstr "Champ"
+msgstr "Mező"
 
 #: admin/manage-fields.php:118
 msgid "Meta-name"
-msgstr "Meta-nom"
+msgstr ""
 
 #: admin/manage-fields.php:119
 #: modules/custom-redirects/custom_redirects_admin.php:65
@@ -3618,169 +3618,169 @@ msgstr "Meta-nom"
 #: modules/multiple-forms/edit-profile-forms.php:246
 #: modules/multiple-forms/register-forms.php:267
 msgid "ID"
-msgstr "ID"
+msgstr ""
 
 #: admin/manage-fields.php:119
 #: modules/multiple-forms/edit-profile-forms.php:246
 #: modules/multiple-forms/register-forms.php:267
 msgid "A unique, auto-generated ID for this particular field<br/>You can use this in conjuction with filters to target this element if needed<br/>Can't be edited"
-msgstr "Un identifiant unique, généré automatiquement, pour ce champ particulier<br/>Vous pouvez utiliser ceci en lien avec les filtres pour cibler cet élément si besoin<br/>Ne peut être modifié"
+msgstr ""
 
 #: admin/manage-fields.php:120
 msgid "Description"
-msgstr "Description"
+msgstr "Leírás"
 
 #: admin/manage-fields.php:120
 msgid "Enter a (detailed) description of the option for end users to read<br/>Optional"
-msgstr "Entrez une description (détaillée) de l'option que les utilisateurs finaux pourront lire<br/>Optionnel"
+msgstr ""
 
 #: admin/manage-fields.php:121
 msgid "Row Count"
-msgstr "Nombre de Lignes"
+msgstr ""
 
 #: admin/manage-fields.php:121
 msgid "Specify the number of rows for a 'Textarea' field<br/>If not specified, defaults to 5"
-msgstr "Spécifiez les nombre de lignes pour un champ 'Zone de Texte'<br/>Si vous ne spécifiez pas de champ, la valeur par défaut sera de 5"
+msgstr ""
 
 #: admin/manage-fields.php:122
 msgid "Allowed Image Extensions"
-msgstr "Extensions Autorisées des Images"
+msgstr ""
 
 #: admin/manage-fields.php:123
 msgid "Allowed Upload Extensions"
-msgstr "Extensions Autorisées au Téléchargement"
+msgstr ""
 
 #: admin/manage-fields.php:124
 msgid "Avatar Size"
-msgstr "Taille de l'Avatar"
+msgstr "Avatar méret"
 
 #: admin/manage-fields.php:124
 msgid "Enter a value (between 20 and 200) for the size of the 'Avatar'<br/>If not specified, defaults to 100"
-msgstr "Entrez une valeur (entre 20 et 200) pour la taille de l'Avatar<br/>Si aucune valeur n'est spécifiée, la valeur par défaut sera de 100"
+msgstr ""
 
 #: admin/manage-fields.php:125
 msgid "Date-format"
-msgstr "Format de la date"
+msgstr "Dátum formátum"
 
 #: admin/manage-fields.php:126
 msgid "Terms of Agreement"
-msgstr "Conditions Générales"
+msgstr ""
 
 #: admin/manage-fields.php:126
 msgid "Enter a detailed description of the temrs of agreement for the user to read.<br/>Links can be inserted by using standard HTML syntax: &lt;a href=\"custom_url\"&gt;custom_text&lt;/a&gt;"
-msgstr "Entrez une description détaillée des conditions générales que l'utilisateur pourra lire.<br/>Vous pouvez utiliser des liens via la syntaxe standard HTML: &lt;a href=\"url_personnalisee\"&gt;texte_personnalise&lt;/a&gt;"
+msgstr ""
 
 #: admin/manage-fields.php:127
 msgid "Options"
-msgstr "Options"
+msgstr "Beállítások"
 
 #: admin/manage-fields.php:128
 msgid "Labels"
-msgstr "Labels"
+msgstr ""
 
 #: admin/manage-fields.php:128
 msgid "Enter a comma separated list of labels<br/>Visible for the user"
-msgstr "Entrez une liste de labels séparés par une virgule<br/>Visible par l'utilisateur"
+msgstr ""
 
 #: admin/manage-fields.php:135
 msgid "Default Value"
-msgstr "Valeur Par Défaut"
+msgstr "Alapértelmezett érték"
 
 #: admin/manage-fields.php:135
 msgid "Default value of the field"
-msgstr "Valeur par défaut du champ"
+msgstr "A mező alapértelmezett értéke"
 
 #: admin/manage-fields.php:136 admin/manage-fields.php:138
 #: admin/manage-fields.php:139 admin/manage-fields.php:140
 msgid "Default Option"
-msgstr "Option Par Défaut"
+msgstr "Alapértelmezett beállítás"
 
 #: admin/manage-fields.php:136
 msgid "Specify the option which should be selected by default"
-msgstr "Spécifiez l'option qui devrait être sélectionnée par défaut"
+msgstr ""
 
 #: admin/manage-fields.php:137
 msgid "Default Option(s)"
-msgstr "Option(s) Par Défaut"
+msgstr "Alapértelmezett beállítás(ok)"
 
 #: admin/manage-fields.php:137
 msgid "Specify the option which should be checked by default<br/>If there are multiple values, separate them with a ',' (comma)"
-msgstr "Spécifiez l'option qui devrait être cochée par défaut<br/>S'il y a plusieurs valeurs, séparez-les par une ',' (virgule)"
+msgstr ""
 
 #: admin/manage-fields.php:151
 msgid "Default Content"
-msgstr "Contenu Par Défaut"
+msgstr ""
 
 #: admin/manage-fields.php:151
 msgid "Default value of the textarea"
-msgstr "Valeur par défaut de la zone de texte"
+msgstr ""
 
 #: admin/manage-fields.php:158
 msgid "Required"
-msgstr "Obligatoire"
+msgstr ""
 
 #: admin/manage-fields.php:158
 msgid "Whether the field is required or not"
-msgstr "Si le champ est obligatoire ou pas"
+msgstr ""
 
 #: admin/manage-fields.php:159
 msgid "Overwrite Existing"
-msgstr "Ecraser l'existant"
+msgstr ""
 
 #: admin/manage-fields.php:159
 msgid "Selecting 'Yes' will add the field to the list, but will overwrite any other field in the database that has the same meta-name<br/>Use this at your own risk"
-msgstr "Sélectionner 'Oui' ajoutera le champ à la liste, mais écrasera n'importe quel autre champ dans la base de données qui aurait le même méta-nom<br/>A utiliser à vos risques et périls"
+msgstr ""
 
 #: admin/manage-fields.php:165
 msgid "Field Properties"
-msgstr "Propriétés du Champ"
+msgstr ""
 
 #: admin/manage-fields.php:178
 msgid "Registration & Edit Profile"
-msgstr "Inscription & Modification de Profil"
+msgstr "Regisztráció és profil szerkesztése"
 
 #: admin/manage-fields.php:197
 msgid "Name"
-msgstr "Nom"
+msgstr "Név"
 
 #: admin/manage-fields.php:198
 msgid "Usernames cannot be changed."
-msgstr "Les noms d'utillisateur ne peuvent pas être modifiés."
+msgstr "A felhasználónevet nem lehet megváltoztatni."
 
 #: admin/manage-fields.php:199
 msgid "First Name"
-msgstr "Prénom"
+msgstr "Vezetéknév"
 
 #: admin/manage-fields.php:200
 msgid "Last Name"
-msgstr "Nom de famille"
+msgstr "Keresztnév"
 
 #: admin/manage-fields.php:201 modules/user-listing/userlisting.php:769
 #: modules/user-listing/userlisting.php:2160
 msgid "Nickname"
-msgstr "Pseudonyme"
+msgstr "Becenév"
 
 #: admin/manage-fields.php:202
 msgid "Display name publicly as"
-msgstr "Nom publique"
+msgstr "Megjelenítendő név"
 
 #: admin/manage-fields.php:203
 msgid "Contact Info"
-msgstr "Informations de contact"
+msgstr "Elérhetőségek"
 
 #: admin/manage-fields.php:204
 #: features/admin-approval/class-admin-approval.php:169
 #: features/email-confirmation/class-email-confirmation.php:168
 #: modules/user-listing/userlisting.php:108
 msgid "E-mail"
-msgstr "Adresse de messagerie"
+msgstr "E-mail"
 
 #: admin/manage-fields.php:205 modules/email-customizer/email-customizer.php:32
 #: modules/user-listing/userlisting.php:111
 #: modules/user-listing/userlisting.php:751
 #: modules/user-listing/userlisting.php:2154
 msgid "Website"
-msgstr "Site web"
+msgstr "Weboldal"
 
 #: admin/manage-fields.php:209
 msgid "AIM"
@@ -3796,87 +3796,87 @@ msgstr "Jabber / Google Talk"
 
 #: admin/manage-fields.php:214
 msgid "About Yourself"
-msgstr "A propos de vous"
+msgstr ""
 
 #: admin/manage-fields.php:215 modules/user-listing/userlisting.php:114
 #: modules/user-listing/userlisting.php:754
 #: modules/user-listing/userlisting.php:2155
 msgid "Biographical Info"
-msgstr "Informations biographiques"
+msgstr ""
 
 #: admin/manage-fields.php:215
 msgid "Share a little biographical information to fill out your profile. This may be shown publicly."
-msgstr "Partagez quelques informations biographiques pour compléter votre profil. Ceci peut être affiché publiquement."
+msgstr ""
 
 #: admin/manage-fields.php:216 front-end/recover.php:73
 #: modules/email-customizer/email-customizer.php:30
 msgid "Password"
-msgstr "Mot de passe"
+msgstr "Jelszó"
 
 #: admin/manage-fields.php:216
 msgid "Type your password."
-msgstr "Tapez votre mot de passe."
+msgstr "Írja be a jelszavát."
 
 #: admin/manage-fields.php:217 front-end/recover.php:74
 msgid "Repeat Password"
-msgstr "Répétez votre mot de passe"
+msgstr "Jelszó újra"
 
 #: admin/manage-fields.php:217
 msgid "Type your password again. "
-msgstr "Re-tapez votre mot de passe."
+msgstr "Kérjük, írd be a jelszavadat újra."
 
 #: admin/manage-fields.php:977 admin/manage-fields.php:1134
 msgid "You must select a field\n"
-msgstr "Vous devez sélectionner un champ\n"
+msgstr "Választanod kell egy mezőt"
 
 #: admin/manage-fields.php:987
 msgid "Please choose a different field type as this one already exists in your form (must be unique)\n"
-msgstr "Merci de choisir un champ différent, car celui-ci existe déjà dans votre formulaire (et il doit être unique)\n"
+msgstr ""
 
 #: admin/manage-fields.php:998
 msgid "The entered avatar size is not between 20 and 200\n"
-msgstr "La taille de l'avatar n'est pas comprise entre 20 et 200\n"
+msgstr "A beírt avatar méret nem 20 és 200 közötti\n"
 
 #: admin/manage-fields.php:1001
 msgid "The entered avatar size is not numerical\n"
-msgstr "La taille de l'avatar n'est pas une valeur numérique\n"
+msgstr "A megadott avatar méret nem numerikus érték\n"
 
 #: admin/manage-fields.php:1009
 msgid "The entered row number is not numerical\n"
-msgstr "Le numéro entré pour la ligne n'est pas numérique\n"
+msgstr ""
 
 #: admin/manage-fields.php:1012
 msgid "You must enter a value for the row number\n"
-msgstr "Vous devez entrer une valeur pour le numéro de la ligne\n"
+msgstr ""
 
 #: admin/manage-fields.php:1033
 msgid "The entered value for the Datepicker is not a valid date-format\n"
-msgstr "La valeur entrée pour l'outil de sélection de date ne respecte pas le format de date\n"
+msgstr ""
 
 #: admin/manage-fields.php:1036
 msgid "You must enter a value for the date-format\n"
-msgstr "Vous devez entrer une valeur de formattage de date\n"
+msgstr ""
 
 #: admin/manage-fields.php:1064 admin/manage-fields.php:1072
 #: admin/manage-fields.php:1083
 msgid "That meta-name is already in use\n"
-msgstr "Le meta-nom est déjà utilisé\n"
+msgstr ""
 
 #: admin/manage-fields.php:1114
 msgid "The following option(s) did not coincide with the ones in the options list: %s\n"
-msgstr "Le(s) options(s) suivante(s) n'a(ont) pas coïncidé pas avec celles de la liste d'options : %s\n"
+msgstr "A következő lehetőség(ek) nem egyezik a lista egyik elemével sem: %s\n"
 
 #: admin/manage-fields.php:1118
 msgid "The following option did not coincide with the ones in the options list: %s\n"
-msgstr "L'option suivante n'a pas coïncidé avec celles de la liste d'options: %s\n"
+msgstr ""
 
 #: admin/manage-fields.php:1141
 msgid "That field is already added in this form\n"
-msgstr "Ce champ a déjà été ajouté à ce formulaire\n"
+msgstr ""
 
 #: admin/manage-fields.php:1190
 msgid "<pre>Title</pre><pre>Type</pre><pre>Meta Name</pre><pre class=\"wppb-mb-head-required\">Required</pre>"
-msgstr "<pre>Titre</pre><pre>Type</pre><pre>Meta-nom</pre><pre class=\"wppb-mb-head-required\">Obligatoire</pre>"
+msgstr ""
 
 #: admin/manage-fields.php:1190
 #: assets/lib/wck-api/wordpress-creation-kit.php:438
@@ -3889,7 +3889,7 @@ msgstr "<pre>Titre</pre><pre>Type</pre><pre>Meta-nom</pre><pre class=\"wppb-mb-h
 #: modules/custom-redirects/custom_redirects_admin.php:221
 #: modules/multiple-forms/multiple-forms.php:406
 msgid "Edit"
-msgstr "Editer"
+msgstr "Szerkeszt"
 
 #: admin/manage-fields.php:1190
 #: assets/lib/wck-api/wordpress-creation-kit.php:438
@@ -3904,242 +3904,242 @@ msgstr "Editer"
 #: modules/custom-redirects/custom_redirects_admin.php:207
 #: modules/custom-redirects/custom_redirects_admin.php:221
 msgid "Delete"
-msgstr "Supprimer"
+msgstr "Töröl"
 
 #: admin/manage-fields.php:1205
 msgid "Use these shortcodes on the pages you want the forms to be displayed:"
-msgstr "Utilisez ces shortcodes sur les pages où vous voulez que les formulaires s'affichent :"
+msgstr ""
 
 #: admin/register-version.php:14
 msgid "Register Your Version"
-msgstr "Enregistrez Votre Version"
+msgstr ""
 
 #: admin/register-version.php:14
 msgid "Register Version"
-msgstr "Enregistrez la Version"
+msgstr ""
 
 #: admin/register-version.php:70
 msgid "If you register this version of Profile Builder, you'll receive information regarding upgrades, patches, and technical support."
-msgstr "Si vous enregistrez cette version de Profile Builder, vous recevrez des informations concernant les mises à jours, les correctifs et le support technique."
+msgstr ""
 
 #: admin/register-version.php:72
 msgid " Serial Number:"
-msgstr "Numéro de Série :"
+msgstr "Sorozatszám:"
 
 #: admin/register-version.php:77
 msgid "The serial number was successfully validated!"
-msgstr "Le numéro de série a bien été validé !"
+msgstr "A sorozatszám sikeresen aktiválva!"
 
 #: admin/register-version.php:79
 msgid "The serial number entered couldn't be validated!"
-msgstr "Le numéro de série entré n'a pas pu être validé !"
+msgstr "A beírt sorozatszámot nem lehet aktiválni!"
 
 #: admin/register-version.php:83
 msgid "The serial number couldn't be validated because it expired!"
-msgstr "Le numéro de série n'a pas pu être validé car il a expiré !"
+msgstr "A beírt sorozatszám nem aktiválható, mert már lejárt."
 
 #: admin/register-version.php:85
 msgid "The serial number couldn't be validated because process timed out. This is possible due to the server being down. Please try again later!"
-msgstr "Le numéro de série n'a pas pu être validé car le processus a dépassé le délai. Ceci peut être dû à une panne du serveur. Merci de ré-essayer plus tard !"
+msgstr ""
 
 #: admin/register-version.php:87
 msgid "(e.g. RMPB-15-SN-253a55baa4fbe7bf595b2aabb8d72985)"
-msgstr "(ex. RMPB-15-SN-253a55baa4fbe7bf595b2aabb8d72985)"
+msgstr ""
 
 #: assets/lib/wck-api/wordpress-creation-kit.php:438 features/functions.php:725
 msgid "Content"
-msgstr "Contenu"
+msgstr "Tartalom"
 
 #: assets/lib/wck-api/wordpress-creation-kit.php:535
 msgid "Edit this item"
-msgstr "Modifier cet élément"
+msgstr "Elem szerkesztése"
 
 #: assets/lib/wck-api/wordpress-creation-kit.php:536
 msgid "Delete this item"
-msgstr "Supprimer cet élément"
+msgstr "Elem törlése"
 
 #: assets/lib/wck-api/wordpress-creation-kit.php:705
 msgid "Please enter a value for the required field "
-msgstr "Merci d'entrer une valeur pour le champ obligatoire"
+msgstr ""
 
 #: front-end/extra-fields/upload/upload.php:122
 msgid "Select File"
-msgstr "Sélectionner un fichier"
+msgstr "Fájl kiválasztása"
 
 #: assets/lib/wck-api/fields/upload.php:43
 #: front-end/extra-fields/upload/upload.php:112
 msgid "Remove"
-msgstr "Supprimer"
+msgstr "Törlés"
 
 #: assets/lib/wck-api/fields/nested repeater.php:8
 msgid "You can add the information for the %s after you add a entry"
-msgstr "Vous pouvez ajouter l'information pour le %s après avoir ajouté une entrée"
+msgstr ""
 
 #: assets/lib/wck-api/fields/upload.php:75
 #: front-end/extra-fields/upload/upload.php:128
 msgid "Upload "
-msgstr "Télécharger"
+msgstr "Feltöltés"
 
 #: features/class-list-table.php:184
 msgid "No items found."
-msgstr "Aucun élément trouvé."
+msgstr "Nem találhatóak elemek."
 
 #: features/class-list-table.php:308
 msgid "Bulk Actions"
-msgstr "Actions Groupées"
+msgstr ""
 
 #: features/class-list-table.php:318
 msgid "Apply"
-msgstr "Appliquer"
+msgstr ""
 
 #: features/class-list-table.php:402
 msgid "Show all dates"
-msgstr "Afficher toutes les dates"
+msgstr ""
 
 #: features/class-list-table.php:415
 msgid "%1$s %2$d"
-msgstr "%1$s %2$d"
+msgstr ""
 
 #: features/class-list-table.php:431
 msgid "List View"
-msgstr "Vue par liste"
+msgstr "Lista nézet"
 
 #: features/class-list-table.php:432
 msgid "Excerpt View"
-msgstr "Vue par extrait"
+msgstr ""
 
 #: features/class-list-table.php:458
 msgid "%s pending"
-msgstr "%s en attente"
+msgstr ""
 
 #: features/class-list-table.php:566
 msgid "%1$s of %2$s"
-msgstr "%1$s de %2$s"
+msgstr ""
 
 #: features/class-list-table.php:713
 msgid "Select All"
-msgstr "Tout Sélectionner"
+msgstr "Minden kijelölése"
 
 #: features/functions.php:526
 msgid "Strength indicator"
-msgstr "Indicateur de sûreté"
+msgstr "Erősség jelző"
 
 #: features/admin-approval/admin-approval.php:14
 #: features/admin-approval/class-admin-approval.php:453
 msgid "Admin Approval"
-msgstr "Approbation par l'Admin"
+msgstr ""
 
 #: features/admin-approval/admin-approval.php:28
 #: features/email-confirmation/email-confirmation.php:58
 msgid "Do you want to"
-msgstr "Voulez-vous"
+msgstr ""
 
 #: features/admin-approval/admin-approval.php:51
 msgid "Your session has expired! Please refresh the page and try again"
-msgstr "Votre session a expiré ! Merci de rafraîchir la page et de ré-essayer"
+msgstr ""
 
 #: features/admin-approval/admin-approval.php:64
 msgid "User successfully approved!"
-msgstr "L'utilisateur a bien été approuvé !"
+msgstr "Felhasználó sikeresen jóváhagyva!"
 
 #: features/admin-approval/admin-approval.php:74
 msgid "User successfully unapproved!"
-msgstr "L'utilisateur a bien été refusé !"
+msgstr "Felhasználó sikeresen elutasítva!"
 
 #: features/admin-approval/admin-approval.php:80
 msgid "User successfully deleted!"
-msgstr "L'utilisateur a bien été supprimé !"
+msgstr "Felhasználó sikeresen törölve!"
 
 #: features/admin-approval/admin-approval.php:85
 #: features/admin-approval/admin-approval.php:129
 #: features/email-confirmation/email-confirmation.php:132
 msgid "You either don't have permission for that action or there was an error!"
-msgstr "Soit vous n'avez pas la permission de réaliser cette action soit il y a eu une erreur !"
+msgstr "Nincs engedélyed erre a műveletre vagy hiba történhetett!"
 
 #: features/admin-approval/admin-approval.php:96
 msgid "Your session has expired! Please refresh the page and try again."
-msgstr "Votre session a expiré ! Merci de rafraîchir la page et de ré-essayer."
+msgstr ""
 
 #: features/admin-approval/admin-approval.php:108
 msgid "Users successfully approved!"
-msgstr "Les utilisateurs ont bien été approuvés !"
+msgstr "A felhasználók sikeresen jóváhagyva!"
 
 #: features/admin-approval/admin-approval.php:117
 msgid "Users successfully unapproved!"
-msgstr "Les utilisateurs ont bien été refusés !"
+msgstr "A felhasználók sikeresen elutasítva!"
 
 #: features/admin-approval/admin-approval.php:125
 msgid "Users successfully deleted!"
-msgstr "Les utilisateurs ont bien été supprimés !"
+msgstr "A felhasználók sikeresen törölve!"
 
 #: features/admin-approval/admin-approval.php:145
 msgid "Your account on %1$s has been approved!"
-msgstr "Votre compte sur %1$s a été approuvé !"
+msgstr "A következő oldalon: %1$s lévő fiókod sikeresen elfogadva!"
 
 #: features/admin-approval/admin-approval.php:146
 #: features/admin-approval/admin-approval.php:149
 msgid "approved"
-msgstr "approuvé"
+msgstr "elfogadva"
 
 #: features/admin-approval/admin-approval.php:148
 msgid "An administrator has just approved your account on %1$s (%2$s)."
-msgstr "Un administrateur vient d'approuver votre compte sur %1$s (%2$s)."
+msgstr "A következő oldalon: %1$s (%2$s) lévő fiókod sikeresen elfogadásra került."
 
 #: features/admin-approval/admin-approval.php:153
 msgid "Your account on %1$s has been unapproved!"
-msgstr "Votre compte sur %1$s a été refusé !"
+msgstr "A következő oldalon: %1$s létrehozott fiókod elutasításra került!"
 
 #: features/admin-approval/admin-approval.php:154
 #: features/admin-approval/admin-approval.php:157
 msgid "unapproved"
-msgstr "refusé"
+msgstr "elutasítva"
 
 #: features/admin-approval/admin-approval.php:156
 msgid "An administrator has just unapproved your account on %1$s (%2$s)."
-msgstr "Un administrateur vient de refuser votre compte sur %1$s (%2$s)."
+msgstr "A következő oldalon: %1$s (%2$s) lévő fiókod elutasításra került."
 
 #: features/admin-approval/admin-approval.php:175
 msgid "<strong>ERROR</strong>: Your account has to be confirmed by an administrator before you can log in."
-msgstr "<strong>ERREUR</strong> : Votre compte doit être confirmé par un administrateur avant que vous ne puissiez vous connecter."
+msgstr "<strong>HIBA!</strong>: Ahhoz, hogy be tudj lépni a fiókodba, előbb el kell fogadnunk a regisztrációdat. E-mailben értesítünk majd a jóváhagyásról."
 
 #: features/admin-approval/admin-approval.php:187
 msgid "Your account has to be confirmed by an administrator before you can use the \"Password Recovery\" feature."
-msgstr "Un administrateur doit approuver votre compte avant que vous ne puissiez utiliser la fonctionnalité \"Mot de passe perdu\"."
+msgstr "A fiókodat előbb jóvá kell hagynunk ahhoz, hogy használni tudd a Jelszó helyreállító funkciót."
 
 #: features/admin-approval/class-admin-approval.php:113
 msgid "delete this user?"
-msgstr "supprimer cet utilisateur ?"
+msgstr "felhasználó törlése?"
 
 #: features/admin-approval/class-admin-approval.php:116
 msgid "unapprove this user?"
-msgstr "refuser cet utilisateur ?"
+msgstr "felhasználó elutasítása?"
 
 #: features/admin-approval/class-admin-approval.php:116
 #: features/admin-approval/class-admin-approval.php:223
 msgid "Unapprove"
-msgstr "Refuser"
+msgstr "Elutasít"
 
 #: features/admin-approval/class-admin-approval.php:118
 msgid "approve this user?"
-msgstr "approuver cet utilisateur ?"
+msgstr "Felhasználó elfogadása?"
 
 #: features/admin-approval/class-admin-approval.php:118
 #: features/admin-approval/class-admin-approval.php:222
 msgid "Approve"
-msgstr "Approuver"
+msgstr "Elfogad"
 
 #: features/admin-approval/class-admin-approval.php:167
 #: modules/user-listing/userlisting.php:278
 #: modules/user-listing/userlisting.php:742
 #: modules/user-listing/userlisting.php:2157
 msgid "Firstname"
-msgstr "Prénom"
+msgstr "Vezetéknév"
 
 #: features/admin-approval/class-admin-approval.php:168
 #: modules/user-listing/userlisting.php:745
 #: modules/user-listing/userlisting.php:2158
 msgid "Lastname"
-msgstr "Nom de famille"
+msgstr "Keresztnév"
 
 #: features/admin-approval/class-admin-approval.php:170
 #: modules/user-listing/userlisting.php:149
@@ -4147,392 +4147,392 @@ msgstr "Nom de famille"
 #: modules/user-listing/userlisting.php:772
 #: modules/user-listing/userlisting.php:2162
 msgid "Role"
-msgstr "Rôle"
+msgstr "Szerep"
 
 #: features/admin-approval/class-admin-approval.php:171
 #: features/email-confirmation/class-email-confirmation.php:169
 msgid "Registered"
-msgstr "Inscrit"
+msgstr "Regisztrált"
 
 #: features/admin-approval/class-admin-approval.php:172
 msgid "User-status"
-msgstr "Statut de l'utilisateur"
+msgstr ""
 
 #: features/admin-approval/class-admin-approval.php:252
 msgid "Do you want to bulk approve the selected users?"
-msgstr "Voulez-vous approuver tous les utilisateurs sélectionnés ?"
+msgstr "Szeretnéd csoportosan elfogadni a kiválasztott felhasználókat?"
 
 #: features/admin-approval/class-admin-approval.php:260
 msgid "Do you want to bulk unapprove the selected users?"
-msgstr "Voulez-vous refuser tous les utilisateurs sélectionnés ?"
+msgstr "Szeretnéd csoportosan elutasítani a kiválasztott felhasználókat?"
 
 #: features/admin-approval/class-admin-approval.php:266
 msgid "Do you want to bulk delete the selected users?"
-msgstr "Voulez-vous supprimer tous les utilisateurs sélectionnés ?"
+msgstr "Szeretnéd csoportosan törölni a kiválasztott felhasználókat?"
 
 #: features/admin-approval/class-admin-approval.php:274
 #: features/email-confirmation/class-email-confirmation.php:278
 msgid "Sorry, but you don't have permission to do that!"
-msgstr "Désolé, mais vous n'avez pas la permission de faire cela !"
+msgstr "Elnézést, erre nincs engedélyed."
 
 #: features/admin-approval/class-admin-approval.php:339
 msgid "Approved"
-msgstr "Approuvé"
+msgstr "Elfogadva"
 
 #: features/admin-approval/class-admin-approval.php:341
 msgid "Unapproved"
-msgstr "Refusé"
+msgstr "Elutasítva"
 
 #: features/admin-approval/class-admin-approval.php:456
 #: features/email-confirmation/class-email-confirmation.php:454
 msgid "All Users"
-msgstr "Tous les Utilisateurs"
+msgstr "Összes felhasználó"
 
 #: features/email-confirmation/class-email-confirmation.php:120
 msgid "delete this user from the _signups table?"
-msgstr "supprimer cet utilisateur de la table _signups ?"
+msgstr ""
 
 #: features/email-confirmation/class-email-confirmation.php:121
 msgid "confirm this email yourself?"
-msgstr "confirmer cette adresse de messagerie vous-même ?"
+msgstr ""
 
 #: features/email-confirmation/class-email-confirmation.php:121
 #: features/email-confirmation/class-email-confirmation.php:218
 msgid "Confirm Email"
-msgstr "Confirmer l'adresse de messagerie"
+msgstr "E-mail megerősítése"
 
 #: features/email-confirmation/class-email-confirmation.php:122
 msgid "resend the activation link?"
-msgstr "ré-envoyer le lien d'activation ?"
+msgstr "aktiváló link újraküldése?"
 
 #: features/email-confirmation/class-email-confirmation.php:122
 #: features/email-confirmation/class-email-confirmation.php:219
 msgid "Resend Activation Email"
-msgstr "Ré-envoyer l'e-mail d'activation"
+msgstr "Aktiváló E-mail újraküldése"
 
 #: features/email-confirmation/class-email-confirmation.php:249
 msgid "%s couldn't be deleted"
-msgstr "%s n'a pas pu être supprimé"
+msgstr ""
 
 #: features/email-confirmation/class-email-confirmation.php:253
 msgid "All users have been successfully deleted"
-msgstr "Tous les utilisateurs ont bien été supprimés"
+msgstr ""
 
 #: features/email-confirmation/class-email-confirmation.php:263
 msgid "The selected users have been activated"
-msgstr "L'utilisateur sélectionné a bien été activé"
+msgstr ""
 
 #: features/email-confirmation/class-email-confirmation.php:274
 msgid "The selected users have had their activation emails resent"
-msgstr "Les e-mails d'activation ont été ré-envoyés aux utilisateurs sélectionnés"
+msgstr ""
 
 #: features/email-confirmation/class-email-confirmation.php:451
 #: features/email-confirmation/email-confirmation.php:47
 msgid "Users with Unconfirmed Email Address"
-msgstr "Utilisateurs avec une adresse de messagerie non-confirmée"
+msgstr ""
 
 #: features/email-confirmation/email-confirmation.php:107
 msgid "There was an error performing that action!"
-msgstr "Il y a eu une erreur lors de la réalisation de cette action !"
+msgstr ""
 
 #: features/email-confirmation/email-confirmation.php:115
 msgid "The selected user couldn't be deleted"
-msgstr "L'utilisateur sélectionné n'a pas pu être supprimé"
+msgstr "A kiválasztott felhasználó nem törölhető."
 
 #: features/email-confirmation/email-confirmation.php:126
 msgid "Email notification resent to user"
-msgstr "L'e-mail de notification a été ré-envoyé à l'utilisateur"
+msgstr ""
 
 #: features/email-confirmation/email-confirmation.php:397
 msgid "[%1$s] Activate %2$s"
-msgstr "[%1$s] Activer %2$s"
+msgstr ""
 
 #: features/email-confirmation/email-confirmation.php:441
 #: front-end/register.php:71
 msgid "Could not create user!"
-msgstr "L'utilisateur n'a pas pu être créé !"
+msgstr "A felhasználó létrehozása nem sikerült."
 
 #: features/email-confirmation/email-confirmation.php:444
 msgid "That username is already activated!"
-msgstr "Ce nom d'utilisateur est déjà activé !"
+msgstr "Ez a felhasználónév már aktiválva van!"
 
 #: features/email-confirmation/email-confirmation.php:467
 msgid "There was an error while trying to activate the user"
-msgstr "Il y a eu une erreur lors de l'activation de l'utilisateur"
+msgstr "Hiba történt, amikor megpróbáltad aktiválni a felhasználót"
 
 #: features/email-confirmation/email-confirmation.php:515
 #: modules/email-customizer/admin-email-customizer.php:73
 msgid "A new subscriber has (been) registered!"
-msgstr "Un nouvel adhérent a (été) enregistré !"
+msgstr "Új felhasználó regisztrált."
 
 #: features/email-confirmation/email-confirmation.php:518
 msgid "New subscriber on %1$s.<br/><br/>Username:%2$s<br/>E-mail:%3$s<br/>"
-msgstr "Nouvel adhérent sur %1$s.<br/><br/>Nom d'utilisateur :%2$s<br/>E-mail :%3$s<br/>"
+msgstr ""
 
 #: features/email-confirmation/email-confirmation.php:633
 msgid "The \"Admin Approval\" feature was activated at the time of registration, so please remember that you need to approve this user before he/she can log in!"
-msgstr "La fonctionnalité \"Approbation Admin\" était activée au moment de l'inscription, donc merci de vous souvenir que vous devez approuver cet utilisateur avant qu'il/elle puisse se connecter !"
+msgstr ""
 
 #: features/email-confirmation/email-confirmation.php:569
 msgid "[%1$s] Your new account information"
-msgstr "[%1$s] Nouvelles informations à propos de votre compte"
+msgstr ""
 
 #: features/email-confirmation/email-confirmation.php:580
 msgid "Welcome to %1$s!<br/><br/><br/>Your username is:%2$s and password:%3$s"
-msgstr "Bienvenue sur %1$s!<br/><br/><br/>Votre nom d'utilisateur est :%2$s <br/><br/>Votre mot de passe est celui que vous avez choisi lors de votre inscription.\n"
+msgstr "Üdvözlünk a fedélzeten! A felhasználóneved:%2$s és a jelszavad:%3$s"
 
 #: features/email-confirmation/email-confirmation.php:641
 #: front-end/register.php:125
 msgid "Before you can access your account, an administrator needs to approve it. You will be notified via email."
-msgstr "Votre compte doit d'abord être approuvé par un administrateur avant que ne ne puissiez y accéder. Un E-mail vous sera envoyé."
+msgstr "Ahhoz, hogy be tudj lépni a fiókodba, először jóvá kell hagynunk a regisztrációdat. E-mailben értesítünk, amint jóváhagytuk."
 
 #: features/login-widget/login-widget.php:10
 msgid "This login widget lets you add a login form in the sidebar."
-msgstr "Cette widget d'identification vous permet d'ajouter un formulaire d'identification sur la barre latérale."
+msgstr ""
 
 #: features/login-widget/login-widget.php:15
 msgid "Profile Builder Login Widget"
-msgstr "Profile Builder Login Widget"
+msgstr ""
 
 #: front-end/class-formbuilder.php:399 front-end/login.php:250
 msgid "Register"
-msgstr "S'inscrire"
+msgstr "Regisztrálok!"
 
 #: features/login-widget/login-widget.php:63
 msgid "Title:"
-msgstr "Titre :"
+msgstr "Cím:"
 
 #: features/login-widget/login-widget.php:68
 msgid "After login redirect URL (optional):"
-msgstr "URL de redirection après connexion (optionnel) :"
+msgstr ""
 
 #: features/login-widget/login-widget.php:73
 msgid "Register page URL (optional):"
-msgstr "URL de la page d'inscription (optionnel) :"
+msgstr ""
 
 #: features/login-widget/login-widget.php:78
 msgid "Password Recovery page URL (optional):"
-msgstr "URL de la page de ré-initialisation du mot de passe (optionnel) :"
+msgstr ""
 
 #: features/upgrades/upgrades-functions.php:91
 #: features/upgrades/upgrades-functions.php:134
 msgid "The usernames cannot be changed."
-msgstr "Les noms d'utilisateur ne peuvent pas être changés."
+msgstr "A felhasználónevek nem módosíthatóak."
 
 #: front-end/class-formbuilder.php:125
 msgid "Only an administrator can add new users."
-msgstr "Seul un administrateur peut ajouter de nouveaux utilisateurs."
+msgstr "Csak adminisztrátor adhat hozzá új felhasználókat."
 
 #: front-end/class-formbuilder.php:135
 msgid "Users can register themselves or you can manually create users here."
-msgstr "Merci de ne pas re-créer de compte si vous en avez déjà un."
+msgstr "A felhasználók regisztrálhatják magukat vagy manuálisan te is létrehozhatod őket itt."
 
 #: front-end/class-formbuilder.php:138
 msgid "Users cannot currently register themselves, but you can manually create users here."
-msgstr "Les utilisateurs ne peuvent pas s'inscrire eux-mêmes, mais vous pouvez les créer manuellement ici."
+msgstr "A felhasználók jelenleg nem regisztrálhatják magukat, de te manuálisan hozzáadhatod őket itt."
 
 #: front-end/class-formbuilder.php:158
 msgid "You are currently logged in as %1s. You don't need another account. %2s"
-msgstr "Vous êtes actuellement connecté comme %1s.Vous n'avez pas besoin d'un autre compte. %2s"
+msgstr "Belépve mint %1s. Nincs szüksége másik fiókra. %2s"
 
 #: front-end/class-formbuilder.php:158
 msgid "Log out of this account."
-msgstr "Se déconnecter de ce compte."
+msgstr "Kijelentkezés ebből a fiókból."
 
 #: front-end/class-formbuilder.php:158
 msgid "Logout"
-msgstr "Déconnexion"
+msgstr "Kijelentkezés"
 
 #: front-end/class-formbuilder.php:164
 msgid "You must be logged in to edit your profile."
-msgstr "Vous devez être connecté pour modifier votre profil."
+msgstr "A profilod szerkesztéséhez be kell jelentkezned."
 
 #: features/functions.php:994
 msgid "here"
-msgstr "ici"
+msgstr "itt"
 
 #: features/functions.php:995
 msgid "You will soon be redirected automatically. If you see this page for more than %1$d seconds, please click %2$s.%3$s"
-msgstr "Vous serez bientôt redirigé automatiquement. Si vous voyez cette page pendant plus d'%1$d secondes, merci de cliquer sur %2$s.%3$s"
+msgstr "Hamarosan automatikusan át leszel irányítva. Ha több mint %1$d másodpercig látod ezt az ablakot, kérlek kattints %2$s.%3$s"
 
 #: front-end/class-formbuilder.php:299 front-end/class-formbuilder.php:306
 msgid "The account %1s has been successfully created!"
-msgstr "Votre compte %1s a bien été créé !"
+msgstr "A %1s fiók sikeresen létrehozva."
 
 #: front-end/class-formbuilder.php:302 front-end/class-formbuilder.php:312
 msgid "Before you can access your account %1s, you need to confirm your email address. Please check your inbox and click the activation link."
-msgstr "Avant que vous ne puissiez accéder à votre compte %1s, vous devez confirmer votre adresse de messagerie. Merci de consulter votre boite de réception et de cliquer sur le lien d'activation."
+msgstr "Ahhoz, hogy be tudj lépni a %1s fiókodba, előbb meg kell erősítened az e-mail címedet. Kérjük ellenőrizd a beérkező leveleidet és kattints az aktiváló linkre."
 
 #: front-end/class-formbuilder.php:308
 msgid "Before you can access your account %1s, an administrator has to approve it. You will be notified via email."
-msgstr "Votre compte %1s doit d'abord être approuvé par un administrateur avant que ne ne puissiez y accéder. Un E-mail vous sera envoyé."
+msgstr "Ahhoz, hogy hozzáférj a %1s fiókodhoz, előbb el kell fogadnunk a regisztrációdat. A jóváhagyásról majd e-mailben értesítünk."
 
 #: front-end/class-formbuilder.php:331
 msgid "Your profile has been successfully updated!"
-msgstr "Votre profil a bien été mis à jour !"
+msgstr "A profilod sikeresen frissítve!"
 
 #: front-end/class-formbuilder.php:342
 msgid "There was an error in the submitted form"
-msgstr "Il y avait une erreur dans le formulaire soumis"
+msgstr "Valami hiba van az elküldött űrlapon"
 
 #: front-end/class-formbuilder.php:399
 msgid "Add User"
-msgstr "Ajouter un Utilisateur"
+msgstr "Felhasználó hozzáadása"
 
 #: admin/add-ons.php:170 front-end/class-formbuilder.php:402
 msgid "Update"
-msgstr "Mettre à jour"
+msgstr "Frissítés"
 
 #: front-end/class-formbuilder.php:465
 msgid "Send these credentials via email."
-msgstr "Envoyer ces identifiants par E-mail."
+msgstr "Adatok küldése saját részre e-mailben."
 
 #: front-end/extra-fields/extra-fields.php:94 front-end/login.php:137
 #: front-end/login.php:144 front-end/login.php:158 front-end/recover.php:17
 #: front-end/recover.php:237
 msgid "ERROR"
-msgstr "ERREUR"
+msgstr "HIBA"
 
 #: front-end/login.php:137
 msgid "The password you entered is incorrect."
-msgstr "Le mot de passe que vous avez entré n'est pas correct."
+msgstr "A begépelt jelszó hibás."
 
 #: front-end/login.php:138 front-end/login.php:145
 msgid "Password Lost and Found."
-msgstr "Mot de passe perdu et retrouvé."
+msgstr "Elfelejtett jelszó."
 
 #: front-end/login.php:138 front-end/login.php:145
 msgid "Lost your password"
-msgstr "Mot de passe perdu"
+msgstr "Elfelejtette jelszavát"
 
 #: front-end/login.php:158
 msgid "Both fields are empty."
-msgstr "Les deux champs sont vides."
+msgstr "Mindkét mező üres."
 
 #: front-end/login.php:296
 msgid "You are currently logged in as %1$s. %2$s"
-msgstr "Vous êtes actuellement connecté en tant que %1$s. %2$s"
+msgstr "Jelenleg bejelentkezve mint %1$s. %2$s"
 
 #: front-end/login.php:295 front-end/logout.php:25
 msgid "Log out of this account"
-msgstr "Se déconnecter de ce compte"
+msgstr "Kijelentkezés ebből a fiókból"
 
 #: front-end/login.php:295
 msgid "Log out"
-msgstr "Déconnexion"
+msgstr "Kijelentkezés"
 
 #: front-end/recover.php:17
 msgid "Your account has to be confirmed by an administrator before you can use the \"Password Reset\" feature."
-msgstr "Votre compte doit être confirmé par un administrateur avant que vous ne puissiez utiliser la fonctionnalité \"Ré-initialisation du mot de passe\"."
+msgstr "A fiókodat meg kell, hogy erősítse egy adminisztrátor az \"Elfelejtett jelszó\" használata előtt."
 
 #: front-end/recover.php:94
 msgid "Reset Password"
-msgstr "Ré-initialiser le mot de passe"
+msgstr "Új jelszó"
 
 #: front-end/recover.php:114
 msgid "Please enter your username or email address."
-msgstr "Merci d'entrer votre nom d'utilisateur ou votre adresse de messagerie."
+msgstr "Add meg a felhasználóneved vagy email címed!"
 
 #: front-end/recover.php:115
 msgid "You will receive a link to create a new password via email."
-msgstr "Vous recevrez un lien par E-mail pour créer un nouveau mot de passe."
+msgstr "E-mailben kapott linken keresztül új jelszót hozhatsz létre."
 
 #: front-end/recover.php:120
 msgid "Username or E-mail"
-msgstr "Nom d'utilisateur ou adresse de messagerie."
+msgstr "Felhasználónév vagy E-mail"
 
 #: front-end/recover.php:130
 msgid "Get New Password"
-msgstr "Ré-initialiser votre mot de passe"
+msgstr "Új jelszót kérek!"
 
 #: front-end/recover.php:177
 msgid "The username entered wasn't found in the database!"
-msgstr "Le nom d'utilisateur que vous avez entré n'a pas été trouvé dans la base de données !"
+msgstr "A beírt felhasználónév nem található!"
 
 #: front-end/recover.php:177
 msgid "Please check that you entered the correct username."
-msgstr "Merci de vérifier que vous avez entré un nom d'utilisateur correct."
+msgstr "Kérjük ellenőrizd, hogy helyes felhasználónevet gépeltél be."
 
 #: front-end/recover.php:192
 msgid "Check your e-mail for the confirmation link."
-msgstr "Merci de consulter votre boite de réception pour le lien d'activation."
+msgstr "Nézz rá az e-mail fiókodra a megerősítésért."
 
 #: front-end/recover.php:227
 msgid "Someone requested that the password be reset for the following account: <b>%1$s</b><br/>If this was a mistake, just ignore this email and nothing will happen.<br/>To reset your password, visit the following link:%2$s"
-msgstr "Quelqu'un a demandé que le mot de passe soit ré-initialisé sur le compte suivant: <b>%1$s</b><br/>Si c'est une erreur, ignorez simplement cet e-mail et il ne se passera rien.<br/>Pour ré-initialiser votre mot de passe, cliquez sur le lien suivant:%2$s"
+msgstr ""
 
 #: front-end/recover.php:230
 msgid "Password Reset from \"%1$s\""
-msgstr "Mot de passe ré-initialisé de \"%1$s\""
+msgstr ""
 
 #: front-end/recover.php:237
 msgid "There was an error while trying to send the activation link to %1$s!"
-msgstr "Il y a eu une erreur lors de l'envoi du lien d'activation à %1$s !"
+msgstr ""
 
 #: front-end/recover.php:199
 msgid "The email address entered wasn't found in the database!"
-msgstr "L'adresse de messagerie saisie n'a pas été trouvée dans la base de données !"
+msgstr "A megadott e-mail cím nincs meg az adatbázisban!"
 
 #: front-end/recover.php:199
 msgid "Please check that you entered the correct email address."
-msgstr "Merci de vérifier que vous avez entré une adresse de messagerie correcte."
+msgstr "Kérjük, ellenőrizd, hogy helyesen adtad-e meg az e-mail címedet."
 
 #: front-end/recover.php:265
 msgid "Your password has been successfully changed!"
-msgstr "Votre mot de passe a bien été changé !"
+msgstr "A jelszavadat sikeresen megváltoztattad."
 
 #: front-end/recover.php:284
 msgid "You have successfully reset your password to: %1$s"
-msgstr "Vous avec bien ré-initialisé votre mot de passe pour: %1$s"
+msgstr "Sikeresen módosítottad a jelszavadat a következőre: %1$s"
 
 #: front-end/recover.php:287 front-end/recover.php:298
 msgid "Password Successfully Reset for %1$s on \"%2$s\""
-msgstr "Mot de passe bien ré-initialisé pour %1$s sur \"%2$s\""
+msgstr "Jelszavad sikeresen módosítva a következőre: %1$s a következőn: \"%2$s\""
 
 #: front-end/recover.php:295
 msgid "%1$s has requested a password change via the password reset feature.<br/>His/her new password is:%2$s"
-msgstr "%1$s a demandé un changement de mot de passe via la fonctionnalité de ré-initialisation du mot de passe. <br/>Son nouveau mot de passe est :%2$s"
+msgstr "%1$s nevű felhasználó a jelszó módosító opcióval megváltoztatta a jelszavát.<br/>Az új jelszava:%2$s"
 
 #: front-end/recover.php:312
 msgid "The entered passwords don't match!"
-msgstr "Les mots de passe entrés sont différents !"
+msgstr "A megadott jelszavak nem egyeznek!"
 
 #: front-end/recover.php:367
 msgid "ERROR:"
-msgstr "ERREUR :"
+msgstr "HIBA:"
 
 #: front-end/recover.php:367
 msgid "Invalid key!"
-msgstr "Clé incorrecte !"
+msgstr "Érvénytelen kulcs!"
 
 #: front-end/register.php:56
 msgid "Invalid activation key!"
-msgstr "Clé d'activation incorrecte !"
+msgstr "Hibás aktiváló kulcs!"
 
 #: front-end/register.php:60
 msgid "This username is now active!"
-msgstr "Ce nom d'utilisateur est désormais actif !"
+msgstr "A felhasználóneved mostantól aktív."
 
 #: front-end/register.php:74
 msgid "This username is already activated!"
-msgstr "Ce nom d'utilisateur est déjà activé !"
+msgstr "Ezt a felhasználónevet már korábban aktiválták."
 
 #: front-end/register.php:124
 msgid "Your email was successfully confirmed."
-msgstr "Votre adresse de messagerie a bien été confirmée."
+msgstr "E-mailed sikeresen megerősítetted."
 
 #: front-end/register.php:153
 msgid "There was an error while trying to activate the user."
-msgstr "Il y a eu une erreur lors de l'activation de cet utilisateur."
+msgstr "Hiba történt a felhasználó aktiválása közben."
 
 #: front-end/default-fields/email/email.php:47
 msgid "The email you entered is not a valid email address."
-msgstr "L'adresse de messagerie que vous avez entrée n'est pas une adresse de messagerie valide."
+msgstr "Az általad megadott e-mail cím nem érvényes."
 
 #: front-end/default-fields/email/email.php:60
 #: front-end/default-fields/email/email.php:67
 msgid "This email is already reserved to be used soon."
-msgstr "Cette adresse de messagerie est déjà réservée et sera bientôt utilisée."
+msgstr "Ez az e-mail cím már foglalt."
 
 #: front-end/default-fields/email/email.php:60
 #: front-end/default-fields/email/email.php:67
@@ -4541,25 +4541,25 @@ msgstr "Cette adresse de messagerie est déjà réservée et sera bientôt utili
 #: front-end/default-fields/username/username.php:49
 #: front-end/default-fields/username/username.php:65
 msgid "Please try a different one!"
-msgstr "Merci d'en essayer un(e) autre !"
+msgstr ""
 
 #: front-end/default-fields/email/email.php:77
 #: front-end/default-fields/email/email.php:95
 msgid "This email is already in use."
-msgstr "Cette adresse de messagerie est déjà utilisée."
+msgstr "Az e-mail már használatban van."
 
 #: front-end/default-fields/password-repeat/password-repeat.php:37
 #: front-end/default-fields/password-repeat/password-repeat.php:41
 msgid "The passwords do not match"
-msgstr "Les mots de passe sont différents"
+msgstr "Nem egyeznek meg a jelszók"
 
 #: front-end/default-fields/username/username.php:49
 msgid "This username already exists."
-msgstr "Ce nom d'utilisateur existe déjà."
+msgstr "A felhasználónév már létezik."
 
 #: front-end/default-fields/username/username.php:65
 msgid "This username is already reserved to be used soon."
-msgstr "Ce nom d'utilisateur est déjà réservé et va bientôt être utilisé."
+msgstr "A felhasználónév már le van foglalva és hamarosan használni is fogják."
 
 #: modules/user-listing/userlisting.php:276
 msgid "Avatar"
@@ -4583,69 +4583,69 @@ msgstr "Avatar"
 #: front-end/extra-fields/upload/upload.php:70
 #: front-end/extra-fields/wysiwyg/wysiwyg.php:33
 msgid "required"
-msgstr "obligatoire"
+msgstr "kötelező"
 
 #: front-end/extra-fields/recaptcha/recaptcha.php:48
 msgid "To use reCAPTCHA you must get an API key from"
-msgstr "Pour utiliser reCAPTCHA vous devez avoir une clé d'API de"
+msgstr ""
 
 #: front-end/extra-fields/recaptcha/recaptcha.php:131
 msgid "For security reasons, you must pass the remote ip to reCAPTCHA!"
-msgstr "Pour des raisons de sécurité, vous devez donner l'adresse ip distante au reCAPTCHA!"
+msgstr ""
 
 #: front-end/extra-fields/recaptcha/recaptcha.php:192
 msgid "To use reCAPTCHA you must get an API public key from:"
-msgstr "Pour utiliser reCAPTCHA vous devez avoir une clé publique d'API de :"
+msgstr ""
 
 #: modules/modules.php:11 modules/modules.php:58
 msgid "Modules"
-msgstr "Modules"
+msgstr "Modulok"
 
 #: modules/modules.php:59
 msgid "Here you can activate / deactivate available modules for Profile Builder."
-msgstr "Ici vous pouvez activer / désactiver les modules disponibles pour Profile Builder."
+msgstr ""
 
 #: modules/modules.php:69
 msgid "Name/Description"
-msgstr "Nom/Description"
+msgstr "Név/Leírás"
 
 #: modules/modules.php:70
 msgid "Status"
-msgstr "Statut"
+msgstr "Állapot"
 
 #: modules/modules.php:77 modules/modules.php:84 modules/modules.php:91
 #: modules/modules.php:98 modules/modules.php:105 modules/modules.php:112
 #: modules/modules.php:119
 msgid "Active"
-msgstr "Active"
+msgstr "Aktív"
 
 #: modules/modules.php:78 modules/modules.php:85 modules/modules.php:92
 #: modules/modules.php:99 modules/modules.php:106 modules/modules.php:113
 #: modules/modules.php:120
 msgid "Inactive"
-msgstr "Inactive"
+msgstr "Inaktív"
 
 #: modules/email-customizer/admin-email-customizer.php:11
 #: modules/email-customizer/admin-email-customizer.php:12
 #: modules/modules.php:96
 msgid "Admin Email Customizer"
-msgstr "E-mails personnalisés à l'Admin"
+msgstr ""
 
 #: modules/email-customizer/user-email-customizer.php:11
 #: modules/email-customizer/user-email-customizer.php:12
 #: modules/modules.php:103
 msgid "User Email Customizer"
-msgstr "E-mails personnalisés à l'utilisateur"
+msgstr ""
 
 #: assets/lib/wck-api/wordpress-creation-kit.php:334
 #: modules/class-mustache-templates/class-mustache-templates.php:253
 msgid "Save"
-msgstr "Enregistrer"
+msgstr "Mentés"
 
 #: modules/multiple-forms/edit-profile-forms.php:206
 #: modules/multiple-forms/register-forms.php:230
 msgid "Redirect"
-msgstr "Redirections"
+msgstr "Átirányítás"
 
 #: modules/multiple-forms/edit-profile-forms.php:208
 #: modules/multiple-forms/register-forms.php:232
@@ -4654,22 +4654,22 @@ msgstr "URL"
 
 #: modules/email-customizer/admin-email-customizer.php:38
 msgid "These settings are also replicated in the \"User Email Customizer\" settings-page upon save."
-msgstr "Ces paramètres sont aussi répliqués dans la page de paramètres des \"E-mails personnalisés aux utilisateurs\" lors de la sauvegarde."
+msgstr ""
 
 #: modules/email-customizer/admin-email-customizer.php:41
 #: modules/email-customizer/user-email-customizer.php:41
 msgid "From (name)"
-msgstr "De (nom)"
+msgstr "Feladó (név)"
 
 #: modules/email-customizer/admin-email-customizer.php:49
 #: modules/email-customizer/user-email-customizer.php:49
 msgid "From (reply-to email)"
-msgstr "De (réponse à)"
+msgstr "Feladó (válasz e-mail)"
 
 #: modules/email-customizer/admin-email-customizer.php:57
 #: modules/email-customizer/user-email-customizer.php:57
 msgid "Common Settings"
-msgstr "Paramètres communs"
+msgstr ""
 
 #: modules/email-customizer/admin-email-customizer.php:60
 msgid ""
@@ -4679,9 +4679,9 @@ msgid ""
 "<p>E-mail:{{user_email}}</p>\n"
 msgstr ""
 "\n"
-"<p>Nouvel adhérent sur {{site_name}}.</p>\n"
-"<p>Nom d'utilisateu r:{{username}}</p>\n"
-"<p>Adresse de messagerie :{{user_email}}</p>\n"
+"<p>Új feliratkozó a következő oldalon: {{site_name}}.</p>\n"
+"<p>Felhasználónév:{{username}}</p>\n"
+"<p>E-mail:{{user_email}}</p>\n"
 
 #: modules/email-customizer/admin-email-customizer.php:69
 #: modules/email-customizer/admin-email-customizer.php:99
@@ -4695,11 +4695,11 @@ msgstr ""
 #: modules/email-customizer/user-email-customizer.php:241
 #: modules/email-customizer/user-email-customizer.php:274
 msgid "Email Subject"
-msgstr "Sujet de l'E-mail"
+msgstr ""
 
 #: modules/email-customizer/admin-email-customizer.php:84
 msgid "Default Registration & Registration with Email Confirmation"
-msgstr "Inscription par défaut & inscription avec confirmation de l'adresse de messagerie"
+msgstr ""
 
 #: modules/email-customizer/admin-email-customizer.php:87
 msgid ""
@@ -4711,54 +4711,53 @@ msgid ""
 "so please remember that you need to approve this user before he/she can log in!</p>\n"
 msgstr ""
 "\n"
-"<p>Nouvel adhérent sur {{site_name}}.</p>\n"
-"<p>Nom d'utilisateur:{{username}}</p>\n"
-"<p>Adresse de messagerie:{{user_email}}</p>\n"
-"<p>La fonctionnalité Approbation Admin était activée au moment de l'inscription,\n"
-"donc merci de vous souvenir qu'il faut que vous approuviez cet utilisateur avant qu'il/elle ne puisse se connecter!</p>\n"
+"<p>Új feliratkozó a következő oldalon: {{site_name}}.</p>\n"
+"<p>Felhasználónév:{{username}}</p>\n"
+"<p>E-mail:{{user_email}}</p>\n"
+"<p>Az Admin Jóváhagyás funkció aktiválva volt a regisztrációkor, így ne feledd, hogy jóvá ell hagynod a felhasználó regisztrációját ahhoz, hogy ő be tudjon jelentkezni!</p>\n"
 
 #: modules/email-customizer/admin-email-customizer.php:114
 #: modules/email-customizer/user-email-customizer.php:143
 msgid "Registration with Admin Approval"
-msgstr "Inscription avec Approbation Admin"
+msgstr "Regisztráció Admin jóváhagyással"
 
 #: modules/email-customizer/email-customizer.php:7
 msgid "Available Tags"
-msgstr "Tags disponibles"
+msgstr "Lehetséges címkék"
 
 #: features/email-confirmation/class-email-confirmation.php:91
 #: features/email-confirmation/class-email-confirmation.php:170
 msgid "User Meta"
-msgstr "Méta-information de l'utilisateur"
+msgstr "Felhasználó Meta"
 
 #: modules/email-customizer/email-customizer.php:21
 msgid "Site Url"
-msgstr "URL du site web"
+msgstr "Oldal Url"
 
 #: modules/email-customizer/email-customizer.php:22
 msgid "Site Name"
-msgstr "Nom du site web"
+msgstr "Oldal neve"
 
 #: modules/email-customizer/email-customizer.php:25
 #: modules/user-listing/userlisting.php:158
 msgid "User Id"
-msgstr "ID de l'utilisateur"
+msgstr ""
 
 #: modules/email-customizer/email-customizer.php:33
 msgid "Reply To"
-msgstr "Réponse à"
+msgstr ""
 
 #: modules/email-customizer/email-customizer.php:40
 msgid "Activation Key"
-msgstr "Clé d'activation"
+msgstr "Aktiváló kulcs"
 
 #: modules/email-customizer/email-customizer.php:41
 msgid "Activation Url"
-msgstr "URL d'activation"
+msgstr "Aktiváló URL"
 
 #: modules/email-customizer/email-customizer.php:42
 msgid "Activation Link"
-msgstr "Lien d'activation"
+msgstr "Aktiváló link"
 
 #: modules/email-customizer/user-email-customizer.php:64
 msgid ""
@@ -4767,12 +4766,12 @@ msgid ""
 "<p>Your username is:{{username}} and password:{{password}}</p>\n"
 msgstr ""
 "\n"
-"<h3>Bienvenu(e) sur {{site_name}} !</h3>\n"
-"<p>Votre nom d'utilisateur est :{{username}} et votre mot de passe :{{password}}</p>\n"
+"<h3>Üdvözlünk a(z) {{site_name}} oldalon!</h3>\n"
+"<p>A felhasználóneved:{{username}} és a jelszavad:{{password}}</p>\n"
 
 #: modules/email-customizer/user-email-customizer.php:85
 msgid "Default Registration"
-msgstr "Inscription par défaut"
+msgstr "Alapértelmezett regisztráció"
 
 #: modules/email-customizer/user-email-customizer.php:91
 msgid ""
@@ -4782,17 +4781,17 @@ msgid ""
 "<p>After you activate, you will receive another email with your credentials.</p>\n"
 msgstr ""
 "\n"
-"<p>Pour activer votre compte, merci de cliquer sur le lien suivant :<br/>\n"
+"<p>A felhasználói fiókod aktiválásához kérjük, kattints a következő linkre:<br/>\n"
 "{{{activation_link}}}</p>\n"
-"<p>Une fois l'activation réalisée, vous recevrez une autre E-mail avec vos identifiants</p>\n"
+"<p>Miután aktiváltad, küldünk neked egy e-mailt.</p>\n"
 
 #: modules/email-customizer/user-email-customizer.php:103
 msgid "[{{site_name}}] Activate {{username}}"
-msgstr "[{{site_name}}] Activer {{username}}"
+msgstr ""
 
 #: modules/email-customizer/user-email-customizer.php:114
 msgid "Registration with Email Confirmation"
-msgstr "Inscription avec confirmation de l'adresse de messagerie"
+msgstr ""
 
 #: modules/email-customizer/user-email-customizer.php:120
 msgid ""
@@ -4801,13 +4800,14 @@ msgid ""
 "<p>Your username is:{{username}} and password:{{password}}</p>\n"
 "<p>Before you can access your account, an administrator needs to approve it. You will be notified via email.</p>\n"
 msgstr ""
-"<h3>Bienvenu(e) sur {{site_name}}!</h3>\n"
-"<p>Votre nom d'utilisateur est :{{username}} et votre mot de passe :{{password}}</p>\n"
-"<p>Avant que vous ne puissiez accéder à votre compte, un administrateur doit d'abord l'approuver. Vous serez informé par E-mail.</p>\n"
+"\n"
+"<h3>Üdvözlünk a(z) {{site_name}} oldalon!</h3>\n"
+"<p>A felhasználóneved:{{username}} és a jelszavad:{{password}}</p>\n"
+"<p>Ahhoz, hogy be tudj jelentkezni, előbb el kell fogadnunk a regisztrációdat. A jóváhagyásról majd e-mailben értesítünk.</p>\n"
 
 #: modules/email-customizer/user-email-customizer.php:132
 msgid "A new account has been created for you on {{site_name}}"
-msgstr "Un nouveau compte a été créé pour vous sur {{site_name}}"
+msgstr ""
 
 #: modules/email-customizer/user-email-customizer.php:148
 msgid ""
@@ -4816,16 +4816,16 @@ msgid ""
 "<p>An administrator has just approved your account: {{username}} on {{site_name}}.</p>\n"
 msgstr ""
 "\n"
-"<h3>Bonne nouvelle !</h3>\n"
-"<p>Un administrateur vient juste d'approuver votre compte {{username}} sur {{site_name}}.</p>\n"
+"<h3>Jó hírünk van!</h3>\n"
+"<p>Jóváhagytuk a regisztrációdat: a felhasználóneved: {{username}} a(z) {{site_name}} oldalon.</p>\n"
 
 #: modules/email-customizer/user-email-customizer.php:159
 msgid "Your account on {{site_name}} has been approved!"
-msgstr "Votre compte sur {{site_name}} a été approuvé !"
+msgstr "A(z) {{site_name}} oldalon lévő fiókod elfogadásra került!"
 
 #: modules/email-customizer/user-email-customizer.php:170
 msgid "User Approval Notification"
-msgstr "Notification lors de l'approbation d'un utilisateur"
+msgstr ""
 
 #: modules/email-customizer/user-email-customizer.php:175
 msgid ""
@@ -4834,313 +4834,313 @@ msgid ""
 "<p>Unfortunatelly an administrator has just unapproved your account: {{username}} on {{site_name}}.</p>\n"
 msgstr ""
 "\n"
-"<h3>Bonjour,</h3>\n"
-"<p>Un administrateur vient malheureusement de refuser votre compte : {{username}} sur {{site_name}}.</p>\n"
+"<h3>Szia,</h3>\n"
+"<p>Sajnos rossz hírünk van! Nem tudtuk jóváhagyni a regisztrációdat: felhasználóneved {{username}} a(z) {{site_name}} oldalon.</p>\n"
 
 #: modules/email-customizer/user-email-customizer.php:187
 msgid "Your account on {{site_name}} has been unapproved!"
-msgstr "Votre compte sur {{site_name}} a été refusé !"
+msgstr "A(z) {{site_name}} oldalon lévő regisztrációdat nem tudtuk jóváhagyni."
 
 #: modules/email-customizer/user-email-customizer.php:198
 msgid "Unapproved User Notification"
-msgstr "Notification lors du refus d'un utilisateur"
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:11
 #: modules/multiple-forms/edit-profile-forms.php:12
 msgid "Edit-profile Form"
-msgstr "Formulaire de modification de profil"
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:13
 #: modules/multiple-forms/register-forms.php:13
 #: modules/user-listing/userlisting.php:13
 msgid "Add New"
-msgstr "Ajouter un nouveau"
+msgstr "Új hozzáadása"
 
 #: modules/multiple-forms/edit-profile-forms.php:14
 msgid "Add new Edit-profile Form"
-msgstr "Ajouter un nouveau formulaire de modification de profil"
+msgstr "Új Felhasználói profil szerkesztő űrlap hozzáadása"
 
 #: modules/multiple-forms/edit-profile-forms.php:15
 msgid "Edit the Edit-profile Forms"
-msgstr "Modifier les formulaires de modification de profil"
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:16
 msgid "New Edit-profile Form"
-msgstr "Nouveau formulaire de modification de profil"
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:17
 #: modules/multiple-forms/edit-profile-forms.php:23
 msgid "Edit-profile Forms"
-msgstr "Formulaires de modification de profil"
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:18
 msgid "View the Edit-profile Form"
-msgstr "Voir le formulaire de modification de profil"
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:19
 msgid "Search the Edit-profile Forms"
-msgstr "Rechercher dans les formulaires de modification de profil"
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:20
 msgid "No Edit-profile Form found"
-msgstr "Aucun formulaire de modification de profil trouvé"
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:21
 msgid "No Edit-profile Forms found in trash"
-msgstr "Aucun formulaire de modification de profil trouvé dans la corbeille"
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:135
 #: modules/multiple-forms/register-forms.php:138
 #: modules/user-listing/userlisting.php:2048
 msgid "Shortcode"
-msgstr "Shortcode"
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:155
 #: modules/multiple-forms/register-forms.php:159
 #: modules/user-listing/userlisting.php:2069
 msgid "(no title)"
-msgstr "(aucun titre)"
+msgstr "(nincs cím)"
 
 #: modules/multiple-forms/edit-profile-forms.php:175
 #: modules/multiple-forms/register-forms.php:178
 #: modules/user-listing/userlisting.php:2089
 msgid "The shortcode will be available after you publish this form."
-msgstr "Le shortcode sera disponible après la publication de ce formulaire."
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:177
 #: modules/multiple-forms/register-forms.php:180
 #: modules/user-listing/userlisting.php:2091
 msgid "Use this shortcode on the page you want the form to be displayed:"
-msgstr "Utilisez ce shortcode sur la page où vous voulez que le formulaire soit affiché :"
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:181
 #: modules/multiple-forms/register-forms.php:184
 #: modules/user-listing/userlisting.php:2095
 msgid "<span style=\"color:red;\">Note:</span> changing the form title also changes the shortcode!"
-msgstr "<span style=\"color:red;\">Note :</span> modifier le titre du formulaire change aussi le shortcode !"
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:187
 #: modules/multiple-forms/register-forms.php:190
 #: modules/user-listing/userlisting.php:2128
 msgid "Form Shortcode"
-msgstr "Shortcode du formulaire"
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:206
 #: modules/multiple-forms/register-forms.php:230
 msgid "Whether to redirect the user to a specific page or not"
-msgstr "Si l'utilisateur doit être redirigé vers une page spécifique ou pas"
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:207
 #: modules/multiple-forms/register-forms.php:231
 msgid "Display Messages"
-msgstr "Afficher les messages"
+msgstr "Üzenetek megjelenítése"
 
 #: modules/multiple-forms/edit-profile-forms.php:207
 #: modules/multiple-forms/register-forms.php:231
 msgid "Allowed time to display any success messages (in seconds)"
-msgstr "Temps autorisé pour afficher tout message de succès (en secondes)"
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:208
 msgid "Specify the URL of the page users will be redirected once they updated their profile using this form<br/>Use the following format: http://www.mysite.com"
-msgstr "Spécifiez l'URL de la page où les utilisateurs seront redirigés lorsqu'ils mettent à jour leur profil en utilisant ce formulaire<br/>Utilisez le format suivant : http://www.monsite.com"
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:215
 msgid "After Profile Update..."
-msgstr "Après une mise à jour de profil..."
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:241
 #: modules/multiple-forms/register-forms.php:262
 msgid "Add New Field to the List"
-msgstr "Ajouter un nouveau champ à la liste"
+msgstr ""
 
 #: modules/multiple-forms/edit-profile-forms.php:245
 #: modules/multiple-forms/register-forms.php:266
 msgid "Choose one of the supported fields you manage <a href=\""
-msgstr "Choisissez l'un des champs supportés que vous gérez <a href=\""
+msgstr ""
 
 #: modules/multiple-forms/multiple-forms.php:406
 msgid "<pre>Title (Type)</pre>"
-msgstr "<pre>Titre (Type)</pre>"
+msgstr "<pre>Cím (típus)</pre>"
 
 #: modules/multiple-forms/multiple-forms.php:222
 msgid "You need to specify the title of the form before creating it"
-msgstr "Vous devez spécifier le titre du formulaire avant de le créer"
+msgstr ""
 
 #: modules/multiple-forms/register-forms.php:11
 #: modules/multiple-forms/register-forms.php:12
 msgid "Registration Form"
-msgstr "Formulaire d'inscription"
+msgstr "Regisztrációs űrlap"
 
 #: modules/multiple-forms/register-forms.php:14
 msgid "Add new Registration Form"
-msgstr "Ajouter un nouveau formulaire d'inscription"
+msgstr "Új Regisztrációs űrlap létrehozása"
 
 #: modules/multiple-forms/register-forms.php:15
 msgid "Edit the Registration Forms"
-msgstr "Modifier les formulaires d'inscription"
+msgstr "Regisztrációs űrlap szerkesztése"
 
 #: modules/multiple-forms/register-forms.php:16
 msgid "New Registration Form"
-msgstr "Nouveau formulaire d'inscription"
+msgstr "Új regisztrációs űrlap"
 
 #: modules/multiple-forms/register-forms.php:17
 #: modules/multiple-forms/register-forms.php:23
 msgid "Registration Forms"
-msgstr "Formulaires d'inscription"
+msgstr "Regisztrációs űrlapok"
 
 #: modules/multiple-forms/register-forms.php:18
 msgid "View the Registration Form"
-msgstr "Voir le formulaire d'inscription"
+msgstr "A Regisztrációs űrlap megjelenítése"
 
 #: modules/multiple-forms/register-forms.php:19
 msgid "Search the Registration Forms"
-msgstr "Rechercher dans les formulaires d'inscription"
+msgstr ""
 
 #: modules/multiple-forms/register-forms.php:20
 msgid "No Registration Form found"
-msgstr "Aucun formulaire d'inscription trouvé"
+msgstr ""
 
 #: modules/multiple-forms/register-forms.php:21
 msgid "No Registration Forms found in trash"
-msgstr "Aucun formulaire d'inscription trouvé dans la corbeille"
+msgstr ""
 
 #: modules/multiple-forms/register-forms.php:219
 msgid "Default Role"
-msgstr "Rôle par défaut"
+msgstr ""
 
 #: modules/multiple-forms/register-forms.php:228
 msgid "Set Role"
-msgstr "Fixer le rôle"
+msgstr ""
 
 #: modules/multiple-forms/register-forms.php:228
 msgid "Choose what role the user will have after (s)he registered<br/>If not specified, defaults to the role set in the WordPress settings"
-msgstr "Choisissez quel rôle aura un utilisateur après qu'il/elle se soit inscrit<br/>Si aucune valeur n'est spécifiée, la valeur par défaut sera celle du rôle défini dans les paramètres de WordPress"
+msgstr ""
 
 #: modules/multiple-forms/register-forms.php:229
 msgid "Automatically Log In"
-msgstr "Se connecter automatiquement"
+msgstr ""
 
 #: modules/multiple-forms/register-forms.php:229
 msgid "Whether to automatically log in the newly registered user or not<br/>Only works on single-sites without \"Admin Approval\" and \"Email Confirmation\" features activated<br/>WARNING: Caching the registration form will make automatic login not work"
-msgstr "Si un utilisateur nouvellement inscrit sera connecté automatiquement ou pas<br/>Ne fonctionne que sur les sites ayant un nom de domaine unique et ayant désactivé les paramètres \"Approbation Admin\" et \"Confirmation de l'adresse de messagerie\"<br/>ATTENTION: La mise en cache du formulaire d'inscription empêchera la connexion automatique de fonctionner"
+msgstr ""
 
 #: modules/multiple-forms/register-forms.php:232
 msgid "Specify the URL of the page users will be redirected once registered using this form<br/>Use the following format: http://www.mysite.com"
-msgstr "Spécifiez l'URL de la page vers laquelle les utilisateurs seront redirigés une fois inscrits via ce formulaire<br/>Utilisez le format suivant : http://www.monsite.com"
+msgstr ""
 
 #: modules/multiple-forms/register-forms.php:238
 msgid "After Registration..."
-msgstr "Après inscription..."
+msgstr "Regisztráció után.."
 
 #: modules/user-listing/userlisting.php:1021
 #: modules/user-listing/userlisting.php:1468
 #: modules/user-listing/userlisting.php:1886
 #: modules/user-listing/userlisting.php:2355
 msgid "Search Users by All Fields"
-msgstr "Rechercher des utilisateurs par tous les champs"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:14
 msgid "Add new User Listing"
-msgstr "Ajouter un nouveau listing d'utilisateurs"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:15
 msgid "Edit the User Listing"
-msgstr "Modifier le listing d'utilisateurs"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:16
 msgid "New User Listing"
-msgstr "Nouveau listing d'utilisateurs"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:18
 msgid "View the User Listing"
-msgstr "Voir le listing d'utilisateurs"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:19
 msgid "Search the User Listing"
-msgstr "Rechercher des listings d'utilisateurs"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:20
 msgid "No User Listing found"
-msgstr "Aucun listing d'utilisateurs trouvé"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:21
 msgid "No User Listing found in trash"
-msgstr "Aucun listing d'utilisateur trouvé dans la corbeille"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:105
 msgid "Display name as"
-msgstr "Afficher le nom comme"
+msgstr "Név megjelenítése mint"
 
 #: modules/user-listing/userlisting.php:150
 #: modules/user-listing/userlisting.php:2156
 msgid "Registration Date"
-msgstr "Date d'inscription"
+msgstr "Regisztráció dátuma"
 
 #: modules/user-listing/userlisting.php:151
 #: modules/user-listing/userlisting.php:2161
 msgid "Number of Posts"
-msgstr "Nombre de messages postés"
+msgstr "Bejegyzések száma"
 
 #: modules/user-listing/userlisting.php:155
 msgid "More Info"
-msgstr "Plus d'infos"
+msgstr "További infó"
 
 #: modules/user-listing/userlisting.php:156
 msgid "More Info Url"
-msgstr "URL vers plus d'infos"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:157
 msgid "Avatar or Gravatar"
-msgstr "Avatar ou Gravatar"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:196
 #: modules/user-listing/userlisting.php:227
 msgid "Extra Functions"
-msgstr "Fonctions supplémentaires"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:199
 msgid "Pagination"
-msgstr "Pagination"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:200
 msgid "Search all Fields"
-msgstr "Rechercher parmi tous les champs"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:229
 msgid "Go Back Link"
-msgstr "Lien vers la page précédente"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:247
 msgid "All-userlisting Template"
-msgstr "Modèle de tous les listing d'utilisateurs"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:250
 msgid "Single-userlisting Template"
-msgstr "Modèle d'un seul listing d'utilisateurs"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:733
 msgid "First/Lastname"
-msgstr "Prénom/Nom de famille"
+msgstr "Kereszt/Vezetéknév"
 
 #: modules/user-listing/userlisting.php:281
 #: modules/user-listing/userlisting.php:739
 msgid "Sign-up Date"
-msgstr "Date d'inscription"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:748
 #: modules/user-listing/userlisting.php:2159
 msgid "Display Name"
-msgstr "Afficher le nom"
+msgstr "Megjelenített név"
 
 #: modules/user-listing/userlisting.php:280
 #: modules/user-listing/userlisting.php:757
 msgid "Posts"
-msgstr "Messages postés"
+msgstr "Bejegyzések"
 
 #: modules/user-listing/userlisting.php:760
 #: modules/user-listing/userlisting.php:2166
 msgid "Aim"
-msgstr "Aim"
+msgstr "Cél"
 
 #: modules/user-listing/userlisting.php:763
 #: modules/user-listing/userlisting.php:2167
@@ -5154,146 +5154,146 @@ msgstr "Jabber"
 
 #: modules/user-listing/userlisting.php:1273
 msgid "Click here to see more information about this user"
-msgstr "Cliquez ici pour voir plus d'informations sur cet utilisateur."
+msgstr ""
 
 #: modules/user-listing/userlisting.php:1273
 msgid "More..."
-msgstr "Plus..."
+msgstr ""
 
 #: modules/user-listing/userlisting.php:1276
 msgid "Click here to see more information about this user."
-msgstr "Cliquez ici pour voir plus d'informations sur cet utilisateur."
+msgstr ""
 
 #: modules/user-listing/userlisting.php:1422
 #: modules/user-listing/userlisting.php:1425
 msgid "Click here to go back"
-msgstr "Cliquez ici pour revenir en arrière"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:1422
 msgid "Back"
-msgstr "Précédent"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:1455
 msgid "&laquo;&laquo; First"
-msgstr "&laquo;&laquo; Premier"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:1456
 msgid "&laquo; Prev"
-msgstr "&laquo; Précédent"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:1457
 msgid "Next &raquo; "
-msgstr "Suivant &raquo; "
+msgstr ""
 
 #: modules/user-listing/userlisting.php:1458
 msgid "Last &raquo;&raquo;"
-msgstr "Dernier &raquo;&raquo;"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:1487
 msgid "You don't have any pagination settings on this userlisting!"
-msgstr "Vous n'avez pas de paramètres de pagination sur ce listing d'utilisateurs !"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:1903
 msgid "Search"
-msgstr "Rechercher"
+msgstr "Keresés"
 
 #: modules/user-listing/userlisting.php:1904
 msgid "Clear Results"
-msgstr "Effacer les résultats"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2098
 #: modules/user-listing/userlisting.php:2102
 msgid "Extra shortcode parameters"
-msgstr "Paramètres supplémentaires du shortcode"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2105
 msgid "displays users having a certain meta-value within a certain (extra) meta-field"
-msgstr "affiche les utilisateurs ayant une certaine méta-valeur dans un certain méta-champ"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2106
 msgid "Example:"
-msgstr "Exemple : "
+msgstr "Például:"
 
 #: modules/user-listing/userlisting.php:2108
 msgid "Remember though, that the field-value combination must exist in the database."
-msgstr "Rappelez-vous cependant que la combinaison champ-valeur doit exister dans la base de données."
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2183
 msgid "Random (very slow on large databases > 10K user)"
-msgstr "Aléatoire (très lent sur les énormes bases de données > 10K utilisateurs)"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2195
 msgid "Roles to Display"
-msgstr "Groupes à afficher"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2195
 msgid "Restrict the userlisting to these selected roles only<br/>If not specified, defaults to all existing roles"
-msgstr "Restreint le listing d'utilisateurs aux groupes sélectionnés uniquement<br/>Si aucune valeur n'est spécifiée, la valeur par défaut sera pour tous les groupes d'utilisateurs"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2196
 msgid "Number of Users/Page"
-msgstr "Nombre d'utilisateurs/page"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2197
 msgid "Default Sorting Criteria"
-msgstr "Critère de tri par défaut"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2197
 msgid "Set the default sorting criteria<br/>This can temporarily be changed for each new session"
-msgstr "Fixer le critère de tri par défaut.<br/>Ceci peut être temporairement modifié à chaque nouvelle session"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2198
 msgid "Default Sorting Order"
-msgstr "Ordre de tri par défaut"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2198
 msgid "Set the default sorting order<br/>This can temporarily be changed for each new session"
-msgstr "Fixez l'ordre de tri par défaut.<br/>Ceci peut être temporairement modifié à chaque nouvelle session"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2199
 msgid "Avatar Size (All-userlisting)"
-msgstr "Taille d'avatar (listing de tous les utilisateurs)"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2199
 msgid "Set the avatar size on the all-userlisting only"
-msgstr "Fixer la taille de l'avatar uniquement sur le listing de tous les utilisateurs."
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2200
 msgid "Avatar Size (Single-userlisting)"
-msgstr "Taille d'avatar (listing d'un seul utilisateur)"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2200
 msgid "Set the avatar size on the single-userlisting only"
-msgstr "Fixer la taille de l'avatar du listing d'un seul utilisateur uniquement"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2201
 msgid "Visible only to logged in users?"
-msgstr "Visible uniquement aux utilisateurs connectés ?"
+msgstr "Csak a bejelentkezett felhasználók számára látható?"
 
 #: modules/user-listing/userlisting.php:2201
 msgid "The userlisting will only be visible only to the logged in users"
-msgstr "Le listing d'utilisateurs sera visible uniquement par les utilisateurs connectés"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2202
 msgid "Visible to following Roles"
-msgstr "Visible pour les rôles suivants"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2202
 msgid "The userlisting will only be visible to the following roles"
-msgstr "Le listing d'utilisateurs sera visible uniquement par les rôles suivants"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2208
 msgid "Userlisting Settings"
-msgstr "Paramètres du listing d'utilisateurs"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2331
 msgid "You need to activate the Userlisting feature from within the \"Modules\" tab!"
-msgstr "Vous devez activer le listing d'utilisateurs à partir de l'onglet \"Modules\" !"
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2331
 msgid "You can find it in the Profile Builder menu."
-msgstr "Vous pouvez le trouver dans le menu Profile Builder."
+msgstr ""
 
 #: modules/user-listing/userlisting.php:2494
 msgid "No results found!"
-msgstr "Aucun résultat trouvé !"
+msgstr "Nincs találat"
