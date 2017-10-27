@@ -27,3 +27,92 @@
 		width: 1170px;
 	}
 }
+
+@media (max-width: 1199px) {
+	.site-branding {
+		text-align: center;
+	}
+
+	.site-branding .widget-area {
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+	}
+
+	.login-username {
+		width: 45%;
+	}
+	
+	.login-password {
+		width: 35%;
+	}
+
+	.login-remember {
+		width: 20%;
+	}
+
+	.login-submit {
+		margin-top: 10px;
+		width: 100%;
+    	text-align: center;
+	}
+
+	.login-submit>.button-primary#wppb-submit {
+		margin-left: 0px;
+		margin-top: 10px;
+	}
+
+	.reg-btn-wrapper {
+		margin-bottom: 20px;
+	}
+
+}
+
+@media (max-width: 991px) {
+	.login-username {
+		width: 50%;
+	}
+	
+	.login-password {
+		width: 50%;
+	}
+
+	.login-remember {
+		text-align: left;
+	}
+}
+
+@media (max-width: 661px) {
+	.login-username,
+	.login-password,
+	.login-remember {
+		min-width: 320px;
+		width: 320px;
+		margin-left: auto !important;
+    	margin-right: auto !important;
+    	float: none !important;
+	}
+
+	.login-password label{
+		margin-right: 60px;
+	}	
+}	
+
+@media (max-width: 400px) {
+	.login-username label,
+	.login-password label {
+		display: block;
+	    margin-left: auto;
+	    margin-right: auto;
+	    margin-bottom: 10px;
+	}
+
+	.site-branding .widget-area .login-username .input,
+	.site-branding .widget-area .login-password .input {
+		width: 100% !important;
+	}
+
+	.login-remember {
+		text-align: center;
+	}
+}

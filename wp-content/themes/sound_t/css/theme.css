@@ -59,6 +59,12 @@ textarea {resize: none}
     padding-top: 15px;
 }
 
+.site-branding::after {
+    content: "";
+    display: table;
+    clear:both;
+}
+
 .site-branding .widget-area .login-username>label,
 .site-branding .widget-area .login-password>label,
 .site-branding .widget-area .login-remember {

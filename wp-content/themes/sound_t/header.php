@@ -33,7 +33,7 @@ $settings_options = fw()->theme->get_settings_options();
 		<div class = "fw-container">
 			<div class="site-branding">
 				<?php get_sidebar(); ?>
-				<div>
+				<div class = "reg-btn-wrapper">
 					<a class = "reg-btn" href = "http://soundtherapy/registration-page/">Register</a>
 				</div>
 				<?php
