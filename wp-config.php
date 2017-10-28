@@ -1,4 +1,6 @@
 <?php
+
+//$_SERVER['HTTPS'] = 'on';
 /**
  * The base configuration for WordPress
  *
